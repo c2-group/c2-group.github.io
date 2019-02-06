@@ -1,3 +1,9 @@
 # c2-group.github.io
-academic pages for c2 group
-测试的 Readme 页面
+C2研究资源
+
+## What is C2
+
+解释
+
+
+## C2 研究问题
