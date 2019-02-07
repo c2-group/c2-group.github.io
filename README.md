@@ -1,6 +1,6 @@
 
 # What is C2
-指挥控制（Command and Control, **C2**）是我们今天再熟悉不过的军事术语
+指挥控制（Command and Control, **C2**）是我们今天再熟悉不过的军事术语。其不仅代表了军事中的核心活动，也广泛体现在生产、管理的各个环节。
 
 ## 指挥（Command）
 
@@ -12,11 +12,30 @@
 ![狼群](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1549519511403&di=f650802f221df276254b080713175a82&imgtype=0&src=http%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F1wErSxzZXZPZKcZ2yrOtqIqicHSFsod2OQDOXEbZQWIlgKhicXU4hxgs6OMIEvPurn1rS4Uwd8MucxeXSM9Zs0jw%2F640%3Fwx_fmt%3Djpeg)
 
 二战时期德国海军的“狼群战术”：首先以单舰、侦察机巡逻，发现船团时先不攻击，而是一边跟踪船团，一边向总部通知通商船团的航行路线、规模、护航舰数量等资讯，然后再以无线电通知邻近潜艇集结起来埋伏；当船团进入攻击范围内就向其包围攻击（通常是在夜间展开攻击）。 
+
 **落脚点**：指挥者、信息传递
 
 #### 交警、乐团指挥
 
+虽然指挥手势谁都可以做，但只有交警有权指挥交通，任何车辆都必须复服从交警的指挥。
+![交警](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1549520726578&di=6027be252ead9eb4cb7c809538267246&imgtype=0&src=http%3A%2F%2Fimg.mp.sohu.com%2Fupload%2F20170803%2Fbb222263f1fd4c45b8e7357c44dfcb87_th.png)
+
+类似地，乐手必须服从乐团指挥。乐团指挥的水平不仅在于临场的把控，更在于平时训练中对各声部节凑、音准的精准识别与调控。乐团指挥需要将自己对乐曲的理解和需要表现的内容通过乐队演奏表达出来。好的指挥犹如一名医生，能够迅速指出乐队的缺点并加以改进，指挥通过对乐团的调整变化，使乐团整体达到一个非常理想的状态。关于乐团指挥，可以参考“[交响乐指挥“手舞足蹈”到底在干嘛？](https://www.sohu.com/a/198963077_99957119)”一文。
+![乐团指挥](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1549520932553&di=93cbd507f7381dc7ec8b0dc44dd1b7a7&imgtype=0&src=http%3A%2F%2Ftc.sinaimg.cn%2Fmaxwidth.800%2Ftc.service.weibo.com%2Fmmbiz_qpic_cn%2F352f6eb15a2135a1eae0161cbfe94caf.jpg)
+
+**落脚点**：权威性、专业性
+
 #### 教练
+NBA比赛中，经常可以看到教练在场边密切关注场上形势，随时做出判断和调整，并向球员布置战术。场上情况瞬息万变，教练需要有极强的阅读比赛和临场决断的能力。NBA比赛中最精彩部分往往是双方在每一个攻防回合后都进行暂停、调整的最后1分钟。
+![NBA教练](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1549522472028&di=7fa358f31547171bb7352dce030d934e&imgtype=0&src=http%3A%2F%2Fnews.zgzcw.com%2Fnews%2FUploadPic%2F2008-9%2F20080904054113768.jpg)
+
+篮球场面积为 $28 \times 15$，而美式橄榄球场面积则达 到$110 \times 50$。此时，教练必须借助通信设备才能完成有效的指挥。一般来说，教练通过耳机联系场上的四分卫（头盔中有通信装置）下达进攻或防守的指令，后者再召集队员传达教练的指挥意图。 
+
+![橄榄球教练](https://pic.pimg.tw/mahdi/497dcd8b6f4ed.jpg)
+
+**落脚点** ：判断、构想、意图、通信设备
+
+
 
 #### 指挥中心/平台
 110/华盛顿航母
