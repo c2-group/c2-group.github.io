@@ -17,6 +17,21 @@ C2术语及概念经过了漫长的演化过程，逐步发展出C3/C3I/C4/C4I/C
 
 有关C2相关概念及其演化，请参考站内博文“[C2的概念及其演化](./C2_Concept.md)”。
 
+
+```mermaid
+%% Example of sequence diagram
+  sequenceDiagram
+    Alice->>Bob: Hello Bob, how are you?
+    alt is sick
+    Bob->>Alice: Not so good :(
+    else is well
+    Bob->>Alice: Feeling fresh like a daisy
+    end
+    opt Extra response
+    Bob->>Alice: Thanks for asking
+    end
+```
+
 # 研究问题 
 C2的研究问题分为两个层次，三类问题。
 ## C2理论
