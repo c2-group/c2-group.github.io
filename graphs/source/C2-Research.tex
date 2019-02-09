@@ -1,0 +1,124 @@
+\documentclass[tikz]{standalone}%standalone
+%\documentclass[11pt]{ctexart}
+%\documentclass〔12pt,dvipdfm]{article}
+
+
+%\documentclass[a4paper,10pt]{article}
+
+%\documentclass[a4paper,10pt]{ctexart} % instead of `article'
+
+\usepackage{tikz}
+\usetikzlibrary{arrows,chains,matrix,positioning,scopes,graphs}
+
+\usepackage{smartdiagram}
+\usepackage{forest}
+\usepackage{tikz-qtree}
+
+\usepackage{xeCJK}%根据自己的需要加载宏包
+
+
+%\setmainfont{Caladea}
+
+\makeatletter
+\tikzset{join/.code=\tikzset{after node path={%
+\ifx\tikzchainprevious\pgfutil@empty\else(\tikzchainprevious)%
+edge[every join]#1(\tikzchaincurrent)\fi}}}
+
+\tikzset{every tree node/.style={align=center,anchor=north}}
+\makeatother
+%
+\tikzset{>=stealth',every on chain/.append style={join},
+         every join/.style={->}}
+\tikzstyle{labeled}=[execute at begin node=$\scriptstyle,
+   execute at end node=$]
+%
+\begin{document}
+
+% \begin{tikzpicture}
+%     \graph  {
+%      我 -> {
+%         b -> c,
+%         d -> e
+%      } -> f
+%     };
+% \end{tikzpicture}
+
+
+
+\begin{tikzpicture}
+\tikzset{every tree node/.style={align=center,anchor=north}}
+\tikzset{edge from parent/.style=
+{draw,
+edge from parent path={(\tikzparentnode.south)
+-- +(0,-8pt)
+-| (\tikzchildnode)}}}
+\Tree [.指控研究
+[.指控原理
+    [ 敏\\捷\\指\\控  多\\域\\指\\控  C2\\组\\织\\设\\计  .\\.\\. ] ]
+[.指控技术
+    [ .态势认知技术
+        [ 结\\构\\还\\原 目\\标\\识\\别 意\\图\\理\\解 威\\胁\\分\\析 目\\标\\选\\择 .\\.\\. ] ]
+    [ .任务规划技术
+        [ 兵\\力\\匹\\配 计\\划\\生\\成 冲\\突\\消\\解 方\\案\\评\\估 临\\机\\规\\划 .\\.\\.  ] ] ]
+]
+\end{tikzpicture}
+
+
+% \begin{forest}
+% for tree={%
+%     edge path={\noexpand\path[\forestoption{edge}] (\forestOve{\forestove{@parent}}{name}.parent anchor) -- +(0,-12pt)-| (\forestove{name}.child anchor)\forestoption{edge label};}
+% }
+% [
+% A\\B
+% [C\\D [组织\\设计] [体系优化[意图识别][态势感知][威胁分析]]]
+% [指控技术
+% [态势技术[意图识别][态势感知][威胁分析]]
+% [规划技术
+% [应急规划]
+% [XX规划]
+% [P]
+% [T2]
+% [T2*]
+% ]
+% ]
+% ]
+% \end{forest}
+
+
+%     \begin{tikzpicture}[domain=0:5]
+%   \draw[very thin,color=gray] (-0.1,-1.1) grid (8.2,8.2);
+%   \draw[->] (-0.2,0) -- (8.2,0) node[right] {$x$};
+%   \draw[->] (0,-1.2) -- (0,8.2) node[above] {$f(x)$};
+%   \draw[color=red]    plot (\x,\x)             node[right] {$f(x) =x$};
+%   % \x r 表示弧度
+%   \draw[color=blue]   plot (\x,{sin(\x r)})    node[right] {$f(x) = \sin x$};
+%   \draw[color=orange] plot (\x,{0.05*exp(\x)}) node[right] {$f(x) = \frac{1}{20} \mathrm e^x$};
+% \end{tikzpicture}
+
+% \smartdiagram[circular diagram:clockwise]{Edit,我们,
+%   pdf\LaTeX, Bib\TeX/ biber, make\-index, pdf\LaTeX}
+
+% \begin{tikzpicture}
+%   \matrix (m) [matrix of math nodes, row sep=3em, column sep=3em]
+%     { 0 & A & B  & C  & 0 \\
+%       0 & A' & B' & C' & 0 \\ };
+%   { [start chain] \chainin (m-1-1);
+%     \chainin (m-1-2);
+%     { [start branch=A] \chainin (m-2-2)
+%         [join={node[right,labeled] {\eta_1}}];}
+%     \chainin (m-1-3) [join={node[above,labeled] {我}}];
+%     { [start branch=B] \chainin (m-2-3)
+%         [join={node[right,labeled] {\eta_2}}];}
+%     \chainin (m-1-4) [join={node[above,labeled] {\psi}}];
+%     { [start branch=C] \chainin (m-2-4)
+%         [join={node[right,labeled] {\eta_3}}];}
+%     \chainin (m-1-5); }
+%   { [start chain] \chainin (m-2-1);
+%     \chainin (m-2-2);
+%     \chainin (m-2-3) [join={node[above,labeled] {\varphi'}}];
+%     \chainin (m-2-4) [join={node[above,labeled] {\psi'}}];
+%     \chainin (m-2-5); }
+% \end{tikzpicture}
+
+
+\end{document}
