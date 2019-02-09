@@ -18,7 +18,7 @@ C2术语及概念经过了漫长的演化过程，逐步发展出C3/C3I/C4/C4I/C
 有关C2相关概念及其演化，请参考站内博文“[C2的概念及其演化](./C2_Concept.md)”。
 
 
-# 研究问题 
+# 研究问题
 C2的研究问题分为两个层次，三类问题。
 ## C2理论
 对于它在军事领域的存在没有人质疑其重要性和不可或缺性，在军事行动上实施指挥控制任何理性的人都会认为是理所当然，就像牛顿发现万有引力之前我们看待苹果落到地上。然而，对现象的漠视往往是我们认识科学掌握真理的桎梏。自C2见诸于军事领域以来，不乏有真知灼见观点和宏篇巨著的研究文献探索C2的相关问题，也有从战术到战略C2系统的设计与运用，但关于C2本质的认识仍然缺乏从现代科学（系统论、控制论、信息论等）的角度进行深刻的剖析。诸多C2系统设计与使用仍然没有突破工业时代机械化战争的思维模式的限制。
@@ -28,4 +28,6 @@ C2的研究问题分为两个层次，三类问题。
 # 如何开始
 
 # 关于我们
-  C2 Group in Science and Technology on Information Systems Engineering Laboratory, National Unversity of Defense Technology. 
+  C2 Group in Science and Technology on Information Systems Engineering Laboratory, National Unversity of Defense Technology.
+
+  $E=m \alpha \times c^2$
