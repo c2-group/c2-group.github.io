@@ -68,8 +68,6 @@ C2的成效是胜负的决定性因素。在战争中，任何一项其它活动
 指控技术可以形象地理解为“知而后行”。“知”对应态势认知技术，“行”对应任务规划技术。
 “知易行难”，“知难行易”。。。其实都难。难在哪里？
 
-“知行合一”  陶行知。。。
-
 ### 态势认知
 
 态势:
@@ -93,4 +91,11 @@ C2的成效是胜负的决定性因素。在战争中，任何一项其它活动
 # 如何开始
 
 # 关于我们
-  C2 Group in Science and Technology on Information Systems Engineering Laboratory, National Unversity of Defense Technology.
+  **C2 Group** in Science and Technology on Information Systems Engineering Laboratory, National Unversity of Defense Technology.
+
+ - [Projects](./Projects.md)
+ - [Publication](./Publication.md)
+ - [Talks and Presentations](./Talks.md)
+ - [Dataset and Codes](./Dataset.md)
+ - [News and Events](./News.md)
+ - [Resources](./Resources.md)
