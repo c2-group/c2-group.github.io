@@ -94,8 +94,10 @@ C2的成效是胜负的决定性因素。在战争中，任何一项其它活动
   **C2 Group** in Science and Technology on Information Systems Engineering Laboratory, National Unversity of Defense Technology.
 
  - [Projects](./Projects.md)
+ --[态势感知](./SA-project-1.md)
  - [Publication](./Publication.md)
  - [Talks and Presentations](./Talks.md)
  - [Dataset and Codes](./Dataset.md)
  - [News and Events](./News.md)
  - [Resources](./Resources.md)
+
