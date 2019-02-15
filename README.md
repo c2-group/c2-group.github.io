@@ -95,8 +95,8 @@ C2技术，可以理解为贯穿从“观察”到“行动”的循环中的支
 JDL、SA是与态势认知密切相关的两个过程模型，前者基于数据处理与融合的角度，后者则基于决策者的认知角度。JDL模型可参见“[Revisions to the JDL
 Data Fusion Model](http://dsp-book.narod.ru/HMDF/2379ch02.pdf)”，SA模型可参见维基百科词条"[Situation Awareness](https://en.wikipedia.org/wiki/Situation_awareness)"，以及“[什么是态势感知？](https://mp.weixin.qq.com/s/0J-TjPgBWmZWjnzqi9nXHA)”
 
-大数据与AI技术的突飞猛进为态势认知提供了新的方法与思路。但是，与其他问题领域相比（如当今AI技术大显身手的棋牌类游戏），面向战场的态势认知主要难点在于：
- - 强对抗
+大数据与AI技术的突飞猛进为态势认知提供了新的方法与思路。但是，与其他问题领域相比（如当今AI技术大显身手的棋牌类游戏），面向战场的态势认知主要难点在于：
+ - 强对抗
  - 观测不完全
  - 规模大且复杂
  - 游戏规则可能变化
