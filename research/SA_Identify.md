@@ -13,3 +13,4 @@ MB：不管类型，社会空间、网络空间、物理空间，全部打通，
 
 ## 研究选题
  - [关键数据资产识别](./SA_Identify_Data.md)
+ - [纵深防御与网络阻断](./SA_Identify_Interdiction.md)
