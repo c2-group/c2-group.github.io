@@ -20,30 +20,22 @@
 %\setmainfont{Caladea}
 
 \makeatletter
-\tikzset{join/.code=\tikzset{after node path={%
-\ifx\tikzchainprevious\pgfutil@empty\else(\tikzchainprevious)%
-edge[every join]#1(\tikzchaincurrent)\fi}}}
 
-\tikzset{every tree node/.style={align=center,anchor=north}}
+% \tikzset{join/.code=\tikzset{after node path={%
+% \ifx\tikzchainprevious\pgfutil@empty\else(\tikzchainprevious)%
+% edge[every join]#1(\tikzchaincurrent)\fi}}}
+
+% \tikzset{every tree node/.style={align=center,anchor=north}}
+
+
 \makeatother
 %
-\tikzset{>=stealth',every on chain/.append style={join},
-         every join/.style={->}}
-\tikzstyle{labeled}=[execute at begin node=$\scriptstyle,
-   execute at end node=$]
+% \tikzset{>=stealth',every on chain/.append style={join},
+%          every join/.style={->}}
+% \tikzstyle{labeled}=[execute at begin node=$\scriptstyle,
+%    execute at end node=$]
 %
 \begin{document}
-
-% \begin{tikzpicture}
-%     \graph  {
-%      我 -> {
-%         b -> c,
-%         d -> e
-%      } -> f
-%     };
-% \end{tikzpicture}
-
-
 
 \begin{tikzpicture}
 \tikzset{every tree node/.style={align=center,anchor=north}}
@@ -64,15 +56,18 @@ edge from parent path={(\tikzparentnode.south)
 \end{tikzpicture}
 
 
+
+
+
 % \begin{forest}
 % for tree={%
 %     edge path={\noexpand\path[\forestoption{edge}] (\forestOve{\forestove{@parent}}{name}.parent anchor) -- +(0,-12pt)-| (\forestove{name}.child anchor)\forestoption{edge label};}
-% }
+%     }
 % [
-% A\\B
-% [C\\D [组织\\设计] [体系优化[意图识别][态势感知][威胁分析]]]
+% AB
+% [CD [组织设计] [体系优化[意图识别][态势感知][威胁分析]]]
 % [指控技术
-% [态势技术[意图识别][态势感知][威胁分析]]
+% [态势技术[意图识别][态势感知][威\\胁\\分\\析]]
 % [规划技术
 % [应急规划]
 % [XX规划]
