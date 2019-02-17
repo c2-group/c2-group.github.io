@@ -145,8 +145,6 @@ Data Fusion Model](http://dsp-book.narod.ru/HMDF/2379ch02.pdf)”，SA模型可�
  - [如何基于智能化技术提高时敏任务规划的时效和质量？](./research/TP_AI.md)
  - [如何对COA进行实验，以全面分析评价其效能与风险？](./research/TP_Exp.md)
 
-# 如何开始（For Students）
-
 # 关于我们
   **C2 Group** in Science and Technology on Information Systems Engineering Laboratory, National Unversity of Defense Technology.
 
@@ -157,3 +155,4 @@ Data Fusion Model](http://dsp-book.narod.ru/HMDF/2379ch02.pdf)”，SA模型可�
  - [Dataset and Codes](./Dataset.md)
  - [News and Events](./News.md)
  - [Resources](./Resources.md)
+ - [Getting Started (For Students)](./Students.md)
