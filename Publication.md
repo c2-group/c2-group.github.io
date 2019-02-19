@@ -17,17 +17,7 @@
  <br/>Peichao Wang, Yun Zhou, Cheng Zhu, Luohao Tang, Weiming Zhang. // IEEE iternational conference on Systems, Man and Cybemetics. IEEE, 2018.
  3. Role Classification with Netflow Data in Intranet. [paper](https://www.researchgate.net/publication/325705729_Role_classification_with_netflow_data_in_intranet)
  <br/>Peichao Wang, Yun Zhou, Cheng Zhu, Ruiqi Yue. // Tenth International Conference on Advanced Computational Intelligence. ICACI, 2018.
- 4. 基于误差重构模型的网络体系重心分析方法.
- <br/>郭园园, 朱先强, 汤罗浩, 朱承, 刘忠. // 新时代目标创新工作论坛
- 5. 基于布尔逻辑的异质网络信息流传播损失评估方法.
- <br/>郭园园, 朱先强, 朱承, 刘忠. // 第五届技侦系统“博士论坛”
- 6. 基于贝叶斯网络的XSS攻击检测方法
- <br/>王培超、周鋆、朱承、张维明. // 中国计算机学会第六届大数据学术会议
- 7. 基于领域知识和威胁情报的Web攻击检测研究
- <br/>王培超、周鋆、朱承、张维明. // 纵横网络空间安全创新论坛
- 8. 基于文本挖掘及xgboost的漏洞威胁程度智能评估研究
- <br/>王培超、周鋆、朱承、张维明. // 第五届技侦系统“博士论坛”
- 9. 世界一流大学研究生培养模式讨论-以人工智能课题为例
+ 4. 世界一流大学研究生培养模式讨论-以人工智能课题为例
  <br/>周鋆、曾平、杜振国、唐国明. // 计算机工程与科学. 2018，40：1-98
  
  ## 2017
