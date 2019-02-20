@@ -26,9 +26,15 @@
   
   - 开源系统
 > https://github.com/parthatalukdar/junto
+
 > https://github.com/yahoo/FEL
+
 > http://community.nzdl.org/wikification/about.html
+
 > http://aksw.org/Projects/AGDISTIS.html
+
 > https://github.com/dalab/pboh-entity-linking
+
 > https://github.com/devsisters/DQN-tensorflow
+
 > https://github.com/UKPLab/emnlp2017-bilstm-cnn-crf
