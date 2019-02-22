@@ -1,48 +1,344 @@
-
-按年度列举
-
 # 论文
 ------
- ## 2019
 
- 1. Bottleneck identification of extended flexible job shop scheduling problem. [paper](https://ieeexplore.ieee.org/document/8638341)
- <br/>Yunfei Wang, Luohao Tang, Yun Zhou, Cheng Zhu, Weiming Zhang, Lianfei Yu. // 2018 6th International Symposium on Computational and Business Intelligence (ISCBI). IEEE, 2019.
+**2019:**
+-----
+
+   - **Ontology-based Fault Diagnosis: A Decade in Review**
+ <br/>Bin Liu, Junfeng Wu, Li Yao, Zheyuan Ding
+ <br/>[ICCMS 2019](http://www.iccms.org/), Melbourne, Australia,January 16-19, 2019.
  
+**2018:**
+-----
+ - **Node importance evaluation based on background error reconstruction**
+ <br/>Yunzhi Han, Xianqiang Zhu, Xiaofeng Cao, Zhaoyun Ding, Yuanyuan Guo, Cheng Zhu
+ <br/>[SMC 2018](http://www.smc2018.org/), Miyazaki, Japan, October 9th, 2018.
+ <br/>[Paper](https://www.researchgate.net/publication/330478732_Node_Importance_Evaluation_Based_on_Background_Error_Reconstruction)
+
+ - **Bottleneck identification of extended flexible job shop scheduling problem** 
+ <br/>Yunfei Wang, Luohao Tang, Yun Zhou, Cheng Zhu, Weiming Zhang, Lianfei Yu
+ <br/>[ISCBI 2018](http://www.iscbi.com/), Basel, Switzerland, August 27-29, 2018.
+<br/>[Paper](https://ieeexplore.ieee.org/document/8638341)
+
+ - **Cyber Security Inference Based on a Two-level Bayesian Network Framework** 
+ <br/>Peichao Wang, Yun Zhou, Cheng Zhu, Luohao Tang, Weiming Zhang
+ <br/> [SMC 2018](http://www.smc2018.org/), Miyazaki, Japan, October 9th, 2018.
+ <br/>[Paper](https://www.researchgate.net/publication/330478417_Cyber_Security_Inference_Based_on_a_Two-Level_Bayesian_Network_Framework)
+
+ - **Role Classification with Netflow Data in Intranet** 
+ <br/>Peichao Wang, Yun Zhou, Cheng Zhu, Ruiqi Yue
+ <br/> [ICACI 2018](http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=65466), Xiamen, China,Mar 29-31, 2018. 
+ <br/>[Paper](https://www.researchgate.net/publication/325705729_Role_classification_with_netflow_data_in_intranet)
+
+ -  **Combining Ontology and Reinforcement Learning for Zero-shot Classification**
+ <br/> 	Bin Liu, Li Yao, Zheyuan Ding, Junyi Xu, Junfeng Wu
+  <br/> [Knowledge-Based Systems](https://www.journals.elsevier.com/knowledge-based-systems/),2018,144: 42-50.
+ <br/>[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705117306007)
+
+ - **OA user behavior analysis with the heterogeneous information network model** 
+  <br/>Lin Yang，Yilin Wang，Yun Zhou，Jiang Wang，Changjun Fan，Cheng Zhu
+ <br/> [Physica A: Statistical Mechanics and its Applications](https://www.journals.elsevier.com/physica-a-statistical-mechanics-and-its-applications), 2018.
+  <br/>[Paper](https://www.researchgate.net/publication/328559375_OA_user_behavior_analysis_with_the_heterogeneous_information_network_model)
+
+ - **Dynamic Defense Strategy against Stealth Malware Propagation in Cyber-Physical Systems**
+  <br/>Kaiming Xiao, Cheng Zhu, Junjie Xie, Yun Zhou, Xianqiang Zhu, Weiming Zhang
+   <br/>[IEEE INFOCOM 2018](https://infocom2018.ieee-infocom.org/), Honolulu, HI, USA, April 15-19, 2018.
+   <br/>[Paper](https://www.researchgate.net/publication/328375927_Dynamic_Defense_Strategy_against_Stealth_Malware_Propagation_in_Cyber-Physical_Systems)
+   
+ - **Shortest Path Network Interdiction with Goal Threshold**
+   <br/>Xiangyu Wei, Cheng Zhu, Kaiming Xiao, Quanjun Yin, Yabing Zha
+   <br/>[IEEE Access](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?reload=true&punumber=6287639), 2018:1-1.
+<br/>[Paper](https://ieeexplore.ieee.org/document/8361422)
+
+ - **Interactive Temporal Recurrent Convolution Network for Traffic Prediction in Data Centers** 
+<br/>Xiaofeng Cao, Yuhua Zhong, Yun Zhou, Jiang Wang, Cheng Zhu, Weiming Zhang
+<br/>[IEEE Access](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?reload=true&punumber=6287639), vol. 6, pp. 5276-5289, 2018.
+<br/>[Paper](https://ieeexplore.ieee.org/document/8240913)
+
+ - **Unlinkable Coin Mixing Scheme For Transaction Privacy Enhancement of Bitcoin**
+ <br/>Yi Liu, Xingtong Liu, ChaojingTang, Jian Wang, Lei Zhang
+ <br/>IEEE ACCESS, 2018,6(1): 23261-23270. 
+<br/>[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8338002)
+
+ - **Novel Logical Method for Security Analysis of Electronic Payment Protocols**
+ <br/>Yi Liu, Qingkun Meng, Xingtong Liu, Jian Wang, Lei Zhang, Chaojing Tang
+<br/>[IEICE Transactions on Information and Systems](https://www.jstage.jst.go.jp/browse/transinf/-char/en), 2018, E101.D(9): 2291-2297. 
+<br/>[Paper](https://arxiv.org/abs/1706.10078)
+
+
+ - **世界一流大学研究生培养模式讨论-以人工智能课题为例**
+ <br/>周鋆、曾平、杜振国、唐国明
+ <br/> 计算机工程与科学. 2018，40：1-98.
+ <br/>[Paper](http://www.cnki.com.cn/Article/CJFDTotal-JSJK2018S1018.htm)
  
- ## 2018
+**2017:**
+-----
+ - **Shape-Based Analysis for Vessel Trajectories**
+ <br/>Jiang Wang，Yun Zhou，Xiaofeng Cao，Yilin Wang，Cheng Zhu，Weiming Zhang
+ <br/>[ACM SIGSPATIAL GIS 2017](http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=61508) , Los Angeles, CA, USA, Nov 7-10, 2017.
+<br/>[Paper](https://www.researchgate.net/publication/322076796_Shape-Based_Analysis_for_Vessel_Trajectories)
+
+ - **From Partition-based Clustering to Density-based Clustering: Fast Find Clusters with Diverse Shapes and Densities in Spatial Databases**
+ <br/>Jiang Wang，Cheng Zhu，Yun Zhou，Xianqiang Zhu，Yilin Wang，Weiming Zhang
+ <br/>[IEEE Access](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?reload=true&punumber=6287639), PP(6):1718-1729, December 2017.
+<br/>[Paper](https://www.researchgate.net/publication/321640471_From_Partition-based_Clustering_to_Density-based_Clustering_Fast_Find_Clusters_with_Diverse_Shapes_and_Densities_in_Spatial_Databases)
  
- 1. Node importance evaluation based on background error reconstruction. [paper](https://www.researchgate.net/publication/330478732_Node_Importance_Evaluation_Based_on_Background_Error_Reconstruction)
- <br/>Yunzhi Han, Xianqiang Zhu, Xiaofeng Cao, Zhaoyun Ding, Yuanyuan Guo, Cheng Zhu. // IEEE iternational conference on Systems, Man and Cybemetics. IEEE, 2018.
- 2. Cyber Security Inference Based on a Two-level Bayesian Network Framework. [paper](https://www.researchgate.net/publication/330478417_Cyber_Security_Inference_Based_on_a_Two-Level_Bayesian_Network_Framework)
- <br/>Peichao Wang, Yun Zhou, Cheng Zhu, Luohao Tang, Weiming Zhang. // IEEE iternational conference on Systems, Man and Cybemetics. IEEE, 2018.
- 3. Role Classification with Netflow Data in Intranet. [paper](https://www.researchgate.net/publication/325705729_Role_classification_with_netflow_data_in_intranet)
- <br/>Peichao Wang, Yun Zhou, Cheng Zhu, Ruiqi Yue. // Tenth International Conference on Advanced Computational Intelligence. ICACI, 2018.
- 4. 世界一流大学研究生培养模式讨论-以人工智能课题为例
- <br/>周鋆、曾平、杜振国、唐国明. // 计算机工程与科学. 2018，40：1-98
+ - **Vessel Spatio-temporal Knowledge Discovery with AIS Trajectories Using Co-clustering**
+ <br/>Jiang Wang，Cheng Zhu，Yun Zhou，Weiming Zhang
+ <br/>[Journal of Navigation](https://www.cambridge.org/core/journals/journal-of-navigation), July 2017.
+<br/>[Paper](https://www.researchgate.net/publication/318112918_Vessel_Spatio-temporal_Knowledge_Discovery_with_AIS_Trajectories_Using_Co-clustering)
  
- ## 2017
+ - **Bridging the Gap between Observation and Decision Making:Goal Recognition and Flexible Allocation in Dynamic Network Interdiction** 
+ <br/>Kai Xu, Kaiming Xiao, Quanjun Yin, Yabing Zha, Cheng Zhu
+ <br/>[IJCAI 2017](http://www.ijcai-17.org/), Melbourne, Australia,  August 2017.
+<br/>[Paper](https://www.researchgate.net/publication/318829398_Bridging_the_Gap_between_Observation_and_Decision_Making_Goal_Recognition_and_Flexible_Resource_Allocation_in_Dynamic_Network_Interdiction)
+
+ - **A Framework for Key Element Evaluation of Combat System** 
+ <br/>Peichao Wang, Yun Zhou, Jiang Wang, Cheng Zhu, Chao Chen, Weiming Zhang
+ <br/>[IEEE SMC 2017](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8114675), Banff, Canada, October, 5-8, 2017.
+<br/>[Paper](https://ieeexplore.ieee.org/document/8123103)
+
+ - **Goal Recognition Assisted Decision Making in Security Games: A Real-time Attack Graph Interdiction Game** 
+<br/> Kaiming Xiao, Cheng Zhu, Kai Xu, Yun Zhou, Xianqiang Zhu, Weiming Zhang
+<br/>[IJCAI 2017](http://home.earthlink.net/~dwaha/research/meetings/ijcai17-xai/),  Melbourne, Australia, August 20, 2017.
+<br/>[Paper](https://www.researchgate.net/publication/320408078_Goal_Recognition_Assisted_Decision_Making_in_Security_Games_A_Real-time_Attack_Graph_Interdiction_Game)
+
+ - **Abnormal Behavior Analysis in Office Automation Systemwithin Organizations** 
+<br/>Yilin Wang, Yun Zhou, Cheng Zhu, Xianqiang Zhu, Weiming Zhang
+<br/> [IJCCE 2017](http://www.ijcce.org/), Zurich, Switzerland, September 1-3, 2017.
+<br/>[Paper](https://www.researchgate.net/publication/325716104_Abnormal_Behavior_Analysis_in_Office_Automation_System_within_Organizations)
+
+ - **Employing Hierarchial Clustering and Reinforcement Learning for Zero-shot Classification**
+ <br/>Bin Liu, Li Yao, Junfeng Wu, et al
+<br/>[ADMA 2017](http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=64840), Singapore, Nov 5-6, 2017. 
+
+ - **Ontology Development for Classification: Spirals - A Case Study in Space Object Classification**
+ <br/>Bin Liu, Li Yao, Junfeng Wu, et al
+<br/>[WEBIST 2017](http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=56425), Porto, Portugal, Apr 25-27, 2017.
+<br/>[Paper](http://www.scitepress.org/Documents/2017/62400/)
+
+ - **Ontology-based Argument Acquisition for Argumentative Agent**
+ <br/>Bin Liu, Li Yao, Fang Liu
+<br/>[ICIM 2017](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7942334), Chengdu, China, April 21-23, 2017.
+<br/>[Paper](https://ieeexplore.ieee.org/document/7950416)
  
- 1. Bridging the Gap between Observation and Decision Making:Goal Recognition and Flexible Allocation in Dynamic Network Interdiction. [paper](318829398_Bridging_the_Gap_between_Observation_and_Decision_Making_Goal_Recognition_and_Flexible_Resource_Allocation_in_Dynamic_Network_Interdiction)
- <br/>Kai Xu, Kaiming Xiao, Quanjun Yin, Yabing Zha, Cheng Zhu. // Twenty-Sixth International Joint Conference on Artificial Intelligence. 2017.
- 2. A Framework for Key Element Evaluation of Combat System. [paper](https://ieeexplore.ieee.org/document/8123103)
- <br/>Peichao Wang, Yun Zhou, Jiang Wang, Cheng Zhu, Chao Chen, Weiming Zhang. // IEEE International Conference on Systems. IEEE, 2017.
- 3. Interactive Temporal Recurrent Convolution Network for Traffic Prediction in Data Centers. [paper](https://ieeexplore.ieee.org/document/8240913)
-<br/>Xiaofeng Cao, Yuhua Zhong, Yun Zhou, Jiang Wang, Cheng Zhu, Weiming Zhang. // IEEE Access, 2017.
- 4. Goal Recognition Assisted Decision Making in Security Games: A Real-time Attack Graph Interdiction Game. [paper](https://www.researchgate.net/publication/320408078_Goal_Recognition_Assisted_Decision_Making_in_Security_Games_A_Real-time_Attack_Graph_Interdiction_Game)
-<br/> Kaiming Xiao, Cheng Zhu, Kai Xu, Yun Zhou, Xianqiang Zhu, Weiming Zhang. // First International Workshop on Artificial Intelligence in Security. IWAISe, 2017.
- 5. Abnormal Behavior Analysis in Office Automation Systemwithin Organizations. [paper](https://www.researchgate.net/publication/325716104_Abnormal_Behavior_Analysis_in_Office_Automation_System_within_Organizations)
-<br/> Yilin Wang, Yun Zhou, Cheng Zhu, Xianqiang Zhu, Weiming Zhang. // International Journal of Computer and Communication Engineering. 2017.
+ - **Multiple DAGs Learning with Non-negative Matrix Factorization**
+ <br/>Yun Zhou，Jiang Wang，Cheng Zhu，Weiming Zhang
+<br/>  [AMBN 2017](http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=62399), Tokyo, Japan,Sept 20-22, 2017.
+<br/>[Paper](https://www.researchgate.net/publication/322076954_Multiple_DAGs_Learning_with_Non-negative_Matrix_Factorization)
+
+ - **Spectroscopic super-resolution fluorescence cell imaging using ultra-small Ge quantum dots** 
+  <br/>Mingying Song, Ali Karatutlu, Isma Ali, Osman Ersoy, Yun Zhou, Yongxin Yang, Yuanpeng Zhang, William R. Little, Ann P. Wheeler and Andrei V. Sapelkin
+  <br/>[Optics Express](https://www.osapublishing.org/oe/home.cfm), 25, 4240-4253, 2017.
+<br/>[Paper](https://www.osapublishing.org/oe/abstract.cfm?uri=oe-25-4-4240)
+
+ - **Improving Record Linkage Accuracy with Hierarchical Feature Level Information and Parsed Data** 
+  <br/>Yun Zhou, Minlue Wang, Valeriia Haberland, John Howroyd, Sebastian Danicic and J.Mark Bishop
+  <br/>New Generation Computing (NGC), 35(1):87 - 104. January 2017.
+<br/>[Paper](https://www.researchgate.net/publication/311790896_Improving_Record_Linkage_Accuracy_with_Hierarchical_Feature_Level_Information_and_Parsed_Data)
+
+ - **An Intelligent Strategy to Gain Profit for Bitcoin Mining Pools**
+  <br/>YiLiu,XiayangChen,LeiZhang,ChaojingTang,HongyanKang
+  <br/>[ISCID 2017](https://www.aconf.cn/conf_98658.html), Hangzhou, China, December 9-10, 2017.
+<br/>[Paper](https://www.researchgate.net/publication/323063838_An_Intelligent_Strategy_to_Gain_Profit_for_Bitcoin_Mining_Pools)
+
+ - **Security analysis of electronic payment protocols based on quantum cryptography**
+ <br/>Yi Liu,Xingtong Liu,Jian Wang,Lei Zhang,Chaojing Tang
+ <br/>[ICISCE 2017](http://icisce.aconf.org/zh-cn/index.html), Changsha, China,July 21-23,2017. 
+
+ - **An Efficient Method to Enhance Bitcoin Wallet Security**
+ <br/>Yi Liu, Ruilin Li, Xingtong Liu, Jian Wang, Lei Zhang, Chaojing Tang, Hongyan Kang
+ <br/>[ASID 2017](https://asid.xmu.edu.cn/17194/list.htm), Xiamen,China,2017: 26-29. 
+<br/>[Paper](https://www.researchgate.net/publication/323057238_An_efficient_method_to_enhance_Bitcoin_wallet_security)
+
+ - **An Efficient Strategy to Eliminate Malleability of Bitcoin Transaction**
+ <br/>Yi Liu,Xingtong Liu,Lei Zhang,Chaojing Tang,Hongyan Kang
+ <br/>[ICSAI 2017](http://www.icsai.org.cn/), Hangzhou, China, 2017: 960-964. 
+<br/>[Paper](https://www.onacademic.com/detail/journal_1000040211995510_7725.html)
+
+ - **Enhancing Anonymity of Bitcoin Based on Ring Signature Algorithm**
+ <br/>Yi Liu, Ruilin Li, Xingtong Liu, Jian Wang, Chaojing Tang, Hongyan Kang
+ <br/>[CIS 2017](http://www.cis-lab.org/cis2018/), Hong kong, China,2017: 317-321. 
+<br/>[Paper](https://www.researchgate.net/publication/323137800_Enhancing_Anonymity_of_Bitcoin_Based_on_Ring_Signature_Algorithm)
+
+**2016:**
+-----
  
+ -	**Harnessing Ontology and Machine Learning for RSO Classification**
+ <br/>Bin Liu, Li Yao, Dapeng Han
+ <br/>[SpringerPlus](https://springerplus.springeropen.com/), 2016, 5 (1): 1655.
+ <br/>[Paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5037103/)
+
+ - **A Semi-Analytical Model of Spiral-Groove Face Seals: Correction and Extension** 
+ <br/>Kaiming Xiao,Weifeng Huang,Wenbin Gao,Xiangfeng Liu,Yuming Wang
+ <br/>Tribology Transactions 59(6):1-48 · March 2016 
+<br/>[Paper](https://www.researchgate.net/publication/298724296_A_Semi-Analytical_Model_of_Spiral-Groove_Face_Seals_Correction_and_Extension)
+ 
+ - **Fast dynamic programming algorithm for the large scale VCVRP problem**
+  <br/>Pengle Zhang,  Kaiming Xiao, ChunxiaoFu, Kewei Yang
+  <br/>[Systems Engineering-Theory & Practice](http://www.sysengi.com/EN/volumn/current.shtml) 2016.
+<br/>[Paper](http://www.sysengi.com/EN/abstract/abstract111204.shtml)
+  
+ - **An Empirical Study of Bayesian Network Parameter Learning with Monotonic Influence Constraints** 
+  <br/>Yun Zhou, Norman Fenton and Cheng Zhu
+ <br/> [Decision Support Systems (DSS)](https://www.journals.elsevier.com/decision-support-systems/), 2016.
+<br/>[Paper](http://www.eecs.qmul.ac.uk/~norman/papers/An%20Empirical%20Study%20of%20Bayesian%20Network%20Parameter%20Learning%20with%20Monotonic%20Influence%20Constraints.pdf)
+
+ - **When and Where to Transfer for Bayes Net Parameter Learning**
+  <br/>Yun Zhou, Timothy Hospedales, Norman Fenton
+  <br/>Expert Systems with Applications (ESWA), 2016, 55(C):361-373.
+  <br/>[Paper](https://www.sciencedirect.com/science/article/pii/S0957417416300343)
+
+ - **Formal analysis of timeliness in electronic commerce protocols**
+ <br/>Yi Liu, Xingtong Liu, Jiaxi Ye, Chaojing Tang
+ <br/>[PIERS 2016](http://piers.org/piers2016Shanghai/), Shanghai, China, August 8-11, 2016.
+<br/>[Paper](https://www.researchgate.net/publication/310455793_Formal_analysis_of_timeliness_in_electronic_commerce_protocols)
+
+**2015:**
+-----
+ 
+ - **高面质比空间目标群体特性研究**
+ <br/>刘斌, 姚莉, 丁哲元, 吴俊锋
+<br/>指挥与控制学报, 2015,3 (5): 161-166 (第一届中国空天安全会议“优秀论文”).
+ <br/>[Paper](http://www.jc2.org.cn/CN/abstract/abstract55.shtml)
+
+ -	**Exploiting Ontological Reasoning in Argumentation Based Multi-Agent Collaborative Classification**
+ <br/>Zhiyong Hao, Bin Liu, Junfeng Wu, et al
+<br/>Proceeding of the 7th Asian Conference on Intelligent Information and Database Systems. Bali, Indonesia: Springer. 2015. (EI)
+<br/>[Paper](https://link.springer.com/content/pdf/10.1007/978-3-319-15702-3_3.pdf)
+ 
+ -  **Stackelberg network interdiction game: nodal model and algorithm**
+ <br/>Kaiming Xiao, Cheng Zhu, Weiming Zhang, Xiangyu Wei, Songchao Hu
+<br/>[ICGTN 2015](https://waset.org/conference/2015/10/bali/icgtn),  Bali, Indonesia, October 11 - 12, 2015. 
+<br/>[Paper](https://www.researchgate.net/publication/282375706_Stackelberg_network_interdiction_game_Nodal_model_and_algorithm) 
+
+ - **A recommendation algorithm for two-sided matching problems based on F-Score**
+<br/>Songchao Hu，Cheng Zhu，Fuli Xie，Kaiming Xiao
+<br/>[ICCC 2015](http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=43687), Shenzhen, China, Nov 2-4, 2015.
+<br/>[Paper](https://www.researchgate.net/publication/304295205_A_recommendation_algorithm_for_two-sided_matching_problems_based_on_F-Score)
+
+ - **Prediction of Crowd-Powered Search Performance Based on Random Forest**
+<br/>Tao Wang，Weiming Zhang，Cheng Zhu，Kaiming Xiao，Zhong Liu，Baoxin Xiu
+<br/>[jiii](http://www.jiii.org/),3.4.293-298, January 2015.
+<br/>[Paper](http://www.jiii.org/index.php?m=content&c=index&a=show&catid=45&id=192)
+
+ - **Extending Naive Bayes Classifier with Hierarchy Feature Level Information for Record Linkage** 
+ <br/>Yun Zhou, John Howroyd, Sebastian Danicic and J. Mark Bishop
+<br/> [AMBN 2015](https://link.springer.com/book/10.1007/978-3-319-28379-1), Yokohama, Japan, November 16-18, 2015.
+<br/>[Paper](https://link.springer.com/chapter/10.1007%2F978-3-319-28379-1_7)
+
+ - **Probabilistic Graphical Models Parameter Learning with Transferred Prior and Constraints** 
+ <br/>Yun Zhou, Norman Fenton, Timothy Hospedales and Martin Neil 
+ <br/>[UAI 2015](http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=41983), Amsterdam, The Netherlands, Jul 12-16, 2015.
+<br/>[Paper](https://yzhou.github.io/Publication/YunNormanTimMartin-UAI-2015.pdf)
+
+**2014:**
+-----
+
+ - **Bayesian Network Based Evaluation Method for Course of Action**
+ <br/>Jiang Wang，Xu-Hui Luo，Cheng Zhu，Meng Qian
+<br/> Modern Defence Technology, 2014.
+<br/>[Paper](https://www.researchgate.net/publication/322076992_Bayesian_Network_Based_Evaluation_Method_for_Course_of_Action)
+
+ - **任务级行动序列问题中的定性偏好研究**
+ <br/>王炎娟, 姚莉, 刘斌
+<br/>智能系统学报, 2014(5):551-559.
+<br/>[Paper](http://www.cnki.com.cn/Article/CJFDTotal-ZNXT201405005.htm)
+
+ - **用于计算辩论的论据本体研究**<br/>刘斌, 姚莉, 郝智勇, 龚勇<br/>计算机科学, 2014,40 (2): 161-166. (CSCD)
+<br/>[Paper](http://www.cnki.com.cn/article/cjfdtotal-jsja201402050.htm)
+
+ - **A Rule Based Feature Selection Approach for Target Classification in Wireless Sensor Networks with Sensitive Data Applications** 
+ <br/>Zhiyong Hao, Bin Liu
+<br/>International Journal of Distributed Sensor Networks, 2014(4):1-7, April 2014.
+<br/>[Paper](https://www.researchgate.net/publication/275473179_A_Rule_Based_Feature_Selection_Approach_for_Target_Classification_in_Wireless_Sensor_Networks_with_Sensitive_Data_Applications)
+
+ -  **An Energy-Efficient Approach for Target Recognition with Synchronous Sampling Sensors**
+<br/> Zhiyong Hao, Bin Liu
+<br/>[ICSESS 2014](https://www.onacademic.com/detail/journal_1000037126931610_723c.html). Beijing, China, June 27-29, 2014.
+<br/>[Paper](https://www.researchgate.net/publication/287471215_An_energy-efficient_approach_for_target_recognition_with_synchronous_sampling_sensors)
+
+ -  **Prism 系列归纳学习算法综述**
+<br/> 郝智勇, 姚莉, 刘斌, 许珺怡
+<br/>系统工程与电子技术, 2014, 36(4):769-776.
+<br/>[Paper](http://www.cnki.com.cn/Article/CJFDTotal-XTYD201404028.htm)
+
+ -  **Arguing Prism: An argumentation based approach for collaborative classification in distributed environments**
+ <br/>Zhiyong Hao, Li Yao, Bin Liu, Yanjuan Wang 
+<br/>[DEXA 2014](http://www.dexa.org/previous/dexa2014/node/1.html), Munich, Germany, September 1 - 4, 2014.
+<br/>[Paper](https://link.springer.com/chapter/10.1007%2F978-3-319-10085-2_3)
+
+ -  **任务级行动序列问题中的定性偏好研究**
+ <br/>王炎娟, 姚莉, 刘斌
+<br/>智能系统学报, 2014(5):551-559.
+<br/>[Paper](http://www.cnki.com.cn/Article/CJFDTotal-ZNXT201405005.htm)
+
+ - **Target Importance Evaluation Method of Multi-Targets Network based on ANP**
+<br/>Yao Yang，Jiang Wang，Cheng Zhu，Zhong Liu，Weidong Bao
+<br/> [Command Control & Simulation](http://en.cnki.com.cn/Journal_en/C-C032-QBZH-2014-03.htm), 2014.
+ <br/>[Paper](http://en.cnki.com.cn/Article_en/CJFDTotal-QBZH201404025.htm)
+
+ - **COG Analysis System Design for Military Planning Based on Coordination Theory and ANP**
+<br/> Yang Y , Wang J , Yang T T , et al
+<br/>[Advanced Materials Research](https://www.scientific.net/AMR/), 2014, 998-999:1398-1402.
+ <br/>[Paper](https://www.scientific.net/AMR.998-999.1398)
+
+ - **Optimal Deployment of Radar Network Based on NSGA-Ⅱ under Active Jamming**
+ <br/>Yan-Jun L , Jin-Cai H , Jiang W
+ <br/>[Command Control & Simulation](http://en.cnki.com.cn/Journal_en/C-C032-QBZH-2014-01.htm), 2014.
+<br/>[Paper](http://en.cnki.com.cn/Article_en/CJFDTotal-QBZH201401010.htm)
+
+ -  **基于ANP的多目标网络目标重要度评估方法** 
+ <br/>杨垚, 王江, 朱承, 刘忠，包卫东
+ <br/>指挥控制与仿真, 2014(4):103-110. 
+<br/>[Paper](http://www.cnki.com.cn/Article/CJFDTotal-QBZH201404025.htm)
+
+ -  **基于贝叶斯网络的作战行动方案效能评估方法**
+ <br/>王江, 罗旭辉, 朱承, 钱猛
+ <br/>现代防御技术, 2014,42(3).
+<br/>[Paper](http://www.cnki.com.cn/Article/CJFDTotal-XDFJ201403020.htm)
+ 
+ -  **有源干扰条件下基于NSGA-Ⅱ的雷达网优化部署方法**
+ <br/>刘彦君, 黄金才, 王江
+ <br/>指挥控制与仿真, 2014(1).
+ <br/>[Paper](http://www.cnki.com.cn/Article/CJFDTotal-QBZH201401010.htm)
+
+ - **A fuzzy clustering algorithm to detect criminals without prior information**
+ <br/> Changjun Fan，Kaiming Xiao，Baoxin Xiu，Guodong Lv
+ <br/>[ASONAM 2014](http://www.proceedings.com/23839.html), Beijing, China, August 17-20, 2014. 
+<br/>[Paper](https://www.researchgate.net/publication/281756037_A_fuzzy_clustering_algorithm_to_detect_criminals_without_prior_information)
+
+ - **An Extended MPL-C Model for Bayesian Network Parameter Learning with Exterior Constraints. Paper Manuscript** 
+  <br/>Yun Zhou, Norman Fenton and Martin Neil
+  <br/>[PGM 2014](https://link.springer.com/book/10.1007/978-3-319-11433-0), Utrecht, The Netherlands, September 17-19, 2014.
+<br/>[Paper](https://link.springer.com/chapter/10.1007%2F978-3-319-11433-0_38)
+ - **Bayesian Network Approach to Multinomial Parameter Learning using Data and Expert Judgements**  
+  <br/>Yun Zhou, Norman Fenton and Martin Neil. 
+  <br/>International Journal of Approximate Reasoning, 2014, 55(5):1252-1268.
+<br/>[Paper](https://www.sciencedirect.com/science/article/pii/S0888613X14000371)
+
  ------
 # 专著/教材
-
+------
+ -  知识建模及其应用<br/>姚莉，唐富年，刘斌<br/>北京：科学出版社，2019.（已签合同，即将出版）
+ 
+ - 数据库系统实践指南<br/>姚莉，刘斌，丁哲元，吴俊锋 <br/>长沙：国防科大出版社，2017. 
+ 
+------
 # 专利
 ------
-1. 一种频繁邻接序列模式挖掘方法. <br/> 王江，周鋆，王培超，易侃，任华. 中国, 201811105608.5. 2018-09-21
-2. 漏洞威胁程度评估方法. <br/> 周鋆，王培超，孙宝丹，朱承，张维明. 专利号：201811105680.8. 2018-09-21
-3. 基于误差重构的节点重要性评估方法. <br/> 朱先强，郭园园，朱承，周鋆，黄金才，林福良，丁兆云，闫晶晶. 中国, 201810802825.3. 2018-07-20
-4. 一种检测XSS攻击的方法、装置及计算机可读存储介质. <br/> 周鋆，王培超，朱承，张维明. 中国, 201810758072. 2018-07-11
-5. 基于两层贝叶斯网络模型的网络安全推断方法. <br/> 周鋆，王培超，朱承，张维明，修保新，朱先强.中国, 201810370982.1. 2018-04-24 
-6. 基于门禁日志挖掘的内部威胁异常行为分析方法. <br/> 周鋆，王培超，朱承，黄金才，张维明. 中国, 201710771010.9. 2017-08-31
+- 王江，周鋆，王培超，易侃，任华. 一种频繁邻接序列模式挖掘方法. (201811105608.5)
+
+- 周鋆，王培超，孙宝丹，朱承，张维明. 漏洞威胁程度评估方法. (201811105680.8)
+
+- 朱先强，郭园园，朱承，周鋆，黄金才，林福良，丁兆云，闫晶晶. 基于误差重构的节点重要性评估方法. (201810802825.3)
+
+- 周鋆，王培超，朱承，张维明. 一种检测XSS攻击的方法、装置及计算机可读存储介质. (201810758072)
+
+- 周鋆，王培超，朱承，张维明，修保新，朱先强. 基于两层贝叶斯网络模型的网络安全推断方法.  (201810370982.1)
+
+- 周鋆，王培超，朱承，黄金才，张维明. 基于门禁日志挖掘的内部威胁异常行为分析方法. (201710771010.9)
+
+- 姚莉，刘斌，郝智勇，许珺怡，丁哲元，吴俊锋，封孝生，刘芳. 基于应用本体的空间目标识别方法. (201610124906.3)
+
 ------
-# 软著
