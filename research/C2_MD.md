@@ -37,7 +37,7 @@
 
  - [洛克希德.马丁公司的 Multi-Domain Operations](https://lockheedmartin.com/en-us/products/multi-domain-operations.html)
  - [雷神公司的MDC2](https://www.raytheon.com/capabilities/products/mdc2)
- - > http://www.c2.org.cn/
+ - http://www.c2.org.cn/
 
 > http://www.dic.mil/doctrine/fp/mission_command_fp.pdf
 
