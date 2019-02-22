@@ -24,16 +24,29 @@
 
   - 开源系统
 > http://www.c2.org.cn/
+
 > http://www.dic.mil/doctrine/fp/mission_command_fp.pdf
+
 > http://www.knowfar.org.cn/
+
 >http://www.81.cn/jfjbmap/content/2017-11/30/content_193226.htm
+
 >http://www.81.cn/jfjbmap/content/2018-11/22/content_221323.htm
+
 >http://www.81.cn/jfjbmap/content/2017-05/11/content_177177.htm
+
 >http://www.81.cn/jskj/2017-11/01/content_7807718.htm
+
 >http://kj.81.cn/content/2017-11/30/content_7849501_4.htm
+
 >http://wemedia.ifeng.com/31501194/wemedia.shtml
+
 >http://breakingdefense.com/2016/09/armys-multi-domain-battle-jamming-hacking-long-range-missiles/
+
 >https://www.ausa.org/articles/multi-domain-battle-joint-combined-arms-concept-21st-century
+
 >http://www.realcleardefense.com/articles/2016/12/30/the_sinews_of_multi-domain_battle_110564.html
+
 >https://info.publicintelligence.net/DoD-CyberMissionAnalysis.pdf
+
 >http://www.c4isrnet.com/articles/army-releases-new-cyber-ew-field-manual
