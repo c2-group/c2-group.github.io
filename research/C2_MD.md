@@ -41,4 +41,6 @@
  - [斯科特·尼古拉斯（Scott Nicholas）：《陆军与海军陆战队组建任务小组支持多域战构想开发》（Army,Marine Corps Form Joint Task Force to Support Multi-Domain Battle Concept Dev’t）](http://www.executivegov.com/2017/01/army-marine-corps-form-joint-task-force-to-support-multi-domain-battle-concept-devt/)
  - [大卫·珀金斯（David Perkins）：《多域战：21世纪的联合合成兵种构想》（Multi-Domain Battle: Joint Combined Arms Concept for the 21ST Century）](https://www.ausa.org/articles/multi-domain-battle-joint-combined-arms-concept-21st-century)
  - [马克·波默洛（Mark Pomerleau）：《为什么多域战构想与众不同？》（Why is the multi-domain battle concept different?）](http://www.c4isrnet.com/articles/why-is-mutli-domain-battle-concept-different)
+ - [小悉德尼·J·弗瑞德伯格：《伊拉克：多域战构想的发展改进实验场》（Iraq:Proving Ground For Multi-Domain Battle）](http://breakingdefense.com/2017/04/iraq-proving-ground-for-multi-domain-battle/)
+ - [克里斯·泰里（Chris Telley）：《多域战的筋脉》（The Sinews of Multi-Domain Battle）](http://www.realcleardefense.com/articles/2016/12/30/the_sinews_of_multi-domain_battle_110564.html)
  
