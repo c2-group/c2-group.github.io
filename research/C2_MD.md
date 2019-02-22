@@ -36,6 +36,7 @@
  - [洛克希德.马丁公司的 Multi-Domain Operations](https://lockheedmartin.com/en-us/products/multi-domain-operations.html)
  - [雷神公司的MDC2](https://www.raytheon.com/capabilities/products/mdc2)
  - [加里·拉克（Garry Luck）：《任务式指挥与跨域协同》](http://www.dtic.mil/doctrine/fp/mission_command_fp.pdf)
+ - [小悉德尼·J·弗瑞德伯格（Sydney J. Freedberg Jr.）：《陆军“多域战”：干扰、黑客攻击以及远程导弹》（Army’s‘Multi-Domain Battle:’Jamming, Hacking & Long Range Missiles）](http://breakingdefense.com/2016/09/armys-multi-domain-battle-jamming-hacking-long-range-missiles/)
 
  - http://www.dic.mil/doctrine/fp/mission_command_fp.pdf
 
