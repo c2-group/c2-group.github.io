@@ -150,7 +150,6 @@ Data Fusion Model](http://dsp-book.narod.ru/HMDF/2379ch02.pdf)”，SA模型可�
 
  - [Projects](./Projects.md)  
  -- [态势感知](./SA-project-1.md) 
- -- [关系抽取](./RE.md)  
  - [Publication](./Publication.md)
  - [Talks and Presentations](./Talks.md)
  - [Dataset and Codes](./Dataset.md)
