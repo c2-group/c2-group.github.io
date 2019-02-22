@@ -37,6 +37,9 @@
  - [雷神公司的MDC2](https://www.raytheon.com/capabilities/products/mdc2)
  - [加里·拉克（Garry Luck）：《任务式指挥与跨域协同》](http://www.dtic.mil/doctrine/fp/mission_command_fp.pdf)
  - [小悉德尼·J·弗瑞德伯格（Sydney J. Freedberg Jr.）：《陆军“多域战”：干扰、黑客攻击以及远程导弹》（Army’s‘Multi-Domain Battle:’Jamming, Hacking & Long Range Missiles）](http://breakingdefense.com/2016/09/armys-multi-domain-battle-jamming-hacking-long-range-missiles/)
+ - [肖恩·肯蒙斯（Sean Kimmons）：《陆军和海军陆战队领导人更加深入地将多域战构想推进现实》（Army,Marine leaders bring multi-domain concept closer to reality）](https://www.army.mil/article/181271/army_marine_leaders_bring_multi_domain_concept_closer_to_reality)
+ - [斯科特·尼古拉斯（Scott Nicholas）：《陆军与海军陆战队组建任务小组支持多域战构想开发》（Army,Marine Corps Form Joint Task Force to Support Multi-Domain Battle Concept Dev’t）](http://www.executivegov.com/2017/01/army-marine-corps-form-joint-task-force-to-support-multi-domain-battle-concept-devt/)
+ - [大卫·珀金斯（David Perkins）：《多域战：21世纪的联合合成兵种构想》（Multi-Domain Battle: Joint Combined Arms Concept for the 21ST Century）](https://www.ausa.org/articles/multi-domain-battle-joint-combined-arms-concept-21st-century)
 
  - http://www.dic.mil/doctrine/fp/mission_command_fp.pdf
 
