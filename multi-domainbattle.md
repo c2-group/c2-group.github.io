@@ -24,8 +24,8 @@
 
   - 开源系统
 > http://www.c2.org.cn/
->http://www.dic.mil/doctrine/fp/mission_command_fp.pdf
->http://www.knowfar.org.cn/
+> http://www.dic.mil/doctrine/fp/mission_command_fp.pdf
+> http://www.knowfar.org.cn/
 >http://www.81.cn/jfjbmap/content/2017-11/30/content_193226.htm
 >http://www.81.cn/jfjbmap/content/2018-11/22/content_221323.htm
 >http://www.81.cn/jfjbmap/content/2017-05/11/content_177177.htm
