@@ -35,7 +35,7 @@
 
  - [洛克希德.马丁公司的 Multi-Domain Operations](https://lockheedmartin.com/en-us/products/multi-domain-operations.html)
  - [雷神公司的MDC2](https://www.raytheon.com/capabilities/products/mdc2)
- - http://www.c2.org.cn/
+ - [加里·拉克（Garry Luck）：《任务式指挥与跨域协同》（Mission Command and Cross-domain Synergy）]http://www.dtic.mil/doctrine/fp/mission_command_fp.pdf
 
  - http://www.dic.mil/doctrine/fp/mission_command_fp.pdf
 
