@@ -11,7 +11,7 @@
  
 4. 研究资源：
 由于目前已有大量的贝叶斯网络学习研究，以及相关数据和构建好的实际应用模型，我们将利用这些公开的数据进行学习，并与实际模型相比较，从而对本项目的算法以及公开发表算法进行评价。
-比较有名的公开数据集包括：牛津大学的BN Learn（http://www.bnlearn.com/），澳大利亚人工智能协会的ABNMS数据集（http://abnms.org/bnrepo/），以色列希伯来大学的BN Repository（http://www.cs.huji.ac.il/Repository/），NORSYS软件公司的Net library数据集（http://www.norsys.com/netlibrary/），以及HUGIN公司的BN Forum数据集（http://forum.hugin.com/）等。
+比较有名的公开数据集包括：牛津大学的BN Learn（[http://www.bnlearn.com/](http://www.bnlearn.com/)），澳大利亚人工智能协会的ABNMS数据集（[http://abnms.org/bnrepo/](http://abnms.org/bnrepo/)），以色列希伯来大学的BN Repository（[http://www.cs.huji.ac.il/Repository/](http://www.cs.huji.ac.il/Repository/)），NORSYS软件公司的Net library数据集（[http://www.norsys.com/netlibrary/](http://www.norsys.com/netlibrary/)），以及HUGIN公司的BN Forum数据集（[http://forum.hugin.com/](http://forum.hugin.com/)）等。
 我们将基于这些通用数据集中的贝叶斯网络模型，进行编程实验，并将软件工具包BNT（Bayes Net Toolbox for Matlab）集成到开发环境中，通过从真实模型中采样得到训练用目标数据集，通过引入一定的噪声采样产生源数据集，以便于进行多任务和迁移学习，实试验算法均在不同样本数据集上独立运行 100次进行测试。 
 在得到学习结果后，对不同学习算法进行评价，包括计算实验得到的网络与真实网络的结构编辑距离（将算法确定的最优图结构转化为标准的网络结构所需要的平均运算总数目），以及参数的K-L散度（Kullback–Leibler Divergence，用于计算概率分布之间的距离）等。
 
