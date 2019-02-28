@@ -13,3 +13,4 @@
  - [基于贝叶斯网络的内部威胁检测研究](./project/SA-project-1.md)
  - [基于组合模型和机器学习的网络节点分析研究](./project/ISM-network-analysis.md)
  - [基于CNN的漏洞预测与系统威胁评估研究](./project/CNN-risk-assessment.md)
+ - [概率图模型结构学习的理论研究](./project/SA-project-2.md)
