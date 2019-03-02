@@ -148,12 +148,8 @@ Data Fusion Model](http://dsp-book.narod.ru/HMDF/2379ch02.pdf)”，SA模型可�
 # 关于我们
   **C2 Group** in Science and Technology on Information Systems Engineering Laboratory, National Unversity of Defense Technology.
 
-<<<<<<< HEAD
+
  - [Projects](./Projects.md)
-=======
- - [Projects](./Projects.md)  
- -- [态势感知](./SA-project-1.md)   
- 
  - [Publication](./Publication.md)
  - [Talks and Presentations](./Talks.md)
  - [Dataset and Codes](./Dataset.md)
