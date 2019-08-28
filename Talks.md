@@ -1,6 +1,6 @@
 Talks and Presentations (Under Construction)
 
-
+ - [《指挥控制原理》课程课件](https://pan.baidu.com/s/1pudi12pTza8rn6-RUrd7xQ),2019.8
  - [研究选题指南](https://pan.baidu.com/s/1XgRukE1nh0p8zJqEAaVXBg),国防科技大学,2019.6.11, 提取码: tmfs
  - [Cyber指控技术](https://pan.baidu.com/s/1ALnDQRW5VnakmL1ih_zC_Q), 国防科技大学, 系统科学前沿专题报告, 2019.4  提取码: khhw
  - [网络空间态势认知问题研究](https://mp.weixin.qq.com/s/I87C-ouigFhIX4ugbzw8CA), 2018第六届指挥控制大会专题论坛报告, 北京
