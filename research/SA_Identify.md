@@ -22,6 +22,8 @@
 - **关键用户**
 
 对于网络中关键用户的判断也是很有特色和价值的问题。例如，在轰动一时的[Facebook与剑桥分析公司事件](https://www.nytimes.com/2018/03/19/technology/facebook-cambridge-analytica-explained.html)中，剑桥分析公司受雇于特朗普2016竞选团队，通过搜集到的超过5000万Facebook用户的发帖、点赞数据，基于心理学模型和大数据方法，分析了美国选民的政治倾向，其结果被用于精准投放选举广告，影响美国总统大选。
+
+
 ![Facebook](https://ichef.bbci.co.uk/news/624/cpsprodpb/9585/production/_102477283_cambridge_analitica_v2_640-nc.png)
 
 - **关键地形**
