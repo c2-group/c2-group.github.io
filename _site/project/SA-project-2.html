@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      
+      
+      
+    </title>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/res/favicon.ico">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    
+    
+    <link rel="stylesheet" href="/assets/css/post.css">
+    
+    
+    
+    <link rel="stylesheet" href="/assets/css/syntax.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="国防科技大学系统工程学院重点实验室" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="概率图模型结构学习的理论研究" />
+<meta property="og:description" content="概率图模型结构学习的理论研究" />
+<link rel="canonical" href="http://localhost:4000/project/SA-project-2" />
+<meta property="og:url" content="http://localhost:4000/project/SA-project-2" />
+<meta property="og:site_name" content="国防科技大学系统工程学院重点实验室" />
+<meta name="google-site-verification" content="UA-96359860-1" />
+<script type="application/ld+json">
+{"description":"概率图模型结构学习的理论研究","@type":"WebPage","url":"http://localhost:4000/project/SA-project-2","headline":"国防科技大学系统工程学院重点实验室","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+  <body>
+    <header>
+      <nav class="top-nav teal">
+        <div class="nav-wrapper">
+          <div class="container">
+            <a class="page-title" href="/">国防科技大学系统工程学院重点实验室</a>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <a href="#" data-activates="slide-out" class="button-collapse top-nav full hide-on-large-only">
+          <i class="material-icons">menu</i>
+        </a>
+      </div>
+      <ul id="slide-out" class="side-nav fixed">
+        <li>
+          <div class="userView">
+            <div class="background"></div>
+            <a href="https://github.com/c2-group/c2-group.github.io" target="_blank"><img class="circle z-depth-2" src="/assets/res/user.png"></a>
+            <span class="white-text name">c2-group</span>
+            <span class="white-text email">academic pages for c2 group</span>
+          </div>
+        </li>
+        <li><a class="waves-effect" href="/">Home</a></li>
+        <li><a class="waves-effect" href="/categories">Categories</a></li>
+        <li><a class="waves-effect" href="/tags">Tags</a></li>
+        <li><a class="waves-effect" href="/projects">Projects</a></li>
+        <!-- <li><a class="waves-effect" href="/feed.xml" target="_blank"><i class="material-icons">rss_feed</i>RSS</a></li> -->
+        <li><div class="divider"></div></li>
+        <li><a class="waves-effect" href="/concept">Concept</a></li>
+        <li><a class="waves-effect" href="/publication">Publication</a></li>
+        <li><a class="waves-effect" href="/dataset">Dataset and Codes</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="waves-effect" href="/students">Getting Started (For Students)</a></li>
+        <li><a class="waves-effect" href="/board">Bulletin Board</a></li>
+        <li><a class="waves-effect" href="/resources">Resources</a></li>
+        <li><a class="waves-effect" href="/talks">Talks and Presentations</a></li>
+        <li><a class="waves-effect" href="/about">About</a></li>
+      </ul>
+    </header>
+    <main>
+
+<div class="container">
+  <div class="divider"></div>
+<div class="row">
+  <div class="col s12">
+    <h1 id="概率图模型结构学习的理论研究">概率图模型结构学习的理论研究</h1>
+
+<ol>
+  <li>
+    <p>问题描述：
+问题描述：有向无环图（DAGs，也叫做贝叶斯网络）的结构估计很困难，因为DAGs的搜索空间是组合的，它的规模随节点数呈超指数规模增加。现有的方法依赖于不同的局部启发式算法来加强无环约束，并且不能适用于一般目的的优化。从数据中学习有向无环图（DAGs）是个NP难的问题，因为组合无环约束很难有效实现。同时，DAGs在实际中是个广泛应用的模型，能够应用到生物工程、机器学习以及因果推断方面。基于上述原因，用于学习DAGs的新方法受到广泛关注，这对于机器学习和统计学都是一个重要的课题。</p>
+  </li>
+  <li>
+    <p>主要研究内容：
+现有优化方法的弊端在于不能有效达到无环性约束，无约束算法，如梯度下降法，显然不能达到这个约束条件。由于无环性约束是非凸的，不能准确定义投影算子，因此投影方法不能充分解决这一问题。我们需要研究专门的优化方法来有效达到无环性约束。现有的方法包括分支-切割法、动态规划法、A*搜索法、贪心算法、坐标下降法等。目前在不同结构和统计假设的情况下学习DAGs的算法都取得了很大的进步。从现有的所有机器算法中我们可以看出，这些模型的成功之处在于都具有一个封闭的形式、对于现有优化技术来说容易处理。对于无向图来说主要的技术是凸优化。可是DAG学习算法显然不能直接使用这些优化算法，因为它涉及的问题是不易处理的。这就导致了启发式算法的大量应用，总是从优化方法中提取工具，但还是要依靠启发式方法来给算法提速。广泛的来说，现有方法可以分成估计算法和精确算法，后者能够保证返回一个全局最优解。精确算法能够形成一类方法，但它们都是围绕着NP难的组合优化问题，这些方法在计算普遍不容易实现。可以说目前最流行的优化方法都包括局部搜索，也就是边和父节点集都是有序增加，一次只增加一个节点。只要每个节点只有少量的父节点时，这种方法就是有效的。但随着可能的父节点数增加，局部搜索很快不易处理。此外，这种策略非常依赖严格的结构假设，显然这些严格的假设难以达到并且不可能验证。因此，找到能够进行全局搜索的算法也是个关键的研究点。关于DAG学习的文献可以划分为在离散数据上处理和在连续数据上处理。许多方法仅能够在非常特定的数据上有效，因此找到不依赖于特定模型假设的一般方法也是个重要的研究点。最后一点是，现有方法最重要的弊端是它的概念非常复杂，需要相关人员具有非常了解图模型，这些方法还涉及到许多非常强的技巧。因此，如何建立一个能够让不了解图模型的人也能明白的数学模型也至关重要。</p>
+  </li>
+  <li>
+    <p>参考技术路线：
+具体地，本课题以贝叶斯网络的结构学习为主要研究内容，以提高贝叶斯学习精度为研究目标，在现有局部启发式算法的基础上，引入数值优化的相关知识，研究能够对DAG结构进行全局最优学习的算法。在已有的外部攻击检测的基础上，结合网络安全等相关知识和公开数据集，验证贝叶斯网络结构学习的实际应用效果，并针对实验结果进行改进。</p>
+  </li>
+  <li>
+    <p>研究资源：
+由于目前已有大量的贝叶斯网络学习研究，以及相关数据和构建好的实际应用模型，我们将利用这些公开的数据进行学习，并与实际模型相比较，从而对本项目的算法以及公开发表算法进行评价。
+比较有名的公开数据集包括：牛津大学的BN Learn（<a href="http://www.bnlearn.com/">http://www.bnlearn.com/</a>），澳大利亚人工智能协会的ABNMS数据集（<a href="http://abnms.org/bnrepo/">http://abnms.org/bnrepo/</a>），以色列希伯来大学的BN Repository（<a href="http://www.cs.huji.ac.il/Repository/">http://www.cs.huji.ac.il/Repository/</a>），NORSYS软件公司的Net library数据集（<a href="http://www.norsys.com/netlibrary/">http://www.norsys.com/netlibrary/</a>），以及HUGIN公司的BN Forum数据集（<a href="http://forum.hugin.com/">http://forum.hugin.com/</a>）等。同时还有关于外部攻击的相关数据集，可以用来进行实际验证。</p>
+  </li>
+  <li>
+    <p>已有研究成果：
+目前在原有的贝叶斯结构学习算法和现有网络外部攻击检测的基础上，使用了新的结构学习算法在数据集上进行了实验，并取得了98.40%的准确率，相比传统算法只取得了97.38%的准确率。这样的实验结果证明了寻找全局最优解是个有前景的方向，并取得初步的进展。</p>
+  </li>
+</ol>
+
+  </div>
+</div>
+
+</div>
+
+    </main>
+    <footer class="page-footer teal">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <!-- <img src="/assets/res/logo.png" alt="logo"/> -->
+            <p class="grey-text text-lighten-4">C2 Group in Science and Technology on Information Systems Engineering Laboratory, National Unversity of Defense Technology
+</p>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="footer-copyright">
+        <div class="container">
+          &#xA9; 2019 国防科技大学系统工程学院重点实验室. All rights reserved. Powered by <a href="https://github.com/ShawnTeoh/matjek">MatJek</a>.
+        </div>
+      </div> -->
+    </footer>
+    <script src="//code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    
+    
+    <script src="/assets/js/post.js"></script>
+    
+    
+    
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})
+      (window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-96359860-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      
+      面向还原与生成的网络空间知识化表示方法
+      
+    </title>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/res/favicon.ico">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    
+    
+    <link rel="stylesheet" href="/assets/css/post.css">
+    
+    
+    
+    <link rel="stylesheet" href="/assets/css/syntax.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="面向还原与生成的网络空间知识化表示方法" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="背景：网络空间相关数据匮乏制约着网络空间相关研究及其实验的开展，还原与生成获得网络空间仿真数据，可为开展相关研究提供基础支撑。由于数据匮乏，相关知识难以通过机器学习获取，需要借助领域知识来实现还原与生成获得网络空间仿真数据。" />
+<meta property="og:description" content="背景：网络空间相关数据匮乏制约着网络空间相关研究及其实验的开展，还原与生成获得网络空间仿真数据，可为开展相关研究提供基础支撑。由于数据匮乏，相关知识难以通过机器学习获取，需要借助领域知识来实现还原与生成获得网络空间仿真数据。" />
+<link rel="canonical" href="http://localhost:4000/2019/07/29/SA_Uncover_Reduction" />
+<meta property="og:url" content="http://localhost:4000/2019/07/29/SA_Uncover_Reduction" />
+<meta property="og:site_name" content="国防科技大学系统工程学院重点实验室" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-07-29T00:00:00+08:00" />
+<meta name="google-site-verification" content="UA-96359860-1" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2019/07/29/SA_Uncover_Reduction"},"description":"背景：网络空间相关数据匮乏制约着网络空间相关研究及其实验的开展，还原与生成获得网络空间仿真数据，可为开展相关研究提供基础支撑。由于数据匮乏，相关知识难以通过机器学习获取，需要借助领域知识来实现还原与生成获得网络空间仿真数据。","@type":"BlogPosting","url":"http://localhost:4000/2019/07/29/SA_Uncover_Reduction","headline":"面向还原与生成的网络空间知识化表示方法","dateModified":"2019-07-29T00:00:00+08:00","datePublished":"2019-07-29T00:00:00+08:00","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+  <body>
+    <header>
+      <nav class="top-nav teal">
+        <div class="nav-wrapper">
+          <div class="container">
+            <a class="page-title" href="/">国防科技大学系统工程学院重点实验室</a>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <a href="#" data-activates="slide-out" class="button-collapse top-nav full hide-on-large-only">
+          <i class="material-icons">menu</i>
+        </a>
+      </div>
+      <ul id="slide-out" class="side-nav fixed">
+        <li>
+          <div class="userView">
+            <div class="background"></div>
+            <a href="https://github.com/c2-group/c2-group.github.io" target="_blank"><img class="circle z-depth-2" src="/assets/res/user.png"></a>
+            <span class="white-text name">c2-group</span>
+            <span class="white-text email">academic pages for c2 group</span>
+          </div>
+        </li>
+        <li><a class="waves-effect" href="/">Home</a></li>
+        <li><a class="waves-effect" href="/categories">Categories</a></li>
+        <li><a class="waves-effect" href="/tags">Tags</a></li>
+        <li><a class="waves-effect" href="/projects">Projects</a></li>
+        <!-- <li><a class="waves-effect" href="/feed.xml" target="_blank"><i class="material-icons">rss_feed</i>RSS</a></li> -->
+        <li><div class="divider"></div></li>
+        <li><a class="waves-effect" href="/concept">Concept</a></li>
+        <li><a class="waves-effect" href="/publication">Publication</a></li>
+        <li><a class="waves-effect" href="/dataset">Dataset and Codes</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="waves-effect" href="/students">Getting Started (For Students)</a></li>
+        <li><a class="waves-effect" href="/board">Bulletin Board</a></li>
+        <li><a class="waves-effect" href="/resources">Resources</a></li>
+        <li><a class="waves-effect" href="/talks">Talks and Presentations</a></li>
+        <li><a class="waves-effect" href="/about">About</a></li>
+      </ul>
+    </header>
+    <main>
+
+<div class="container">
+  <div id="post-info">
+  <h3>面向还原与生成的网络空间知识化表示方法</h3>
+  <ul class="collapsible hoverable" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header">
+        <span>
+          <i class="material-icons tooltipped" data-position="left" data-delay="30" data-tooltip="Date">date_range</i>
+          29/07/2019 00:00
+          <i id="indicate" class="right material-icons tooltipped" data-position="left" data-delay="30" data-tooltip="Show extra info">info</i>
+        </span>
+      </div>
+      <div class="collapsible-body">
+        <span>
+          <i class="material-icons tooltipped" data-position="left" data-delay="30" data-tooltip="Categories">sort</i>
+          
+          
+          
+          <a href="/categories#sa_cap" target="_blank"><div class="chip">SA</div></a>
+          
+        </span>
+        <span>
+          <i class="material-icons tooltipped" data-position="left" data-delay="30" data-tooltip="Tags">label</i>
+          
+        </span>
+      </div>
+    </li>
+  </ul>
+</div>
+<div class="divider"></div>
+<div class="row">
+  <div class="col s12">
+    <p>背景：网络空间相关数据匮乏制约着网络空间相关研究及其实验的开展，还原与生成获得网络空间仿真数据，可为开展相关研究提供基础支撑。由于数据匮乏，相关知识难以通过机器学习获取，需要借助领域知识来实现还原与生成获得网络空间仿真数据。</p>
+
+<h1 id="面向还原与生成的网络空间知识化表示方法">面向还原与生成的网络空间知识化表示方法</h1>
+
+<h2 id="问题概述">问题概述</h2>
+<p>背景：网络空间相关数据匮乏制约着网络空间相关研究及其实验的开展，还原与生成获得网络空间仿真数据，可为开展相关研究提供基础支撑。由于数据匮乏，相关知识难以通过机器学习获取，需要借助领域知识来实现还原与生成获得网络空间仿真数据。
+问题：网络空间结构复杂，网络空间由各式各样的网络实体组成，如个人计算机、路由器、服务器、数据库、认证中心、移动热点等等；网络空间感知数据具有大数据的5V（Volume/Variety/Value/Velocity/Veracity）特性，增加了数据处理的难度；网络空间地形训练数据匮乏，仅仅依靠机器学习难以实现网络空间的还原与生成。实现网络空间态势感知，亟待解决的问题是，如何从网络传输数据重构网络空间，包括网络拓扑和实体属性。</p>
+<h2 id="研究内容及参考技术路线">研究内容及参考技术路线</h2>
+<h3 id="针对典型网络类型研究知识的综合最优表示方法包括">针对典型网络类型，研究知识的综合（最优）表示方法，包括：</h3>
+<p>面向网络空间构造方式、拓扑关系、动态行为等方面的知识获取；
+各类知识的组织与融合方法，如解析模型、机器学习训练的模型、领域知识的有机集成与高效管理。</p>
+<h3 id="面向综合最优表示的知识研究其运用方法包括">面向综合（最优）表示的知识，研究其运用方法，包括：</h3>
+<p>面向多类融合知识的高效集成推理机制/方法，面向网络空间感知大数据处理，研制解析模型、机器学习模型计算、领域知识相衔接的推理接口或推理机制；
+与其它方法相结合的推理方法，如转换为贝叶斯网的知识表示与推理。</p>
+<h3 id="基于知识的网络空间还原与生成方法">基于知识的网络空间还原与生成方法</h3>
+<p>网络空间模拟案例生成算法，例如基于逻辑推理/案例推理/概率推理的网络空间还原与生成过程。</p>
+<h2 id="研究资源">研究资源</h2>
+<h3 id="网络空间地形标准">网络空间地形标准</h3>
+<h3 id="mitre发布的网络空间相关标准">MITRE发布的网络空间相关标准</h3>
+<h3 id="文献">文献</h3>
+<p>Raymond D, Cross T, Conti G, et al. Key terrain in cyberspace: Seeking the high ground[C]// International Conference on Cyber Conflict. 2014.
+Zhou Z H . Abductive learning: towards bridging machine learning and logical reasoning[J]. Science China Information Sciences, 2019, 62(7):76101.</p>
+<h3 id="相关知识库">相关知识库</h3>
+<p>简称	格式	名称	译名	sourceAddr
+MBO	OWL	malicious behavior ontology	恶意行为本体	A. Gr´egio, R. Bonacin, A. C. de Marchi, O. F. Nabuco, and P. L. de Geus, “An Ontology of Suspicious Software Behavior,” Applied Ontology, vol. 11, no. 1, pp. 29–49, 2016.
+VDO	OWL	Vulnerability Description Ontology	脆弱性描述本体	http://csrc.nist.gov/publications/PubsDrafts.html#NIST-IR-8138
+CybOX	OWL	Cyber Observable eXpression	网络可观察对象表达	http://cybox.mitre.org
+		Modeling Cyber-Physical Systems	 	https://www.researchgate.net/publication/220473317_Modeling_Cyber-Physical_Systems
+		The Essential Features of an Ontology for Cyberwarfare	网络战基本特征本体	http://www.crcnetbase.com/doi/abs/10.1201/b15253-7
+MAEC	OWL	Malware Attribute Enumeration and Characterization	病毒属性枚举与刻画	http://maec.mitre.org/
+SMO	OWL	Security Metric Ontology	安全度量本体	https://github.com/marcusp46/security-metrics-ontology</p>
+
+  </div>
+</div>
+
+</div>
+
+    </main>
+    <footer class="page-footer teal">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <!-- <img src="/assets/res/logo.png" alt="logo"/> -->
+            <p class="grey-text text-lighten-4">C2 Group in Science and Technology on Information Systems Engineering Laboratory, National Unversity of Defense Technology
+</p>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="footer-copyright">
+        <div class="container">
+          &#xA9; 2019 国防科技大学系统工程学院重点实验室. All rights reserved. Powered by <a href="https://github.com/ShawnTeoh/matjek">MatJek</a>.
+        </div>
+      </div> -->
+    </footer>
+    <script src="//code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    
+    
+    <script src="/assets/js/post.js"></script>
+    
+    
+    
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})
+      (window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-96359860-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>

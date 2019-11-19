@@ -1,0 +1,66 @@
+\documentclass[tikz]{standalone}%standalone
+%\documentclass[11pt]{ctexart}
+%\documentclass〔12pt,dvipdfm]{article}
+
+
+%\documentclass[a4paper,10pt]{article}
+
+%\documentclass[a4paper,10pt]{ctexart} % instead of `article'
+
+\usepackage{tikz}
+\usetikzlibrary{arrows,chains,matrix,positioning,scopes,graphs}
+
+% \usepackage{smartdiagram}
+% \usepackage{forest}
+% \usepackage{tikz-qtree}
+
+\usepackage{xeCJK}%根据自己的需要加载宏包
+
+
+%\setmainfont{Caladea}
+
+\makeatletter
+
+% \tikzset{join/.code=\tikzset{after node path={%
+% \ifx\tikzchainprevious\pgfutil@empty\else(\tikzchainprevious)%
+% edge[every join]#1(\tikzchaincurrent)\fi}}}
+
+% \tikzset{every tree node/.style={align=center,anchor=north}}
+
+
+\makeatother
+%
+% \tikzset{>=stealth',every on chain/.append style={join},
+%          every join/.style={->}}
+% \tikzstyle{labeled}=[execute at begin node=$\scriptstyle,
+%    execute at end node=$]
+%
+\begin{document}
+
+\begin{tikzpicture}
+    \graph[nodes={draw, fill=green},edges={thick,red},no placement] { %grow right sep=1.5cm,branch down=1.5cm,
+     开始[fill=yellow, x=0,y=0] -> {
+        任务1[x=3,y=2] -> 任务7[x=6,y=1.5] -> {任务10[x=9,y=1.5],任务11[x=9,y=0.5]},
+        任务2[x=3,y=1] -> 任务8[x=6,y=0] -> 任务11,
+        任务3[x=3,y=0] -> 任务7 -> 任务10,
+        任务4[x=3,y=-1] -> 任务8 -> 任务13[x=9,y=-1.5],
+        任务5[x=3,y=-2] -> 任务9[x=6,y=-1.5] -> {任务12[x=9,y=-0.5],任务13}
+     } -> 结束[fill=yellow, x=12,y=0];
+    };
+\end{tikzpicture}
+
+
+% \begin{tikzpicture}
+% \graph [grow down,branch right=2.5cm]
+% { root -> {
+%     child 1,
+%     child 2 -> {
+%       grand child 1,
+%       任务4},
+%     child 3 -> {
+%       grand child 3,
+%       任务4} } -> 结束
+% };
+% \end{tikzpicture}
+
+\end{document}

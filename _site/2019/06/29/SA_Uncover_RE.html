@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      
+      基于小样本机器学习的非结构化文本关系抽取研究
+      
+    </title>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/res/favicon.ico">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    
+    
+    <link rel="stylesheet" href="/assets/css/post.css">
+    
+    
+    
+    <link rel="stylesheet" href="/assets/css/syntax.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="基于小样本机器学习的非结构化文本关系抽取研究" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="大规模非结构化文本数据是指挥控制从“观察”到“行动”循环中需要的重要数据支撑。面对日益增长的非结构化文本数据，如何帮助决策者理解这些数据，快速地从海量非结构化文本中发现知识，减轻决策者的学习成本，进一步提供辅助决策，显得越来越重要。信息抽取(Information Extraction)技术的研究正是为了解决这个问题。关系抽取(Relation Extraction)是信息抽取技术的重要环节，是信息抽取领域重要的基础任务和难点问题之一，其任务是从非结构化文本中自动识别出一对概念和联系这对概念的语义关系，并构成关系三元组。关系抽取不仅有助于非结构化文本数据的管理与服务，而且对于文本内容理解具有重要支撑作用，能够将文本分析从语言层面提升到知识层面，为指挥控制的“观察”到“行动”循环过程需要的大规模知识图谱、智能问答决策提供基础理论支撑。" />
+<meta property="og:description" content="大规模非结构化文本数据是指挥控制从“观察”到“行动”循环中需要的重要数据支撑。面对日益增长的非结构化文本数据，如何帮助决策者理解这些数据，快速地从海量非结构化文本中发现知识，减轻决策者的学习成本，进一步提供辅助决策，显得越来越重要。信息抽取(Information Extraction)技术的研究正是为了解决这个问题。关系抽取(Relation Extraction)是信息抽取技术的重要环节，是信息抽取领域重要的基础任务和难点问题之一，其任务是从非结构化文本中自动识别出一对概念和联系这对概念的语义关系，并构成关系三元组。关系抽取不仅有助于非结构化文本数据的管理与服务，而且对于文本内容理解具有重要支撑作用，能够将文本分析从语言层面提升到知识层面，为指挥控制的“观察”到“行动”循环过程需要的大规模知识图谱、智能问答决策提供基础理论支撑。" />
+<link rel="canonical" href="http://localhost:4000/2019/06/29/SA_Uncover_RE" />
+<meta property="og:url" content="http://localhost:4000/2019/06/29/SA_Uncover_RE" />
+<meta property="og:site_name" content="国防科技大学系统工程学院重点实验室" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-06-29T00:00:00+08:00" />
+<meta name="google-site-verification" content="UA-96359860-1" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2019/06/29/SA_Uncover_RE"},"description":"大规模非结构化文本数据是指挥控制从“观察”到“行动”循环中需要的重要数据支撑。面对日益增长的非结构化文本数据，如何帮助决策者理解这些数据，快速地从海量非结构化文本中发现知识，减轻决策者的学习成本，进一步提供辅助决策，显得越来越重要。信息抽取(Information Extraction)技术的研究正是为了解决这个问题。关系抽取(Relation Extraction)是信息抽取技术的重要环节，是信息抽取领域重要的基础任务和难点问题之一，其任务是从非结构化文本中自动识别出一对概念和联系这对概念的语义关系，并构成关系三元组。关系抽取不仅有助于非结构化文本数据的管理与服务，而且对于文本内容理解具有重要支撑作用，能够将文本分析从语言层面提升到知识层面，为指挥控制的“观察”到“行动”循环过程需要的大规模知识图谱、智能问答决策提供基础理论支撑。","@type":"BlogPosting","url":"http://localhost:4000/2019/06/29/SA_Uncover_RE","headline":"基于小样本机器学习的非结构化文本关系抽取研究","dateModified":"2019-06-29T00:00:00+08:00","datePublished":"2019-06-29T00:00:00+08:00","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+  <body>
+    <header>
+      <nav class="top-nav teal">
+        <div class="nav-wrapper">
+          <div class="container">
+            <a class="page-title" href="/">国防科技大学系统工程学院重点实验室</a>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <a href="#" data-activates="slide-out" class="button-collapse top-nav full hide-on-large-only">
+          <i class="material-icons">menu</i>
+        </a>
+      </div>
+      <ul id="slide-out" class="side-nav fixed">
+        <li>
+          <div class="userView">
+            <div class="background"></div>
+            <a href="https://github.com/c2-group/c2-group.github.io" target="_blank"><img class="circle z-depth-2" src="/assets/res/user.png"></a>
+            <span class="white-text name">c2-group</span>
+            <span class="white-text email">academic pages for c2 group</span>
+          </div>
+        </li>
+        <li><a class="waves-effect" href="/">Home</a></li>
+        <li><a class="waves-effect" href="/categories">Categories</a></li>
+        <li><a class="waves-effect" href="/tags">Tags</a></li>
+        <li><a class="waves-effect" href="/projects">Projects</a></li>
+        <!-- <li><a class="waves-effect" href="/feed.xml" target="_blank"><i class="material-icons">rss_feed</i>RSS</a></li> -->
+        <li><div class="divider"></div></li>
+        <li><a class="waves-effect" href="/concept">Concept</a></li>
+        <li><a class="waves-effect" href="/publication">Publication</a></li>
+        <li><a class="waves-effect" href="/dataset">Dataset and Codes</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="waves-effect" href="/students">Getting Started (For Students)</a></li>
+        <li><a class="waves-effect" href="/board">Bulletin Board</a></li>
+        <li><a class="waves-effect" href="/resources">Resources</a></li>
+        <li><a class="waves-effect" href="/talks">Talks and Presentations</a></li>
+        <li><a class="waves-effect" href="/about">About</a></li>
+      </ul>
+    </header>
+    <main>
+
+<div class="container">
+  <div id="post-info">
+  <h3>基于小样本机器学习的非结构化文本关系抽取研究</h3>
+  <ul class="collapsible hoverable" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header">
+        <span>
+          <i class="material-icons tooltipped" data-position="left" data-delay="30" data-tooltip="Date">date_range</i>
+          29/06/2019 00:00
+          <i id="indicate" class="right material-icons tooltipped" data-position="left" data-delay="30" data-tooltip="Show extra info">info</i>
+        </span>
+      </div>
+      <div class="collapsible-body">
+        <span>
+          <i class="material-icons tooltipped" data-position="left" data-delay="30" data-tooltip="Categories">sort</i>
+          
+          
+          
+          <a href="/categories#sa_cap" target="_blank"><div class="chip">SA</div></a>
+          
+        </span>
+        <span>
+          <i class="material-icons tooltipped" data-position="left" data-delay="30" data-tooltip="Tags">label</i>
+          
+        </span>
+      </div>
+    </li>
+  </ul>
+</div>
+<div class="divider"></div>
+<div class="row">
+  <div class="col s12">
+    <p>大规模非结构化文本数据是指挥控制从“观察”到“行动”循环中需要的重要数据支撑。面对日益增长的非结构化文本数据，如何帮助决策者理解这些数据，快速地从海量非结构化文本中发现知识，减轻决策者的学习成本，进一步提供辅助决策，显得越来越重要。信息抽取(Information Extraction)技术的研究正是为了解决这个问题。关系抽取(Relation Extraction)是信息抽取技术的重要环节，是信息抽取领域重要的基础任务和难点问题之一，其任务是从非结构化文本中自动识别出一对概念和联系这对概念的语义关系，并构成关系三元组。关系抽取不仅有助于非结构化文本数据的管理与服务，而且对于文本内容理解具有重要支撑作用，能够将文本分析从语言层面提升到知识层面，为指挥控制的“观察”到“行动”循环过程需要的大规模知识图谱、智能问答决策提供基础理论支撑。</p>
+
+<h1 id="基于小样本机器学习的非结构化文本关系抽取研究">基于小样本机器学习的非结构化文本关系抽取研究</h1>
+
+<h2 id="一问题描述">一、问题描述</h2>
+
+<p>大规模非结构化文本数据是指挥控制从“观察”到“行动”循环中需要的重要数据支撑。面对日益增长的非结构化文本数据，如何帮助决策者理解这些数据，快速地从海量非结构化文本中发现知识，减轻决策者的学习成本，进一步提供辅助决策，显得越来越重要。信息抽取(Information Extraction)技术的研究正是为了解决这个问题。关系抽取(Relation Extraction)是信息抽取技术的重要环节，是信息抽取领域重要的基础任务和难点问题之一，其任务是从非结构化文本中自动识别出一对概念和联系这对概念的语义关系，并构成关系三元组。关系抽取不仅有助于非结构化文本数据的管理与服务，而且对于文本内容理解具有重要支撑作用，能够将文本分析从语言层面提升到知识层面，为指挥控制的“观察”到“行动”循环过程需要的大规模知识图谱、智能问答决策提供基础理论支撑。</p>
+
+<p>目前，关系抽取主要包括三大类方法：监督式机器学习、半监督式机器学习和无监督式机器学习。监督式机器学习根据已有数据训练分类器，用训练好的分类器预测关系，通常具有较好效果。但是监督式学习的不足是需要大量人工标注的训练数据，人工标注训练数据需要花费大量时间和精力，因此，相关学者提出了基于远程监督（Distant Supervision）的关系抽取方法。随着深度学习的快速发展，相关学者将深度学习模型扩展到远监督模型上，进一步推动了关系抽取研究的发展。</p>
+
+<h2 id="二主要研究内容">二、主要研究内容</h2>
+<p>目标知识建模是指挥控制的关键基础技术，目标知识建模的主要难点在于如何在大规模非结构化文本数据中抽取目标、以及目标之间的关系。特别是针对互联网大规模非结构化文本数据，由于自然语言灵活多变，同一种语义关系可以使用不同的语言表达，而同一种语言表达在不同上下文中也经常描述不同的语义关系，自然语言的歧义性对面向非结构化文本的关系抽取提出了很大的挑战，其性能一直较低，其中有许多值得研究的问题。因此，针对目标知识建模领域训练样本不足、文本语义表示复杂，主要研究包括：</p>
+
+<ul>
+  <li>针对目标知识建模领域训练样本不足的问题、研究基于远监督学习的小样本训练集自动扩展方法，实现海量无标签文本数据自动标注；</li>
+  <li>远监督学习方法在一定程度上可以扩展小样本训练集，但同时也为大规模训练集带来了噪音数据，针对该问题，借鉴强化学习的自学习能力，研究基于深度强化学习的关系抽取方法，提高机器学习技术在数据样本缺失下关系抽取效果；</li>
+  <li>指挥控制目标数据语义复杂，短句子可能包含多个关系，多个长句子可能仅包含一个关系，针对上述问题，研究基于深层注意力机制的关系抽取方法，解决复杂语义下关系抽取的效果低效问题。</li>
+</ul>
+
+<h2 id="三参考技术路线">三、参考技术路线</h2>
+
+<p>我们以指挥控制目标知识建模为研究背景，以提高小样本训练集、复杂文本语义条件下的目标关系抽取效果为目标，主要研究远监督学习、弱监督学习、深度学习、深度强化学习等关键技术。</p>
+
+<h2 id="四研究资源">四、研究资源</h2>
+
+<ul>
+  <li>相关竞赛与数据集</li>
+</ul>
+
+<blockquote>
+  <p>信息抽取相关的会议/数据集有 MUC、ACE、KBP、SemEval 等。其中，ACE(Automated Content Extraction) 对 MUC 定义的任务进行了融合、分类和细化，KBP(Knowledge Base Population) 对 ACE 定义的任务进一步修订，分了四个独立任务和一个整合任务。</p>
+</blockquote>
+
+<ul>
+  <li>开源系统
+    <blockquote>
+      <p>https://github.com/parthatalukdar/junto</p>
+    </blockquote>
+  </li>
+</ul>
+
+<blockquote>
+  <p>https://github.com/yahoo/FEL</p>
+</blockquote>
+
+<blockquote>
+  <p>http://community.nzdl.org/wikification/about.html</p>
+</blockquote>
+
+<blockquote>
+  <p>http://aksw.org/Projects/AGDISTIS.html</p>
+</blockquote>
+
+<blockquote>
+  <p>https://github.com/dalab/pboh-entity-linking</p>
+</blockquote>
+
+<blockquote>
+  <p>https://github.com/devsisters/DQN-tensorflow</p>
+</blockquote>
+
+<blockquote>
+  <p>https://github.com/UKPLab/emnlp2017-bilstm-cnn-crf</p>
+</blockquote>
+
+  </div>
+</div>
+
+</div>
+
+    </main>
+    <footer class="page-footer teal">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <!-- <img src="/assets/res/logo.png" alt="logo"/> -->
+            <p class="grey-text text-lighten-4">C2 Group in Science and Technology on Information Systems Engineering Laboratory, National Unversity of Defense Technology
+</p>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="footer-copyright">
+        <div class="container">
+          &#xA9; 2019 国防科技大学系统工程学院重点实验室. All rights reserved. Powered by <a href="https://github.com/ShawnTeoh/matjek">MatJek</a>.
+        </div>
+      </div> -->
+    </footer>
+    <script src="//code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    
+    
+    <script src="/assets/js/post.js"></script>
+    
+    
+    
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})
+      (window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-96359860-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>

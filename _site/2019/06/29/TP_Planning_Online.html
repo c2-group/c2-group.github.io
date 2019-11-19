@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      
+      对抗条件下的在线任务规划
+      
+    </title>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/res/favicon.ico">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    
+    
+    <link rel="stylesheet" href="/assets/css/post.css">
+    
+    
+    
+    <link rel="stylesheet" href="/assets/css/syntax.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="对抗条件下的在线任务规划" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="任务规划指根据意图生成具体可实施的行动计划，其本质是把有限的资源在正确的时间部署到正确的地点去执行正确的任务，并在这一过程中实现预设目标的优化。它是一个涉及到行动过程、资源调度、时空协同等要素的决策过程。" />
+<meta property="og:description" content="任务规划指根据意图生成具体可实施的行动计划，其本质是把有限的资源在正确的时间部署到正确的地点去执行正确的任务，并在这一过程中实现预设目标的优化。它是一个涉及到行动过程、资源调度、时空协同等要素的决策过程。" />
+<link rel="canonical" href="http://localhost:4000/2019/06/29/TP_Planning_Online" />
+<meta property="og:url" content="http://localhost:4000/2019/06/29/TP_Planning_Online" />
+<meta property="og:site_name" content="国防科技大学系统工程学院重点实验室" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-06-29T00:00:00+08:00" />
+<meta name="google-site-verification" content="UA-96359860-1" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2019/06/29/TP_Planning_Online"},"description":"任务规划指根据意图生成具体可实施的行动计划，其本质是把有限的资源在正确的时间部署到正确的地点去执行正确的任务，并在这一过程中实现预设目标的优化。它是一个涉及到行动过程、资源调度、时空协同等要素的决策过程。","@type":"BlogPosting","url":"http://localhost:4000/2019/06/29/TP_Planning_Online","headline":"对抗条件下的在线任务规划","dateModified":"2019-06-29T00:00:00+08:00","datePublished":"2019-06-29T00:00:00+08:00","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+  <body>
+    <header>
+      <nav class="top-nav teal">
+        <div class="nav-wrapper">
+          <div class="container">
+            <a class="page-title" href="/">国防科技大学系统工程学院重点实验室</a>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <a href="#" data-activates="slide-out" class="button-collapse top-nav full hide-on-large-only">
+          <i class="material-icons">menu</i>
+        </a>
+      </div>
+      <ul id="slide-out" class="side-nav fixed">
+        <li>
+          <div class="userView">
+            <div class="background"></div>
+            <a href="https://github.com/c2-group/c2-group.github.io" target="_blank"><img class="circle z-depth-2" src="/assets/res/user.png"></a>
+            <span class="white-text name">c2-group</span>
+            <span class="white-text email">academic pages for c2 group</span>
+          </div>
+        </li>
+        <li><a class="waves-effect" href="/">Home</a></li>
+        <li><a class="waves-effect" href="/categories">Categories</a></li>
+        <li><a class="waves-effect" href="/tags">Tags</a></li>
+        <li><a class="waves-effect" href="/projects">Projects</a></li>
+        <!-- <li><a class="waves-effect" href="/feed.xml" target="_blank"><i class="material-icons">rss_feed</i>RSS</a></li> -->
+        <li><div class="divider"></div></li>
+        <li><a class="waves-effect" href="/concept">Concept</a></li>
+        <li><a class="waves-effect" href="/publication">Publication</a></li>
+        <li><a class="waves-effect" href="/dataset">Dataset and Codes</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="waves-effect" href="/students">Getting Started (For Students)</a></li>
+        <li><a class="waves-effect" href="/board">Bulletin Board</a></li>
+        <li><a class="waves-effect" href="/resources">Resources</a></li>
+        <li><a class="waves-effect" href="/talks">Talks and Presentations</a></li>
+        <li><a class="waves-effect" href="/about">About</a></li>
+      </ul>
+    </header>
+    <main>
+
+<div class="container">
+  <div id="post-info">
+  <h3>对抗条件下的在线任务规划</h3>
+  <ul class="collapsible hoverable" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header">
+        <span>
+          <i class="material-icons tooltipped" data-position="left" data-delay="30" data-tooltip="Date">date_range</i>
+          29/06/2019 00:00
+          <i id="indicate" class="right material-icons tooltipped" data-position="left" data-delay="30" data-tooltip="Show extra info">info</i>
+        </span>
+      </div>
+      <div class="collapsible-body">
+        <span>
+          <i class="material-icons tooltipped" data-position="left" data-delay="30" data-tooltip="Categories">sort</i>
+          
+          
+          
+          <a href="/categories#tp_cap" target="_blank"><div class="chip">TP</div></a>
+          
+        </span>
+        <span>
+          <i class="material-icons tooltipped" data-position="left" data-delay="30" data-tooltip="Tags">label</i>
+          
+        </span>
+      </div>
+    </li>
+  </ul>
+</div>
+<div class="divider"></div>
+<div class="row">
+  <div class="col s12">
+    <p>任务规划指根据意图生成具体可实施的行动计划，其本质是把有限的资源在正确的时间部署到正确的地点去执行正确的任务，并在这一过程中实现预设目标的优化。它是一个涉及到行动过程、资源调度、时空协同等要素的决策过程。</p>
+
+<h1 id="对抗条件下的在线任务规划">对抗条件下的在线任务规划</h1>
+<h2 id="概述">概述</h2>
+<p>任务规划指根据意图生成具体可实施的行动计划，其本质是把有限的资源在正确的时间部署到正确的地点去执行正确的任务，并在这一过程中实现预设目标的优化。它是一个涉及到行动过程、资源调度、时空协同等要素的决策过程。</p>
+
+<p>然而任务规划活动并不是单方面的，无论是战场环境中的直接对抗，还是商业活动中的冲突竞争，对抗性都是决策制定中必须考虑的现实因素。同时，这些对抗环境又是瞬息万变和信息非对称的，静态的任务规划往往不能适应对手和环境的动态变化。因此，在对抗条件下的在线任务规划问题具有重要的现实意义。</p>
+
+<p>对抗条件下的在线任务规划问题的有效解决，将帮助我们实现：</p>
+
+<blockquote>
+  <h4 id="1-更快速的响应提供能够支撑快速实时决策的任务规划引擎">1. 更快速的响应：提供能够支撑快速实时决策的任务规划引擎；</h4>
+</blockquote>
+
+<blockquote>
+  <h4 id="2-更灵活的应变提供能够灵活应对未来变化的任务规划引擎">2. 更灵活的应变：提供能够灵活应对未来变化的任务规划引擎；</h4>
+</blockquote>
+
+<blockquote>
+  <h4 id="3-有保障的收益提供在线与离线规划最优解的差距的理论保障">3. 有保障的收益：提供在线与离线规划最优解的差距的理论保障。</h4>
+</blockquote>
+
+<h2 id="研究内容">研究内容</h2>
+<p>对抗条件下的在线任务规划问题的研究将涉及以下几个方面：</p>
+
+<blockquote>
+  <h4 id="1-如何建模任务规划问题中的对抗性">1.	如何建模任务规划问题中的对抗性？</h4>
+</blockquote>
+
+<blockquote>
+  <h4 id="2-如何利用有限的历史态势信息辅助在线任务规划">2.	如何利用有限的历史态势信息辅助在线任务规划？</h4>
+</blockquote>
+
+<blockquote>
+  <h4 id="3-如何在未来信息未知的条件下提高在线任务规划的决策质量">3.	如何在未来信息未知的条件下提高在线任务规划的决策质量？</h4>
+</blockquote>
+
+<h2 id="研究思路">研究思路</h2>
+<p>对于对抗条件下的在线任务规划问题的研究，本课题组拟基于“观测-推断-决策-行动”闭环的技术路线。</p>
+
+<h2 id="参考资源">参考资源</h2>
+
+  </div>
+</div>
+
+</div>
+
+    </main>
+    <footer class="page-footer teal">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <!-- <img src="/assets/res/logo.png" alt="logo"/> -->
+            <p class="grey-text text-lighten-4">C2 Group in Science and Technology on Information Systems Engineering Laboratory, National Unversity of Defense Technology
+</p>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="footer-copyright">
+        <div class="container">
+          &#xA9; 2019 国防科技大学系统工程学院重点实验室. All rights reserved. Powered by <a href="https://github.com/ShawnTeoh/matjek">MatJek</a>.
+        </div>
+      </div> -->
+    </footer>
+    <script src="//code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    
+    
+    <script src="/assets/js/post.js"></script>
+    
+    
+    
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})
+      (window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-96359860-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>

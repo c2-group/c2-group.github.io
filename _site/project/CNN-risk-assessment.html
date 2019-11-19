@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      
+      
+      
+    </title>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/res/favicon.ico">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    
+    
+    <link rel="stylesheet" href="/assets/css/post.css">
+    
+    
+    
+    <link rel="stylesheet" href="/assets/css/syntax.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="国防科技大学系统工程学院重点实验室" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="基于CNN的漏洞预测与系统威胁评估研究" />
+<meta property="og:description" content="基于CNN的漏洞预测与系统威胁评估研究" />
+<link rel="canonical" href="http://localhost:4000/project/CNN-risk-assessment" />
+<meta property="og:url" content="http://localhost:4000/project/CNN-risk-assessment" />
+<meta property="og:site_name" content="国防科技大学系统工程学院重点实验室" />
+<meta name="google-site-verification" content="UA-96359860-1" />
+<script type="application/ld+json">
+{"description":"基于CNN的漏洞预测与系统威胁评估研究","@type":"WebPage","url":"http://localhost:4000/project/CNN-risk-assessment","headline":"国防科技大学系统工程学院重点实验室","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+  <body>
+    <header>
+      <nav class="top-nav teal">
+        <div class="nav-wrapper">
+          <div class="container">
+            <a class="page-title" href="/">国防科技大学系统工程学院重点实验室</a>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <a href="#" data-activates="slide-out" class="button-collapse top-nav full hide-on-large-only">
+          <i class="material-icons">menu</i>
+        </a>
+      </div>
+      <ul id="slide-out" class="side-nav fixed">
+        <li>
+          <div class="userView">
+            <div class="background"></div>
+            <a href="https://github.com/c2-group/c2-group.github.io" target="_blank"><img class="circle z-depth-2" src="/assets/res/user.png"></a>
+            <span class="white-text name">c2-group</span>
+            <span class="white-text email">academic pages for c2 group</span>
+          </div>
+        </li>
+        <li><a class="waves-effect" href="/">Home</a></li>
+        <li><a class="waves-effect" href="/categories">Categories</a></li>
+        <li><a class="waves-effect" href="/tags">Tags</a></li>
+        <li><a class="waves-effect" href="/projects">Projects</a></li>
+        <!-- <li><a class="waves-effect" href="/feed.xml" target="_blank"><i class="material-icons">rss_feed</i>RSS</a></li> -->
+        <li><div class="divider"></div></li>
+        <li><a class="waves-effect" href="/concept">Concept</a></li>
+        <li><a class="waves-effect" href="/publication">Publication</a></li>
+        <li><a class="waves-effect" href="/dataset">Dataset and Codes</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="waves-effect" href="/students">Getting Started (For Students)</a></li>
+        <li><a class="waves-effect" href="/board">Bulletin Board</a></li>
+        <li><a class="waves-effect" href="/resources">Resources</a></li>
+        <li><a class="waves-effect" href="/talks">Talks and Presentations</a></li>
+        <li><a class="waves-effect" href="/about">About</a></li>
+      </ul>
+    </header>
+    <main>
+
+<div class="container">
+  <div class="divider"></div>
+<div class="row">
+  <div class="col s12">
+    <h1 id="基于cnn的漏洞预测与系统威胁评估研究">基于CNN的漏洞预测与系统威胁评估研究</h1>
+
+<ol>
+  <li>
+    <p>问题描述：
+漏洞（vulnerability）是指在硬件、软件、协议的具体实现或系统安全策略上存在的缺陷，从而可以使攻击者能够在未授权的情况下对信息系统进行访问或破坏。漏洞一直是威胁信息系统安全的重要因素，层出不穷的漏洞对社会经济和大众隐私造成了巨大的威胁。随着代码规模的巨大化及逻辑的复杂化，漏洞的曝光频率越来越高，而不同漏洞对于信息系统的影响是不同的，有些漏洞被曝光后会被开发者忽略，而有些会被高度重视并及时修补。机器学习方法是在漏洞研究领域被应用的一类重要方法，其和文本挖掘的组合为研究者对漏洞进行评估分析提供了有力的支持。Hovsepyan等对利用JAVA写成的程序的源代码进行分析，构建可以表征源代码的词向量，并将这些词向量与相应的漏洞存在情况相对应，采用SVM等分类器来判断源代码中是否含有漏洞；Yamamoto等将LDA、SLDA等模型应用在爬取的NVD数据中，利用这些模型对爬取下的文本进行主题的提取，并利用提取的主题来对漏洞的特性进行描述。</p>
+  </li>
+  <li>
+    <p>主要研究内容：
+本项目根据漏洞的文字描述，利用文本挖掘的方法提取其中的关键词，将高频词汇统计数及利用PCA对稀疏词汇降维的结果合并作为特征，构造可以将漏洞描述进行定量化表示的特征向量。利用从漏洞库中获取的XSS漏洞数据在多种分类算法下训练CNN模型进行实验，证明本方法在漏洞威胁程度评估方面的有效性。本项目在网络安全方面具有较高的学术价值和较宽广的应用前景，可以为漏洞分析、预测以及评估提供重要的参考价值和一定的研究思路。</p>
+  </li>
+  <li>
+    <p>参考技术路线：
+本项目的研究目标主要针对如何根据对于漏洞的简短描述来智能预测该漏洞的威胁程度。技术路线包括，对漏洞库中的某型漏洞的描述数据及其威胁程度进行爬取；利用文本挖掘的方法和主成分分析构建可以反映漏洞描述的特征向量；进行CNN机器学习分类器的训练；进行原型系统的设计制作本项目所提方法及案例进行实际应用，并在内网真实环境进行原型系统的实验。</p>
+  </li>
+  <li>
+    <p>研究资源：</p>
+    <ul>
+      <li>在实际应用中，单纯依赖机器学习模型进行检测而忽视威胁情报会为攻击者的攻击埋下隐患。网络威胁情报（Cyber threat intelligence，CTI）是对传统网络安全的重要补充，对于研究人员来说，其可利用的威胁情报主要从开源网站上进行获取，这类威胁情报可以粗略划分为四种：IP地址信息、域名信息、漏洞数据库和开源情报信息库（例如有关安全的博客和论坛等）。在攻击检测过程中，可以直接自动化利用的是恶意IP地址库和恶意域名库，分属于粗分类的前两种。</li>
+      <li>恶意IP地址库是研究人员最容易获得的威胁情报之一，这些威胁情报被用于浏览器的访问黑名单中，当客户端发出的请求中包含这些地址时，浏览器便会进行阻拦。有很多公开网站发布恶意IP列表，其中，FireHOL 维护的恶意IP库是一个非常好的选择。FireHOL本身是Costa Tsaousis开发的用来对Linux内核防火墙的netfilter中IP表进行定制的一种shell脚本，其开发者提供了一个良好的恶意IP地址库，主要由四个来源的IP地址构成：fullbogons，出现在这些IP地址列表中的IP通常是DDOS攻击的来源，因此在一个路由器的路由表中这些地址不应该被添加进去；spamhaus drop and edrop，这个列表中包含了被专业的网络犯罪行动和钓鱼邮件使用后遗留下的IP；dshield，该IP地址包含了近三天排名前20的C类IP地址的攻击源IP；malware lists，顾名思义，是那些恶意软件或木马的常用网址。该综合IP地址库上的IP源地址会实时更新，并可以进行下载来对内部的应用IP地址库进行补充。</li>
+      <li>恶意域名库主要用于对僵尸网络、钓鱼页面和恶意软件进行防范。当一个用户访问的页面地址被包含在恶意域名列表中时，为用户安全考虑会对用户告警。很多网站都维护有向大众公开的相应的恶意域名库，在研究中可以从这些公开网站上获取相应数据。例如，PhishTank 是一个包含了众多钓鱼网址的网站，其由企业家David Ulevitch于2006年10月创办，是其主公司OpenDNS的一个分支，其主公司会利用自己开发的一套系统对用户请求检测的网站进行检测，并根据用户的投票来判断此网站是否为钓鱼网站，PhishTank上的大量记录由此而来。除此之外，还有DNS-BH project 、Malware Domain List等网站也提供了大量恶意域名信息。</li>
+    </ul>
+  </li>
+</ol>
+
+
+  </div>
+</div>
+
+</div>
+
+    </main>
+    <footer class="page-footer teal">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <!-- <img src="/assets/res/logo.png" alt="logo"/> -->
+            <p class="grey-text text-lighten-4">C2 Group in Science and Technology on Information Systems Engineering Laboratory, National Unversity of Defense Technology
+</p>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="footer-copyright">
+        <div class="container">
+          &#xA9; 2019 国防科技大学系统工程学院重点实验室. All rights reserved. Powered by <a href="https://github.com/ShawnTeoh/matjek">MatJek</a>.
+        </div>
+      </div> -->
+    </footer>
+    <script src="//code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    
+    
+    <script src="/assets/js/post.js"></script>
+    
+    
+    
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})
+      (window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-96359860-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>

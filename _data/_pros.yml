@@ -1,0 +1,15 @@
+- title: "CNN-risk-assessment"
+  url: "project/CNN-risk-assessment"
+  des: "基于CNN的漏洞预测与系统威胁评估研究"
+
+- title: "ISM-network-analysis"
+  url: "project/ISM-network-analysis"
+  des: "基于组合模型和机器学习的网络节点分析研究"
+
+- title: "SA-project-1"
+  url: "project/SA-project-1"
+  des: "基于贝叶斯网络的内部威胁检测研究"
+
+- title: "SA-project-2"
+  url: "project/SA-project-2"
+  des: "概率图模型结构学习的理论研究"

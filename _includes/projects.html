@@ -1,0 +1,19 @@
+{% assign image_files = site.static_files | where: "image", true %}
+
+{% for repo in site.project %}
+<div class="col s12 m6 l4">
+  <div class="card hoverable">
+    <div class="card-image waves-effect waves-block waves-light geopattern activator" data-pattern-id="{{repo.filename}}">
+      <a class="card-title center-align valign-wrapper" href="project/{{repo.filename}}.html">{{repo.filename}}</a>
+    </div>
+    <div class="card-content valign-wrapper center-align activator">
+      <span class="activator grey-text text-darken-1">{{repo.des}}</span>
+    </div>
+  </div>
+</div>
+{% endfor %}
+<div class="col s12" style="display: flex;flex-wrap: wrap;">
+    {% for myimage in image_files %}
+        <img src="{{ site.baseurl }}{{ myimage.path }}" alt="" style="max-width: 100%;margin-top: 10px;">
+    {% endfor %}
+  </div>

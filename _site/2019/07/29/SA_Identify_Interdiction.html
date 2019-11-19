@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      
+      纵深防御与网络阻断
+      
+    </title>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/res/favicon.ico">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    
+    
+    <link rel="stylesheet" href="/assets/css/post.css">
+    
+    
+    
+    <link rel="stylesheet" href="/assets/css/syntax.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="纵深防御与网络阻断" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="假如单点被突破，如何在网络内进行阻断？如何组织2线、3线防御？ 黑客进来后，网络环境其实非常复杂，他在其中也是一个寻找、摸索的过程。例如，IDC/OA 外部攻击进来后，可能通过web 近来，也可能过钓鱼进OA，再进去IDC。 如何从攻击链的角度来卡位：入口、出口、系统组件间联系、边界的关联点，尽可能从黑客视角，找到出入口。目前人工鉴别服务及网络上的关键点。" />
+<meta property="og:description" content="假如单点被突破，如何在网络内进行阻断？如何组织2线、3线防御？ 黑客进来后，网络环境其实非常复杂，他在其中也是一个寻找、摸索的过程。例如，IDC/OA 外部攻击进来后，可能通过web 近来，也可能过钓鱼进OA，再进去IDC。 如何从攻击链的角度来卡位：入口、出口、系统组件间联系、边界的关联点，尽可能从黑客视角，找到出入口。目前人工鉴别服务及网络上的关键点。" />
+<link rel="canonical" href="http://localhost:4000/2019/07/29/SA_Identify_Interdiction" />
+<meta property="og:url" content="http://localhost:4000/2019/07/29/SA_Identify_Interdiction" />
+<meta property="og:site_name" content="国防科技大学系统工程学院重点实验室" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-07-29T00:00:00+08:00" />
+<meta name="google-site-verification" content="UA-96359860-1" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2019/07/29/SA_Identify_Interdiction"},"description":"假如单点被突破，如何在网络内进行阻断？如何组织2线、3线防御？ 黑客进来后，网络环境其实非常复杂，他在其中也是一个寻找、摸索的过程。例如，IDC/OA 外部攻击进来后，可能通过web 近来，也可能过钓鱼进OA，再进去IDC。 如何从攻击链的角度来卡位：入口、出口、系统组件间联系、边界的关联点，尽可能从黑客视角，找到出入口。目前人工鉴别服务及网络上的关键点。","@type":"BlogPosting","url":"http://localhost:4000/2019/07/29/SA_Identify_Interdiction","headline":"纵深防御与网络阻断","dateModified":"2019-07-29T00:00:00+08:00","datePublished":"2019-07-29T00:00:00+08:00","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+  <body>
+    <header>
+      <nav class="top-nav teal">
+        <div class="nav-wrapper">
+          <div class="container">
+            <a class="page-title" href="/">国防科技大学系统工程学院重点实验室</a>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <a href="#" data-activates="slide-out" class="button-collapse top-nav full hide-on-large-only">
+          <i class="material-icons">menu</i>
+        </a>
+      </div>
+      <ul id="slide-out" class="side-nav fixed">
+        <li>
+          <div class="userView">
+            <div class="background"></div>
+            <a href="https://github.com/c2-group/c2-group.github.io" target="_blank"><img class="circle z-depth-2" src="/assets/res/user.png"></a>
+            <span class="white-text name">c2-group</span>
+            <span class="white-text email">academic pages for c2 group</span>
+          </div>
+        </li>
+        <li><a class="waves-effect" href="/">Home</a></li>
+        <li><a class="waves-effect" href="/categories">Categories</a></li>
+        <li><a class="waves-effect" href="/tags">Tags</a></li>
+        <li><a class="waves-effect" href="/projects">Projects</a></li>
+        <!-- <li><a class="waves-effect" href="/feed.xml" target="_blank"><i class="material-icons">rss_feed</i>RSS</a></li> -->
+        <li><div class="divider"></div></li>
+        <li><a class="waves-effect" href="/concept">Concept</a></li>
+        <li><a class="waves-effect" href="/publication">Publication</a></li>
+        <li><a class="waves-effect" href="/dataset">Dataset and Codes</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="waves-effect" href="/students">Getting Started (For Students)</a></li>
+        <li><a class="waves-effect" href="/board">Bulletin Board</a></li>
+        <li><a class="waves-effect" href="/resources">Resources</a></li>
+        <li><a class="waves-effect" href="/talks">Talks and Presentations</a></li>
+        <li><a class="waves-effect" href="/about">About</a></li>
+      </ul>
+    </header>
+    <main>
+
+<div class="container">
+  <div id="post-info">
+  <h3>纵深防御与网络阻断</h3>
+  <ul class="collapsible hoverable" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header">
+        <span>
+          <i class="material-icons tooltipped" data-position="left" data-delay="30" data-tooltip="Date">date_range</i>
+          29/07/2019 00:00
+          <i id="indicate" class="right material-icons tooltipped" data-position="left" data-delay="30" data-tooltip="Show extra info">info</i>
+        </span>
+      </div>
+      <div class="collapsible-body">
+        <span>
+          <i class="material-icons tooltipped" data-position="left" data-delay="30" data-tooltip="Categories">sort</i>
+          
+          
+          
+          <a href="/categories#sa_cap" target="_blank"><div class="chip">SA</div></a>
+          
+        </span>
+        <span>
+          <i class="material-icons tooltipped" data-position="left" data-delay="30" data-tooltip="Tags">label</i>
+          
+          
+          
+          <a href="/tags#防御_cap" target="_blank"><div class="chip">防御</div></a>
+          
+          
+          
+          <a href="/tags#网络阻断_cap" target="_blank"><div class="chip">网络阻断</div></a>
+          
+        </span>
+      </div>
+    </li>
+  </ul>
+</div>
+<div class="divider"></div>
+<div class="row">
+  <div class="col s12">
+    <p>假如单点被突破，如何在网络内进行阻断？如何组织2线、3线防御？
+黑客进来后，网络环境其实非常复杂，他在其中也是一个寻找、摸索的过程。例如，IDC/OA  外部攻击进来后，可能通过web 近来，也可能过钓鱼进OA，再进去IDC。
+如何从攻击链的角度来卡位：入口、出口、系统组件间联系、边界的关联点，尽可能从黑客视角，找到出入口。目前人工鉴别服务及网络上的关键点。</p>
+
+<h1 id="纵深防御与网络阻断">纵深防御与网络阻断</h1>
+
+<h2 id="背景">背景</h2>
+<p>假如单点被突破，如何在网络内进行阻断？如何组织2线、3线防御？
+黑客进来后，网络环境其实非常复杂，他在其中也是一个寻找、摸索的过程。例如，IDC/OA  外部攻击进来后，可能通过web 近来，也可能过钓鱼进OA，再进去IDC。
+如何从攻击链的角度来卡位：入口、出口、系统组件间联系、边界的关联点，尽可能从黑客视角，找到出入口。目前人工鉴别服务及网络上的关键点。
+对外服务，要绑定本地端口，所以端口关键，所以从端口入手，还没有到达智能去感知
+蜜罐议案如何部署？理想条件下，IDC主机同时也是蜜罐，危害可控的情况下，尽可能多的搜集信息，判断意图</p>
+
+<h2 id="问题">问题</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* 如何权衡控制手段的风险、效果、成本
+* 如何结合攻击链条，选取关键点，建立纵深防御？
+* 如何找出接入通道上的关键点？比如，能否找出需要重点防御的点？
+</code></pre></div></div>
+
+<p>构想的问题
+	*
+恶意软件的扩散阻断
+	*
+动态隔离策略
+	*
+意图的诱导</p>
+
+<p>可能的场景：
+	*
+漏洞的修复，但可能不需要那么复杂的模型，如考虑漏洞修复的时效性选择，成本高、低，有些立刻停止服务；
+	*
+内网中有中心机，有些通过授信，有些通过破解密码，不同过程有不同的成本，服务器之间穿梭的路径，成本不同。</p>
+
+<h2 id="解决思路">解决思路</h2>
+<p>如果形成了对风险的评估，如果有人想利用，则可以基于其渗透的链条，及其在拓扑中体现出来的特征，在各点上进行卡位，插入探头、进行阻断等。</p>
+
+<p>难点
+防控成本：自身（防控）系统可用性、给原来系统增加的延时、策略的准确性；服务质量、准确度
+轻量可控：针对某个进程的
+决策算法是否在线？开销？
+网络规模对算法速度的影响？
+传播模型，如何定权值？攻击、时间？
+拓扑、漏洞、知识库全部建立以后，才会到达这个阶段，需要建立在知识图谱基础上，对动作的效果有先验知识。资产识别、知识图谱，然后才能是决策
+成本难以量化
+现在的决策比较宏观，通过业务、系统两层去看，控制目前考虑主机的进程、调用的控制，网络对数据的删除</p>
+
+  </div>
+</div>
+
+</div>
+
+    </main>
+    <footer class="page-footer teal">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <!-- <img src="/assets/res/logo.png" alt="logo"/> -->
+            <p class="grey-text text-lighten-4">C2 Group in Science and Technology on Information Systems Engineering Laboratory, National Unversity of Defense Technology
+</p>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="footer-copyright">
+        <div class="container">
+          &#xA9; 2019 国防科技大学系统工程学院重点实验室. All rights reserved. Powered by <a href="https://github.com/ShawnTeoh/matjek">MatJek</a>.
+        </div>
+      </div> -->
+    </footer>
+    <script src="//code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    
+    
+    <script src="/assets/js/post.js"></script>
+    
+    
+    
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})
+      (window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-96359860-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>

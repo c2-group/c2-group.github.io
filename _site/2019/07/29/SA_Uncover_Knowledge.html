@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      
+      小样本/弱监督条件下知识抽取方法
+      
+    </title>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/res/favicon.ico">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    
+    
+    <link rel="stylesheet" href="/assets/css/post.css">
+    
+    
+    
+    <link rel="stylesheet" href="/assets/css/syntax.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="小样本/弱监督条件下知识抽取方法" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="网络空间态势感知的基础环节为知识的应用，但是，网络空间知识数据分布广泛，且大多数都以非结构化的文本来描述知识的内容。非结构化文本导致知识组织、管理困难，且使得知识不能够得到充分的运用和推理。因此，本研究内容以知识抽取为背景，主要研究在训练集不足的情况下，如何利用机器学习方法解决知识抽取的问题" />
+<meta property="og:description" content="网络空间态势感知的基础环节为知识的应用，但是，网络空间知识数据分布广泛，且大多数都以非结构化的文本来描述知识的内容。非结构化文本导致知识组织、管理困难，且使得知识不能够得到充分的运用和推理。因此，本研究内容以知识抽取为背景，主要研究在训练集不足的情况下，如何利用机器学习方法解决知识抽取的问题" />
+<link rel="canonical" href="http://localhost:4000/2019/07/29/SA_Uncover_Knowledge" />
+<meta property="og:url" content="http://localhost:4000/2019/07/29/SA_Uncover_Knowledge" />
+<meta property="og:site_name" content="国防科技大学系统工程学院重点实验室" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-07-29T00:00:00+08:00" />
+<meta name="google-site-verification" content="UA-96359860-1" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2019/07/29/SA_Uncover_Knowledge"},"description":"网络空间态势感知的基础环节为知识的应用，但是，网络空间知识数据分布广泛，且大多数都以非结构化的文本来描述知识的内容。非结构化文本导致知识组织、管理困难，且使得知识不能够得到充分的运用和推理。因此，本研究内容以知识抽取为背景，主要研究在训练集不足的情况下，如何利用机器学习方法解决知识抽取的问题","@type":"BlogPosting","url":"http://localhost:4000/2019/07/29/SA_Uncover_Knowledge","headline":"小样本/弱监督条件下知识抽取方法","dateModified":"2019-07-29T00:00:00+08:00","datePublished":"2019-07-29T00:00:00+08:00","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+  <body>
+    <header>
+      <nav class="top-nav teal">
+        <div class="nav-wrapper">
+          <div class="container">
+            <a class="page-title" href="/">国防科技大学系统工程学院重点实验室</a>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <a href="#" data-activates="slide-out" class="button-collapse top-nav full hide-on-large-only">
+          <i class="material-icons">menu</i>
+        </a>
+      </div>
+      <ul id="slide-out" class="side-nav fixed">
+        <li>
+          <div class="userView">
+            <div class="background"></div>
+            <a href="https://github.com/c2-group/c2-group.github.io" target="_blank"><img class="circle z-depth-2" src="/assets/res/user.png"></a>
+            <span class="white-text name">c2-group</span>
+            <span class="white-text email">academic pages for c2 group</span>
+          </div>
+        </li>
+        <li><a class="waves-effect" href="/">Home</a></li>
+        <li><a class="waves-effect" href="/categories">Categories</a></li>
+        <li><a class="waves-effect" href="/tags">Tags</a></li>
+        <li><a class="waves-effect" href="/projects">Projects</a></li>
+        <!-- <li><a class="waves-effect" href="/feed.xml" target="_blank"><i class="material-icons">rss_feed</i>RSS</a></li> -->
+        <li><div class="divider"></div></li>
+        <li><a class="waves-effect" href="/concept">Concept</a></li>
+        <li><a class="waves-effect" href="/publication">Publication</a></li>
+        <li><a class="waves-effect" href="/dataset">Dataset and Codes</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="waves-effect" href="/students">Getting Started (For Students)</a></li>
+        <li><a class="waves-effect" href="/board">Bulletin Board</a></li>
+        <li><a class="waves-effect" href="/resources">Resources</a></li>
+        <li><a class="waves-effect" href="/talks">Talks and Presentations</a></li>
+        <li><a class="waves-effect" href="/about">About</a></li>
+      </ul>
+    </header>
+    <main>
+
+<div class="container">
+  <div id="post-info">
+  <h3>小样本/弱监督条件下知识抽取方法</h3>
+  <ul class="collapsible hoverable" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header">
+        <span>
+          <i class="material-icons tooltipped" data-position="left" data-delay="30" data-tooltip="Date">date_range</i>
+          29/07/2019 00:00
+          <i id="indicate" class="right material-icons tooltipped" data-position="left" data-delay="30" data-tooltip="Show extra info">info</i>
+        </span>
+      </div>
+      <div class="collapsible-body">
+        <span>
+          <i class="material-icons tooltipped" data-position="left" data-delay="30" data-tooltip="Categories">sort</i>
+          
+          
+          
+          <a href="/categories#sa_cap" target="_blank"><div class="chip">SA</div></a>
+          
+        </span>
+        <span>
+          <i class="material-icons tooltipped" data-position="left" data-delay="30" data-tooltip="Tags">label</i>
+          
+        </span>
+      </div>
+    </li>
+  </ul>
+</div>
+<div class="divider"></div>
+<div class="row">
+  <div class="col s12">
+    <p>网络空间态势感知的基础环节为知识的应用，但是，网络空间知识数据分布广泛，且大多数都以非结构化的文本来描述知识的内容。非结构化文本导致知识组织、管理困难，且使得知识不能够得到充分的运用和推理。因此，本研究内容以知识抽取为背景，主要研究在训练集不足的情况下，如何利用机器学习方法解决知识抽取的问题</p>
+
+<h1 id="小样本弱监督条件下知识抽取方法">小样本/弱监督条件下知识抽取方法</h1>
+
+<h2 id="一问题描述">一、问题描述</h2>
+
+<p>网络空间态势感知的基础环节为知识的应用，但是，网络空间知识数据分布广泛，且大多数都以非结构化的文本来描述知识的内容。非结构化文本导致知识组织、管理困难，且使得知识不能够得到充分的运用和推理。因此，本研究内容以知识抽取为背景，主要研究在训练集不足的情况下，如何利用机器学习方法解决知识抽取的问题。</p>
+
+<p>具体的知识抽取任务主要包括如下四个方面：</p>
+
+<p>（1）漏洞知识抽取</p>
+
+<p>在非结构化文本描述中抽取漏洞的知识表示，比如下图所示漏洞描述中可以抽取漏洞针对的公司以及对应的产品服务。在上述漏洞知识抽取基础上，可以实现2个应用：使用漏洞所属公司在过去的漏洞发生模式来预测该公司产品在未来的漏洞发生风险性；使用漏洞针对的产品服务务在过去的漏洞发生模式来预测该产品服务在未来的漏洞发生风险性。</p>
+
+<p><img src="../../assets/graphs/leak.png" alt="LEAK" /></p>
+
+<p>（2）开源情报装备动向抽取</p>
+
+<p>在非结构化开源情报文本描述中抽取装备的知识表示，比如下图所示社交媒体数据中可以抽取装备搭载关系、抽取装备动向等。在上述关系抽取基础上，可以实现2个应用：利用开源情报还原装备体系关系；利用开源情报抽取装备动向，了解全球装备态势。</p>
+
+<p><img src="../../assets/graphs/medias.png" alt="MEDIAS" /></p>
+
+<p>（3）协议识别</p>
+
+<p>利用高速的协议五元组流来识别协议对象？比如通过协议数据来识别源地址是否为服务器；通过协议来识别源地址是否使用Google Chrome浏览器等。</p>
+
+<p>（4）文本分类</p>
+
+<p>在少量样本标签、或者不存在样本标签的情况下，对文本进行分类。</p>
+
+<p>针对知识抽取的上述任务，存在如下技术难点：</p>
+
+<p>传统的关系抽取大部分集中在类似ACE这种公开的训练集上验证算法有效性，但这些算法模型无法直接应用在漏洞、装备知识抽取、协议分析等任务中，且上述任务目前缺乏有效训练集，难以使用目前通用的深度学习等方法。</p>
+
+<p>因此，我们有效的解决技术途径如下：</p>
+
+<p>将小样本/弱监督机器学习方法扩展到深度学习中来有效解决机器学习算法训练集不足的问题。</p>
+
+<h2 id="二主要研究内容">二、主要研究内容</h2>
+
+<p>（1）基于深度强化学习的远监督实体关系抽取方法</p>
+
+<p>思想：利用元搜索等方法获取大量新的远监督训练集，针对训练集质量不高的问题，进一步利用深度强化学习来挑选训练集</p>
+
+<p>（2）基于多示例多标签学习的实体关系抽取方法</p>
+
+<p>思想：文本内容中通常只有几句话可以用来表示机器学习特征（多示例学习），文本内容通常包含多个关系（多标签学习）</p>
+
+<p>（3）基于迁移学习的实体关系抽取方法</p>
+
+<p>创新研究：能否将类似ACE等已有训练集的模式迁移到漏洞、装备知识抽取、协议分析等任务中</p>
+
+<p>（4）基于多任务学习的实体关系抽取方法</p>
+
+<p>创新研究：能否将人物知识抽取、装备知识抽取、漏洞知识抽取等多个任务结合起来提高机器学习性能</p>
+
+<h2 id="三研究资源">三、研究资源</h2>
+
+<ul>
+  <li>相关竞赛与数据集</li>
+</ul>
+
+<blockquote>
+  <p>信息抽取相关的会议/数据集有 MUC、ACE、KBP、SemEval 等。其中，ACE(Automated Content Extraction) 对 MUC 定义的任务进行了融合、分类和细化，KBP(Knowledge Base Population) 对 ACE 定义的任务进一步修订，分了四个独立任务和一个整合任务。</p>
+</blockquote>
+
+<ul>
+  <li>开源系统
+    <blockquote>
+      <p>刘知远团队关系抽取 https://github.com/crownpku/Information-Extraction-Chinese</p>
+    </blockquote>
+  </li>
+</ul>
+
+<blockquote>
+  <p>弱监督关系抽取Deep Residual Learning for Weakly-Supervised Relation Extraction https://www.cs.ucsb.edu/~william/</p>
+</blockquote>
+
+<blockquote>
+  <p>多标签多示例关系抽取 https://github.com/may-/cnn-re-tf</p>
+</blockquote>
+
+<blockquote>
+  <p>深度强化学习关系抽取 https://github.com/karthikncode/DeepRL-InformationExtraction</p>
+</blockquote>
+
+  </div>
+</div>
+
+</div>
+
+    </main>
+    <footer class="page-footer teal">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <!-- <img src="/assets/res/logo.png" alt="logo"/> -->
+            <p class="grey-text text-lighten-4">C2 Group in Science and Technology on Information Systems Engineering Laboratory, National Unversity of Defense Technology
+</p>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="footer-copyright">
+        <div class="container">
+          &#xA9; 2019 国防科技大学系统工程学院重点实验室. All rights reserved. Powered by <a href="https://github.com/ShawnTeoh/matjek">MatJek</a>.
+        </div>
+      </div> -->
+    </footer>
+    <script src="//code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    
+    
+    <script src="/assets/js/post.js"></script>
+    
+    
+    
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})
+      (window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-96359860-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>
