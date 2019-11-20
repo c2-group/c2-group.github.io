@@ -22,7 +22,7 @@ tags: 态势认知 还原
 ![815](http://5b0988e595225.cdn.sohucs.com/images/20180716/fc6994c375144cdfb6e2683e0a7da646.jpeg)
 
 在网络领域中，有各类主动扫描探测的手段或系统，如[CAIDA](http://www.caida.org/home/)，以及被动接收网络数据包进行流量分析的工具，如[WireShark](https://www.wireshark.org)等。通过主被动的扫描、监听，再结合其他来源的情报，就有可能还原出网络中各层的实体、关系，生成网络空间地图。
-![uncover](../../assets/graphs/uncover.gif)
+![uncover](../../../assets/graphs/uncover.gif)
 
 **问题**：如何综合各维度的观测数据，有效还原所观测的对象的整体情况？具体包括：
 - 有哪些实体存在？是什么类型？具备什么属性、特征？
@@ -32,9 +32,9 @@ tags: 态势认知 还原
 
 
 ## 研究选题
- - [小样本/弱监督条件下知识抽取方法](./SA_Uncover_Knowledge.md)
- - [面向网络空间关键地形识别的知识获取与利用技术](./SA_Uncover_Kdata.md)
+ - [小样本/弱监督条件下知识抽取方法](../../../2019/07/29/SA_Uncover_Knowledge.html)
+ - [面向网络空间关键地形识别的知识获取与利用技术](../../../2019/06/29/SA_Uncover_Kdata.html)
  - 数据与知识结合的（文本？）对象检测与识别
  - 基于机器学习的结构特征自动提取与结构还原
- - [基于小样本机器学习的非结构化文本关系抽取研究](./SA_Uncover_RE.md)
- - [面向还原与生成的网络空间知识化表示方法](./SA_Uncover_Reduction.md)
+ - [基于小样本机器学习的非结构化文本关系抽取研究](../../../2019/06/29/SA_Uncover_RE.html)
+ - [面向还原与生成的网络空间知识化表示方法](../../../2019/07/29/SA_Uncover_Reduction.html)

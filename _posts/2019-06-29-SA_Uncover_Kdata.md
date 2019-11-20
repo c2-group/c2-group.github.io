@@ -32,19 +32,19 @@ categories: SA
 
 可采集的数据如下图所示
 
-![KDATA](../../assets/graphs/kdata.png)
+![KDATA](../../../assets/graphs/kdata.png)
 
 （2）基于知识的网络脆弱节点拓扑还原
 
 思想：综合考虑网络拓、主机脆弱性知识、防火墙规则等知识发现网络中的脆弱节点，具体技术路线如下图所示
 
-![graphrecover](../../assets/graphs/graphrecover.png)
+![graphrecover](../../../assets/graphs/graphrecover.png)
 
 （3）基于攻击模式、漏洞、异常知识的关联分析
 
 思想：关联攻击模式库CAPEC、漏洞知识CVE、异常知识snort等，发现关键地形的攻击路径，具体的技术路线如下图所示。 
 
-![relevance](../../assets/graphs/relevance.png)
+![relevance](../../../assets/graphs/relevance.png)
 
 ## 三、研究资源
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/jeykll-test/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/jeykll-test/" rel="alternate" type="text/html" /><updated>2019-11-20T13:54:10+08:00</updated><id>http://localhost:4000/jeykll-test/feed.xml</id><title type="html">国防科技大学系统工程学院重点实验室</title><subtitle>C2 Group in Science and Technology on Information Systems Engineering Laboratory, National Unversity of Defense Technology
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/jeykll-test/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/jeykll-test/" rel="alternate" type="text/html" /><updated>2019-11-20T14:28:13+08:00</updated><id>http://localhost:4000/jeykll-test/feed.xml</id><title type="html">国防科技大学系统工程学院重点实验室</title><subtitle>C2 Group in Science and Technology on Information Systems Engineering Laboratory, National Unversity of Defense Technology
 </subtitle><entry><title type="html">面向内部与未知威胁的行为分析与异常检测</title><link href="http://localhost:4000/jeykll-test/2019/07/29/SA_Understand_Behavior" rel="alternate" type="text/html" title="面向内部与未知威胁的行为分析与异常检测" /><published>2019-07-29T00:00:00+08:00</published><updated>2019-07-29T00:00:00+08:00</updated><id>http://localhost:4000/jeykll-test/2019/07/29/SA_Understand_Behavior</id><content type="html" xml:base="http://localhost:4000/jeykll-test/2019/07/29/SA_Understand_Behavior">&lt;h1 id=&quot;面向内部与未知威胁的行为分析与异常检测&quot;&gt;面向内部与未知威胁的行为分析与异常检测&lt;/h1&gt;
 
 &lt;h2 id=&quot;概述&quot;&gt;概述&lt;/h2&gt;
@@ -63,13 +63,13 @@ SMO	OWL	Security Metric Ontology	安全度量本体	https://github.com/marcusp46
 
 &lt;p&gt;在非结构化文本描述中抽取漏洞的知识表示，比如下图所示漏洞描述中可以抽取漏洞针对的公司以及对应的产品服务。在上述漏洞知识抽取基础上，可以实现2个应用：使用漏洞所属公司在过去的漏洞发生模式来预测该公司产品在未来的漏洞发生风险性；使用漏洞针对的产品服务务在过去的漏洞发生模式来预测该产品服务在未来的漏洞发生风险性。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/graphs/leak.png&quot; alt=&quot;LEAK&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../assets/graphs/leak.png&quot; alt=&quot;LEAK&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;（2）开源情报装备动向抽取&lt;/p&gt;
 
 &lt;p&gt;在非结构化开源情报文本描述中抽取装备的知识表示，比如下图所示社交媒体数据中可以抽取装备搭载关系、抽取装备动向等。在上述关系抽取基础上，可以实现2个应用：利用开源情报还原装备体系关系；利用开源情报抽取装备动向，了解全球装备态势。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/graphs/medias.png&quot; alt=&quot;MEDIAS&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../assets/graphs/medias.png&quot; alt=&quot;MEDIAS&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;（3）协议识别&lt;/p&gt;
 
@@ -219,7 +219,7 @@ SMO	OWL	Security Metric Ontology	安全度量本体	https://github.com/marcusp46
 &lt;/ul&gt;
 
 &lt;p&gt;例如，有研究曾通过采集的网络数据，构建出网络服务之间的依赖关系，并判断出其中的关键服务。
-&lt;img src=&quot;../../assets/graphs/KeyService.png&quot; alt=&quot;Service&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;../../../assets/graphs/KeyService.png&quot; alt=&quot;Service&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;关键数据&lt;/strong&gt;&lt;/li&gt;
@@ -241,7 +241,7 @@ SMO	OWL	Security Metric Ontology	安全度量本体	https://github.com/marcusp46
 &lt;/ul&gt;
 
 &lt;p&gt;美网空作战条例JP3-12中反复提到“网络空间关键地形（Cyber Key Terrain， CKT）”，借鉴了陆地环境中“地形”的概念，认为对CKT的识别是支撑网络空间行动的重要问题。美陆军曾提出了OCOKA模型，从视界、射界、隐蔽、障碍、接近通道等多个维度提供对地形关键性的判断与度量。
-&lt;img src=&quot;../../assets/graphs/OCOKA.gif&quot; alt=&quot;OCOKA&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;../../../assets/graphs/OCOKA.gif&quot; alt=&quot;OCOKA&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;JP3-12中指出：&lt;/p&gt;
 &lt;blockquote&gt;
@@ -250,7 +250,7 @@ SMO	OWL	Security Metric Ontology	安全度量本体	https://github.com/marcusp46
 
 &lt;p&gt;因为网络空间的虚拟性、多变性，使得关键地形的判断更类似于围棋而非象棋。围棋中的每一个棋子都可以随时成为重要的棋子，取决于盘面整体；而象棋中的每一个棋子都有明确的角色和动作规则。如何根据整体态势来判断虚拟、多变的网络空间中的关键地形，是一个极具挑战性，需要想象力的原创性问题。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/graphs/Chess.gif&quot; alt=&quot;Chess&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../assets/graphs/Chess.gif&quot; alt=&quot;Chess&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;脆弱点判断&quot;&gt;脆弱点判断&lt;/h3&gt;
 
@@ -283,9 +283,9 @@ SMO	OWL	Security Metric Ontology	安全度量本体	https://github.com/marcusp46
 
 &lt;h2 id=&quot;研究选题&quot;&gt;研究选题&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;./SA_Identify_Data.md&quot;&gt;关键数据资产识别&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;./SA_Identify_Interdiction.md&quot;&gt;纵深防御与网络阻断&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;./SA_Identify_MultiLayer.md&quot;&gt;跨域多层依赖网络建模与表示&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;../../../2019/07/29/SA_Identify_Data.html&quot;&gt;关键数据资产识别&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;../../../2019/07/29/SA_Identify_Interdiction.html&quot;&gt;纵深防御与网络阻断&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;../../../2019/06/29/SA_Identify_MultiLayer.html&quot;&gt;跨域多层依赖网络建模与表示&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Meta-Graph行为模式分析&lt;/li&gt;
   &lt;li&gt;基于级联失效模型的网络重心识别&lt;/li&gt;
 &lt;/ul&gt;</content><author><name></name></author><category term="态势认知" /><category term="判断" /><summary type="html">态势认知——判断</summary></entry><entry><title type="html">指控组织设计</title><link href="http://localhost:4000/jeykll-test/2019/07/29/C2_Org" rel="alternate" type="text/html" title="指控组织设计" /><published>2019-07-29T00:00:00+08:00</published><updated>2019-07-29T00:00:00+08:00</updated><id>http://localhost:4000/jeykll-test/2019/07/29/C2_Org</id><content type="html" xml:base="http://localhost:4000/jeykll-test/2019/07/29/C2_Org">&lt;h1 id=&quot;指控组织设计&quot;&gt;指控组织设计&lt;/h1&gt;
