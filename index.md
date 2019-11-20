@@ -1,6 +1,7 @@
 ---
 layout: single
-title: ""
+title: "国防科技大学系统工程学院重点实验室"
+url: /
 ---
 # What is C2
 指挥控制（Command and Control, **C2**）是我们今天再熟悉不过的军事术语。其不仅代表了军事中的核心活动，也广泛体现在生产、管理以及日常生活中。

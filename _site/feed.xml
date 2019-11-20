@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-19T13:58:09+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">国防科技大学系统工程学院重点实验室</title><subtitle>C2 Group in Science and Technology on Information Systems Engineering Laboratory, National Unversity of Defense Technology
-</subtitle><entry><title type="html">面向内部与未知威胁的行为分析与异常检测</title><link href="http://localhost:4000/2019/07/29/SA_Understand_Behavior" rel="alternate" type="text/html" title="面向内部与未知威胁的行为分析与异常检测" /><published>2019-07-29T00:00:00+08:00</published><updated>2019-07-29T00:00:00+08:00</updated><id>http://localhost:4000/2019/07/29/SA_Understand_Behavior</id><content type="html" xml:base="http://localhost:4000/2019/07/29/SA_Understand_Behavior">&lt;p&gt;实际网络空间（战场环境）环境具有&lt;strong&gt;环境动态，数据海量&lt;/strong&gt;的特点。如，在IDC网中，业务不同的节点之间一般不存在关联，但IDC又是通的，黑客会渗透，因此可能产生不应该有的关联。
-OA内网中，员工间的异常交互行为也可能意味着高的内部风险；
-用户对数据的访问行为，也是数据防护中的分析重点
-0-day的漏洞，超出预期，只能通过（关键）行为进行检测，通过采集端、服务，做异常分析，不是基于安全的分析，可能检测出很多的异常，如何理解这些异常，是一个挑战。&lt;/p&gt;
-
-&lt;h1 id=&quot;面向内部与未知威胁的行为分析与异常检测&quot;&gt;面向内部与未知威胁的行为分析与异常检测&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/jeykll-test/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/jeykll-test/" rel="alternate" type="text/html" /><updated>2019-11-20T13:54:10+08:00</updated><id>http://localhost:4000/jeykll-test/feed.xml</id><title type="html">国防科技大学系统工程学院重点实验室</title><subtitle>C2 Group in Science and Technology on Information Systems Engineering Laboratory, National Unversity of Defense Technology
+</subtitle><entry><title type="html">面向内部与未知威胁的行为分析与异常检测</title><link href="http://localhost:4000/jeykll-test/2019/07/29/SA_Understand_Behavior" rel="alternate" type="text/html" title="面向内部与未知威胁的行为分析与异常检测" /><published>2019-07-29T00:00:00+08:00</published><updated>2019-07-29T00:00:00+08:00</updated><id>http://localhost:4000/jeykll-test/2019/07/29/SA_Understand_Behavior</id><content type="html" xml:base="http://localhost:4000/jeykll-test/2019/07/29/SA_Understand_Behavior">&lt;h1 id=&quot;面向内部与未知威胁的行为分析与异常检测&quot;&gt;面向内部与未知威胁的行为分析与异常检测&lt;/h1&gt;
 
 &lt;h2 id=&quot;概述&quot;&gt;概述&lt;/h2&gt;
 
@@ -28,9 +23,7 @@ OA内网中，员工间的异常交互行为也可能意味着高的内部风险
   &lt;li&gt;&lt;a href=&quot;https://snap.stanford.edu/data/index.html&quot;&gt;SNAP Datasets from STANFORD UNIVERSITY&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://open.baidu.com/open/#/&quot;&gt;Open Datasets from Baidu&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/datasets&quot;&gt;Open Datasets from Kaggle&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="test" /><summary type="html">实际网络空间（战场环境）环境具有环境动态，数据海量的特点。如，在IDC网中，业务不同的节点之间一般不存在关联，但IDC又是通的，黑客会渗透，因此可能产生不应该有的关联。 OA内网中，员工间的异常交互行为也可能意味着高的内部风险； 用户对数据的访问行为，也是数据防护中的分析重点 0-day的漏洞，超出预期，只能通过（关键）行为进行检测，通过采集端、服务，做异常分析，不是基于安全的分析，可能检测出很多的异常，如何理解这些异常，是一个挑战。</summary></entry><entry><title type="html">面向还原与生成的网络空间知识化表示方法</title><link href="http://localhost:4000/2019/07/29/SA_Uncover_Reduction" rel="alternate" type="text/html" title="面向还原与生成的网络空间知识化表示方法" /><published>2019-07-29T00:00:00+08:00</published><updated>2019-07-29T00:00:00+08:00</updated><id>http://localhost:4000/2019/07/29/SA_Uncover_Reduction</id><content type="html" xml:base="http://localhost:4000/2019/07/29/SA_Uncover_Reduction">&lt;p&gt;背景：网络空间相关数据匮乏制约着网络空间相关研究及其实验的开展，还原与生成获得网络空间仿真数据，可为开展相关研究提供基础支撑。由于数据匮乏，相关知识难以通过机器学习获取，需要借助领域知识来实现还原与生成获得网络空间仿真数据。&lt;/p&gt;
-
-&lt;h1 id=&quot;面向还原与生成的网络空间知识化表示方法&quot;&gt;面向还原与生成的网络空间知识化表示方法&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="test" /><summary type="html">面向内部与未知威胁的行为分析与异常检测</summary></entry><entry><title type="html">面向还原与生成的网络空间知识化表示方法</title><link href="http://localhost:4000/jeykll-test/2019/07/29/SA_Uncover_Reduction" rel="alternate" type="text/html" title="面向还原与生成的网络空间知识化表示方法" /><published>2019-07-29T00:00:00+08:00</published><updated>2019-07-29T00:00:00+08:00</updated><id>http://localhost:4000/jeykll-test/2019/07/29/SA_Uncover_Reduction</id><content type="html" xml:base="http://localhost:4000/jeykll-test/2019/07/29/SA_Uncover_Reduction">&lt;h1 id=&quot;面向还原与生成的网络空间知识化表示方法&quot;&gt;面向还原与生成的网络空间知识化表示方法&lt;/h1&gt;
 
 &lt;h2 id=&quot;问题概述&quot;&gt;问题概述&lt;/h2&gt;
 &lt;p&gt;背景：网络空间相关数据匮乏制约着网络空间相关研究及其实验的开展，还原与生成获得网络空间仿真数据，可为开展相关研究提供基础支撑。由于数据匮乏，相关知识难以通过机器学习获取，需要借助领域知识来实现还原与生成获得网络空间仿真数据。
@@ -58,9 +51,7 @@ CybOX	OWL	Cyber Observable eXpression	网络可观察对象表达	http://cybox.m
 		Modeling Cyber-Physical Systems	 	https://www.researchgate.net/publication/220473317_Modeling_Cyber-Physical_Systems
 		The Essential Features of an Ontology for Cyberwarfare	网络战基本特征本体	http://www.crcnetbase.com/doi/abs/10.1201/b15253-7
 MAEC	OWL	Malware Attribute Enumeration and Characterization	病毒属性枚举与刻画	http://maec.mitre.org/
-SMO	OWL	Security Metric Ontology	安全度量本体	https://github.com/marcusp46/security-metrics-ontology&lt;/p&gt;</content><author><name></name></author><summary type="html">背景：网络空间相关数据匮乏制约着网络空间相关研究及其实验的开展，还原与生成获得网络空间仿真数据，可为开展相关研究提供基础支撑。由于数据匮乏，相关知识难以通过机器学习获取，需要借助领域知识来实现还原与生成获得网络空间仿真数据。</summary></entry><entry><title type="html">小样本/弱监督条件下知识抽取方法</title><link href="http://localhost:4000/2019/07/29/SA_Uncover_Knowledge" rel="alternate" type="text/html" title="小样本/弱监督条件下知识抽取方法" /><published>2019-07-29T00:00:00+08:00</published><updated>2019-07-29T00:00:00+08:00</updated><id>http://localhost:4000/2019/07/29/SA_Uncover_Knowledge</id><content type="html" xml:base="http://localhost:4000/2019/07/29/SA_Uncover_Knowledge">&lt;p&gt;网络空间态势感知的基础环节为知识的应用，但是，网络空间知识数据分布广泛，且大多数都以非结构化的文本来描述知识的内容。非结构化文本导致知识组织、管理困难，且使得知识不能够得到充分的运用和推理。因此，本研究内容以知识抽取为背景，主要研究在训练集不足的情况下，如何利用机器学习方法解决知识抽取的问题&lt;/p&gt;
-
-&lt;h1 id=&quot;小样本弱监督条件下知识抽取方法&quot;&gt;小样本/弱监督条件下知识抽取方法&lt;/h1&gt;
+SMO	OWL	Security Metric Ontology	安全度量本体	https://github.com/marcusp46/security-metrics-ontology&lt;/p&gt;</content><author><name></name></author><summary type="html">面向还原与生成的网络空间知识化表示方法</summary></entry><entry><title type="html">小样本/弱监督条件下知识抽取方法</title><link href="http://localhost:4000/jeykll-test/2019/07/29/SA_Uncover_Knowledge" rel="alternate" type="text/html" title="小样本/弱监督条件下知识抽取方法" /><published>2019-07-29T00:00:00+08:00</published><updated>2019-07-29T00:00:00+08:00</updated><id>http://localhost:4000/jeykll-test/2019/07/29/SA_Uncover_Knowledge</id><content type="html" xml:base="http://localhost:4000/jeykll-test/2019/07/29/SA_Uncover_Knowledge">&lt;h1 id=&quot;小样本弱监督条件下知识抽取方法&quot;&gt;小样本/弱监督条件下知识抽取方法&lt;/h1&gt;
 
 &lt;h2 id=&quot;一问题描述&quot;&gt;一、问题描述&lt;/h2&gt;
 
@@ -142,11 +133,7 @@ SMO	OWL	Security Metric Ontology	安全度量本体	https://github.com/marcusp46
 
 &lt;blockquote&gt;
   &lt;p&gt;深度强化学习关系抽取 https://github.com/karthikncode/DeepRL-InformationExtraction&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">网络空间态势感知的基础环节为知识的应用，但是，网络空间知识数据分布广泛，且大多数都以非结构化的文本来描述知识的内容。非结构化文本导致知识组织、管理困难，且使得知识不能够得到充分的运用和推理。因此，本研究内容以知识抽取为背景，主要研究在训练集不足的情况下，如何利用机器学习方法解决知识抽取的问题</summary></entry><entry><title type="html">纵深防御与网络阻断</title><link href="http://localhost:4000/2019/07/29/SA_Identify_Interdiction" rel="alternate" type="text/html" title="纵深防御与网络阻断" /><published>2019-07-29T00:00:00+08:00</published><updated>2019-07-29T00:00:00+08:00</updated><id>http://localhost:4000/2019/07/29/SA_Identify_Interdiction</id><content type="html" xml:base="http://localhost:4000/2019/07/29/SA_Identify_Interdiction">&lt;p&gt;假如单点被突破，如何在网络内进行阻断？如何组织2线、3线防御？
-黑客进来后，网络环境其实非常复杂，他在其中也是一个寻找、摸索的过程。例如，IDC/OA  外部攻击进来后，可能通过web 近来，也可能过钓鱼进OA，再进去IDC。
-如何从攻击链的角度来卡位：入口、出口、系统组件间联系、边界的关联点，尽可能从黑客视角，找到出入口。目前人工鉴别服务及网络上的关键点。&lt;/p&gt;
-
-&lt;h1 id=&quot;纵深防御与网络阻断&quot;&gt;纵深防御与网络阻断&lt;/h1&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">小样本/弱监督条件下知识抽取方法</summary></entry><entry><title type="html">纵深防御与网络阻断</title><link href="http://localhost:4000/jeykll-test/2019/07/29/SA_Identify_Interdiction" rel="alternate" type="text/html" title="纵深防御与网络阻断" /><published>2019-07-29T00:00:00+08:00</published><updated>2019-07-29T00:00:00+08:00</updated><id>http://localhost:4000/jeykll-test/2019/07/29/SA_Identify_Interdiction</id><content type="html" xml:base="http://localhost:4000/jeykll-test/2019/07/29/SA_Identify_Interdiction">&lt;h1 id=&quot;纵深防御与网络阻断&quot;&gt;纵深防御与网络阻断&lt;/h1&gt;
 
 &lt;h2 id=&quot;背景&quot;&gt;背景&lt;/h2&gt;
 &lt;p&gt;假如单点被突破，如何在网络内进行阻断？如何组织2线、3线防御？
@@ -186,9 +173,7 @@ SMO	OWL	Security Metric Ontology	安全度量本体	https://github.com/marcusp46
 传播模型，如何定权值？攻击、时间？
 拓扑、漏洞、知识库全部建立以后，才会到达这个阶段，需要建立在知识图谱基础上，对动作的效果有先验知识。资产识别、知识图谱，然后才能是决策
 成本难以量化
-现在的决策比较宏观，通过业务、系统两层去看，控制目前考虑主机的进程、调用的控制，网络对数据的删除&lt;/p&gt;</content><author><name></name></author><category term="防御" /><category term="网络阻断" /><summary type="html">假如单点被突破，如何在网络内进行阻断？如何组织2线、3线防御？ 黑客进来后，网络环境其实非常复杂，他在其中也是一个寻找、摸索的过程。例如，IDC/OA 外部攻击进来后，可能通过web 近来，也可能过钓鱼进OA，再进去IDC。 如何从攻击链的角度来卡位：入口、出口、系统组件间联系、边界的关联点，尽可能从黑客视角，找到出入口。目前人工鉴别服务及网络上的关键点。</summary></entry><entry><title type="html">关键数据资产识别</title><link href="http://localhost:4000/2019/07/29/SA_Identify_Data" rel="alternate" type="text/html" title="关键数据资产识别" /><published>2019-07-29T00:00:00+08:00</published><updated>2019-07-29T00:00:00+08:00</updated><id>http://localhost:4000/2019/07/29/SA_Identify_Data</id><content type="html" xml:base="http://localhost:4000/2019/07/29/SA_Identify_Data">&lt;p&gt;IDC、公共网等内部数据存储分布广，情况未知。目前仅能掌握少量关键数据平台的情况，大量业务部门、人员群体的自建数据存储不清楚。&lt;/p&gt;
-
-&lt;h1 id=&quot;关键数据资产识别&quot;&gt;关键数据资产识别&lt;/h1&gt;
+现在的决策比较宏观，通过业务、系统两层去看，控制目前考虑主机的进程、调用的控制，网络对数据的删除&lt;/p&gt;</content><author><name></name></author><category term="防御" /><category term="网络阻断" /><summary type="html">纵深防御与网络阻断</summary></entry><entry><title type="html">关键数据资产识别</title><link href="http://localhost:4000/jeykll-test/2019/07/29/SA_Identify_Data" rel="alternate" type="text/html" title="关键数据资产识别" /><published>2019-07-29T00:00:00+08:00</published><updated>2019-07-29T00:00:00+08:00</updated><id>http://localhost:4000/jeykll-test/2019/07/29/SA_Identify_Data</id><content type="html" xml:base="http://localhost:4000/jeykll-test/2019/07/29/SA_Identify_Data">&lt;h1 id=&quot;关键数据资产识别&quot;&gt;关键数据资产识别&lt;/h1&gt;
 
 &lt;h2 id=&quot;概述&quot;&gt;概述&lt;/h2&gt;
 &lt;p&gt;IDC、公共网等内部数据存储分布广，情况未知。目前仅能掌握少量关键数据平台的情况，大量业务部门、人员群体的自建数据存储不清楚。&lt;/p&gt;
@@ -219,9 +204,7 @@ SMO	OWL	Security Metric Ontology	安全度量本体	https://github.com/marcusp46
   &lt;li&gt;流量加密怎么办？&lt;/li&gt;
   &lt;li&gt;行为分析的开销：全面采集进程、网络、文件访问行为，代价高昂，其规模也难以处理。可以考虑图的压缩、冷数据的丢弃等&lt;/li&gt;
   &lt;li&gt;数据流转行为如何感知？如何感知数据发生了什么，如何流转？如何对数据流转链条判断、追踪？&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">IDC、公共网等内部数据存储分布广，情况未知。目前仅能掌握少量关键数据平台的情况，大量业务部门、人员群体的自建数据存储不清楚。</summary></entry><entry><title type="html">态势认知——判断</title><link href="http://localhost:4000/2019/07/29/SA_Identify" rel="alternate" type="text/html" title="态势认知——判断" /><published>2019-07-29T00:00:00+08:00</published><updated>2019-07-29T00:00:00+08:00</updated><id>http://localhost:4000/2019/07/29/SA_Identify</id><content type="html" xml:base="http://localhost:4000/2019/07/29/SA_Identify">&lt;p&gt;在还原、理解的基础上，需要对观测对象的关键点、脆弱点进行判断。关键点可以从正向理解，即对于系统维持功能重要的点（集合），脆弱点则可以从反向理解，即对于破坏系统功能，导致崩溃重要的点（集合）。在某些情况下，两者有可能相同&lt;/p&gt;
-
-&lt;h1 id=&quot;态势认知判断&quot;&gt;态势认知——判断&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">关键数据资产识别</summary></entry><entry><title type="html">态势认知——判断</title><link href="http://localhost:4000/jeykll-test/2019/07/29/SA_Identify" rel="alternate" type="text/html" title="态势认知——判断" /><published>2019-07-29T00:00:00+08:00</published><updated>2019-07-29T00:00:00+08:00</updated><id>http://localhost:4000/jeykll-test/2019/07/29/SA_Identify</id><content type="html" xml:base="http://localhost:4000/jeykll-test/2019/07/29/SA_Identify">&lt;h1 id=&quot;态势认知判断&quot;&gt;态势认知——判断&lt;/h1&gt;
 
 &lt;h2 id=&quot;问题概述&quot;&gt;问题概述&lt;/h2&gt;
 
@@ -305,9 +288,7 @@ SMO	OWL	Security Metric Ontology	安全度量本体	https://github.com/marcusp46
   &lt;li&gt;&lt;a href=&quot;./SA_Identify_MultiLayer.md&quot;&gt;跨域多层依赖网络建模与表示&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Meta-Graph行为模式分析&lt;/li&gt;
   &lt;li&gt;基于级联失效模型的网络重心识别&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="态势认知" /><category term="判断" /><summary type="html">在还原、理解的基础上，需要对观测对象的关键点、脆弱点进行判断。关键点可以从正向理解，即对于系统维持功能重要的点（集合），脆弱点则可以从反向理解，即对于破坏系统功能，导致崩溃重要的点（集合）。在某些情况下，两者有可能相同</summary></entry><entry><title type="html">指控组织设计</title><link href="http://localhost:4000/2019/07/29/C2_Org" rel="alternate" type="text/html" title="指控组织设计" /><published>2019-07-29T00:00:00+08:00</published><updated>2019-07-29T00:00:00+08:00</updated><id>http://localhost:4000/2019/07/29/C2_Org</id><content type="html" xml:base="http://localhost:4000/2019/07/29/C2_Org">&lt;p&gt;为了将指挥控制的要素，包括平台、武器、人等，条例、条令、网络等，高效的组织在一起，通常需要解决如下问题：组织或团队的使命是什么？有哪些可获取的资源？在组织或团队中谁拥有什么？谁能做什么？谁能控制什么？谁需要哪些信息？谁需要与谁协调？等等。明确了这些问题也就构造了一个完整的指控组织或者团队。&lt;/p&gt;
-
-&lt;h1 id=&quot;指控组织设计&quot;&gt;指控组织设计&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="态势认知" /><category term="判断" /><summary type="html">态势认知——判断</summary></entry><entry><title type="html">指控组织设计</title><link href="http://localhost:4000/jeykll-test/2019/07/29/C2_Org" rel="alternate" type="text/html" title="指控组织设计" /><published>2019-07-29T00:00:00+08:00</published><updated>2019-07-29T00:00:00+08:00</updated><id>http://localhost:4000/jeykll-test/2019/07/29/C2_Org</id><content type="html" xml:base="http://localhost:4000/jeykll-test/2019/07/29/C2_Org">&lt;h1 id=&quot;指控组织设计&quot;&gt;指控组织设计&lt;/h1&gt;
 
 &lt;h2 id=&quot;概述&quot;&gt;概述&lt;/h2&gt;
 
@@ -322,9 +303,7 @@ SMO	OWL	Security Metric Ontology	安全度量本体	https://github.com/marcusp46
 
 &lt;h2 id=&quot;研究思路&quot;&gt;研究思路&lt;/h2&gt;
 
-&lt;h2 id=&quot;研究资源&quot;&gt;研究资源&lt;/h2&gt;</content><author><name></name></author><category term="指控" /><summary type="html">为了将指挥控制的要素，包括平台、武器、人等，条例、条令、网络等，高效的组织在一起，通常需要解决如下问题：组织或团队的使命是什么？有哪些可获取的资源？在组织或团队中谁拥有什么？谁能做什么？谁能控制什么？谁需要哪些信息？谁需要与谁协调？等等。明确了这些问题也就构造了一个完整的指控组织或者团队。</summary></entry><entry><title type="html">C2理论体系</title><link href="http://localhost:4000/2019/07/29/C2_Infra" rel="alternate" type="text/html" title="C2理论体系" /><published>2019-07-29T00:00:00+08:00</published><updated>2019-07-29T00:00:00+08:00</updated><id>http://localhost:4000/2019/07/29/C2_Infra</id><content type="html" xml:base="http://localhost:4000/2019/07/29/C2_Infra">&lt;p&gt;在网络化、智能化技术的支撑下，指挥与控制系统成为一个开放的整体，其发展变化取决于人机环境系统整体的变化发展。在指挥与控制的对象中，包括有意志、有目的和学习能力的人及其活动，人、装备、系统间的交互中贯穿着人的主观因素和自觉目的。指挥控制的外部环境充满了复杂的随机因素以及强对抗，不具备可重复性。各种效果之间的相互作用，在加上与级联效应相关的不确定性，进一步造成了C2任务及过程的复杂性。因此，在诸多因素的影响下，指挥与控制充满了复杂和不确定性，效果是非线性的，不但与大数据相关，还对涉及“蝴蝶效应”的临界小数据也极为敏感，简单的交互也可能产生不可估量的影响和效果。&lt;/p&gt;
-
-&lt;h1 id=&quot;c2理论体系&quot;&gt;C2理论体系&lt;/h1&gt;
+&lt;h2 id=&quot;研究资源&quot;&gt;研究资源&lt;/h2&gt;</content><author><name></name></author><category term="指控" /><summary type="html">指控组织设计</summary></entry><entry><title type="html">C2理论体系</title><link href="http://localhost:4000/jeykll-test/2019/07/29/C2_Infra" rel="alternate" type="text/html" title="C2理论体系" /><published>2019-07-29T00:00:00+08:00</published><updated>2019-07-29T00:00:00+08:00</updated><id>http://localhost:4000/jeykll-test/2019/07/29/C2_Infra</id><content type="html" xml:base="http://localhost:4000/jeykll-test/2019/07/29/C2_Infra">&lt;h1 id=&quot;c2理论体系&quot;&gt;C2理论体系&lt;/h1&gt;
 
 &lt;h2 id=&quot;概述&quot;&gt;概述&lt;/h2&gt;
 
@@ -344,9 +323,7 @@ SMO	OWL	Security Metric Ontology	安全度量本体	https://github.com/marcusp46
   &lt;li&gt;&lt;a href=&quot;http://www.jc2.org.cn/CN/article/downloadArticleFile.do?attachType=PDF&amp;amp;id=18&quot;&gt;王飞跃：指控5.0:平行时代的智能指挥与控制体系&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.wanfangdata.com.cn/details/detail.do?_type=perio&amp;amp;id=hlyzhkz200711001&quot;&gt;秦继荣：从网络信息科技的发展看指挥与控制学科的使命&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;……&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="理论体系" /><summary type="html">在网络化、智能化技术的支撑下，指挥与控制系统成为一个开放的整体，其发展变化取决于人机环境系统整体的变化发展。在指挥与控制的对象中，包括有意志、有目的和学习能力的人及其活动，人、装备、系统间的交互中贯穿着人的主观因素和自觉目的。指挥控制的外部环境充满了复杂的随机因素以及强对抗，不具备可重复性。各种效果之间的相互作用，在加上与级联效应相关的不确定性，进一步造成了C2任务及过程的复杂性。因此，在诸多因素的影响下，指挥与控制充满了复杂和不确定性，效果是非线性的，不但与大数据相关，还对涉及“蝴蝶效应”的临界小数据也极为敏感，简单的交互也可能产生不可估量的影响和效果。</summary></entry><entry><title type="html">敏捷指控：Agile C2</title><link href="http://localhost:4000/2019/07/29/C2_Agile" rel="alternate" type="text/html" title="敏捷指控：Agile C2" /><published>2019-07-29T00:00:00+08:00</published><updated>2019-07-29T00:00:00+08:00</updated><id>http://localhost:4000/2019/07/29/C2_Agile</id><content type="html" xml:base="http://localhost:4000/2019/07/29/C2_Agile">&lt;p&gt;不同的C2方法组成了一个三维的、非严格正交关系的方法空间，包括决策权分配、实体交互模式、信息分发方法等三个维度。在机械化时代,以指挥员为中心、权力高度集中;而在信息与智能时代，C2以网络为中心、权力分散，甚至“强化边缘”，指挥员负责选择适当的指控方法，创建促进成功（涌现）的条件，组织方法和过程随 C2 方法的变化而变化。&lt;/p&gt;
-
-&lt;h1 id=&quot;敏捷指控agile-c2&quot;&gt;敏捷指控：Agile C2&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="理论体系" /><summary type="html">C2理论体系</summary></entry><entry><title type="html">敏捷指控：Agile C2</title><link href="http://localhost:4000/jeykll-test/2019/07/29/C2_Agile" rel="alternate" type="text/html" title="敏捷指控：Agile C2" /><published>2019-07-29T00:00:00+08:00</published><updated>2019-07-29T00:00:00+08:00</updated><id>http://localhost:4000/jeykll-test/2019/07/29/C2_Agile</id><content type="html" xml:base="http://localhost:4000/jeykll-test/2019/07/29/C2_Agile">&lt;h1 id=&quot;敏捷指控agile-c2&quot;&gt;敏捷指控：Agile C2&lt;/h1&gt;
 
 &lt;h2 id=&quot;概述&quot;&gt;概述&lt;/h2&gt;
 
@@ -365,30 +342,60 @@ SMO	OWL	Security Metric Ontology	安全度量本体	https://github.com/marcusp46
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://slideplayer.com/slide/13498227/&quot;&gt;The Agility Imperative: Agile C2 for Complex Endeavors&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;……&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="test" /><summary type="html">不同的C2方法组成了一个三维的、非严格正交关系的方法空间，包括决策权分配、实体交互模式、信息分发方法等三个维度。在机械化时代,以指挥员为中心、权力高度集中;而在信息与智能时代，C2以网络为中心、权力分散，甚至“强化边缘”，指挥员负责选择适当的指控方法，创建促进成功（涌现）的条件，组织方法和过程随 C2 方法的变化而变化。</summary></entry><entry><title type="html">对抗条件下的安全威胁高效检测算法</title><link href="http://localhost:4000/2019/06/29/SA_Understand_Detection" rel="alternate" type="text/html" title="对抗条件下的安全威胁高效检测算法" /><published>2019-06-29T00:00:00+08:00</published><updated>2019-06-29T00:00:00+08:00</updated><id>http://localhost:4000/2019/06/29/SA_Understand_Detection</id><content type="html" xml:base="http://localhost:4000/2019/06/29/SA_Understand_Detection">&lt;p&gt;哪些算法，比较有效？
-误报的对冲策略有没有？如果没有，落地很难&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="test" /><summary type="html">敏捷指控：Agile C2</summary></entry><entry><title type="html">态势认知——理解</title><link href="http://localhost:4000/jeykll-test/2019/06/29/SA_Understand_old" rel="alternate" type="text/html" title="态势认知——理解" /><published>2019-06-29T00:00:00+08:00</published><updated>2019-06-29T00:00:00+08:00</updated><id>http://localhost:4000/jeykll-test/2019/06/29/SA_Understand_old</id><content type="html" xml:base="http://localhost:4000/jeykll-test/2019/06/29/SA_Understand_old">&lt;h1 id=&quot;态势认知理解&quot;&gt;态势认知——理解&lt;/h1&gt;
 
-&lt;p&gt;未知：是很难的问题，纵深防御的思想，从成本的角度，尽量提高攻击者的成本；
-要明白最核心的资产在哪里？对要保护的目标的风险进行识别，加强防护&lt;/p&gt;
+&lt;h2 id=&quot;概述&quot;&gt;概述&lt;/h2&gt;
 
-&lt;p&gt;目前的威胁检测准确性，从过去的40-50%提升到70-80%。再往后，对抗强度提升，真正的高级威胁，周期很长，处于初期阶段，机器学习，加上安全知识，如何去做？&lt;/p&gt;
+&lt;p&gt;随着网络入侵行为趋于规模化、复杂化、间接化，国家间信息对抗形势逐渐严峻，对网络安全技术提出了更高的要求。与对已产生的攻击行为进行取证和控制相比，态势认知和意图推断技术能够主动地收集动态的网络态势信息，分析并准确预测帮助管理员做出准确防御和应急性决策，具有重要的意义。意图推断与意图识别意义相近，最早来源于人工智能领域中的计划识别(Plan Recognition)。计划识别是人工智能领域中被广泛研究的内容，最早的研究是基于规则的推断系统。计划识别被用于进行agent行为意图的识别，是通过对agent的行为进行观察来推断agent的目的，可以分成两大类：keyhole recognition和intended recognition，前者agent不知道自身的行为在被观测，后者中agent会执行有利于其计划被识别的行为。在网络安全领域，意图推断可以帮助管理者对可能发生的网络攻击进行及时的感知，并采取措施进行应对，常用于风险评估中。常见的意图推断模型有攻击树、攻击图、贝叶斯网络等。&lt;/p&gt;
 
-&lt;p&gt;做过变换的web shell ，如何检测？
-目前WebShell的检测，通过安全工程师提取特征。机器学习提特征，有价值，但如果黑客做一些变化，规则就失效，如何处理？就算只有20%的误报，也很难处理，如何提取稳定的『关键特征』？例如，黑客申请域名，有成本，对DNS域名做聚类，让黑客搞不清楚策略，或者知道后，也很难修改，时间、经济成本；&lt;/p&gt;
+&lt;p&gt;攻击树模型最早是基于故障树模型的概念提出的。攻击树中的叶子节点表示攻击方法，根节点表示了攻击者的目标。攻击树中的节点分为AND节点和OR节点，其中AND节点表示只有所有孩子节点都实现，父节点才能实现，OR节点表示任意一个孩子节点实现了，父节点就可以实现。但是，攻击树在刻画攻击者的攻击路径时确定性较强，当攻击者在某次攻击中改变攻击手段时，攻击树往往会失去作用。&lt;/p&gt;
 
-&lt;p&gt;行为层面的分析，特征比较稳定，如webshell检测，其中有很多对抗。如apache不会去释放文件，apache释放文件往往对应黑客特征，释放的文件，执行的命令等
-了解业务，找到关键特征输入&lt;/p&gt;
+&lt;p&gt;攻击图与攻击树相似，以有向图的方式来表答攻击者利用存在的脆弱性对网络或信息系统进行攻击的所有可能的攻击路径，全面的反映了网络或信息系统中脆弱点利用之间的依赖关系。攻击图自身不能对不确定性进行表示，因此结合贝叶斯网络形成贝叶斯攻击图是研究的热点，例如杨宏宇等提出了一种基于攻击图的多Agent网络安全风险评估模型，利用多个agent进行信息搜集来对攻击者的意图进行推断；高妮等提出了一种基于贝叶斯攻击图的动态安全风险评估模型，考虑了攻击图节点的资源属性，根据攻击者的实际攻击对后验风险进行推断；陈小军等在攻击图模型中引入了转移概率表，用其刻画单步攻击检测结果的不确定性，使推断结果更加符合实际。&lt;/p&gt;
 
-&lt;p&gt;对于不确定的情况，由蓝军同学做跟进，保持监控，有时发现情报有误，有时发现确实有问题，做复盘，做能力的加强，把模糊的变得精准。&lt;/p&gt;
+&lt;p&gt;贝叶斯网络是进行推断的重要工具。贝叶斯网络是一种用于描述变量间不确定性因果关系的图形网络模型，由节点、有向连线和条件概率表组成，其中有向连线代表节点间的因果依赖关系。贝叶斯网络的构建可由专家完成，在具有足够数据的情况下可以通过结构学习算法获取。常见结构学习算法分为三类：基于约束的算法，基于评分搜索的算法和混合算法。除了三类主流算法之外，还有动态规划结构学习、模型平均结构学习和不完备数据集的结构学习等算法。&lt;/p&gt;
 
-&lt;p&gt;特征工程，安全中存在对抗，webshell 提取中间的php特征，黑客会变化很多种，怎么办？
-能否在特征工程中，抓住关键的？不容易改变的&lt;/p&gt;
+&lt;p&gt;现有的推断算法来源可以大致分为两种，一种从攻击图或是攻击树等常规图模型而来，利用现有的结构和定义的概率进行风险的计算，并根据攻击者的攻击行动是否被检测来对攻击者采用某一攻击路径的后验概率进行推断；另一种是贝叶斯网络而来，将贝叶斯网络中的推断算法应用到现实的问题中去。基于贝叶斯网络的推断算法是目前推断算法的主流，贝叶斯网络。贝叶斯推断算法主要可以分为两大类：精确推理算法和近似推理算法，前者主要用于网络规模较小、节点较少、关系不是很复杂的网络上。&lt;/p&gt;
 
-&lt;p&gt;成本上要有优势，
-了解攻防，不知攻，做不到防&lt;/p&gt;
+&lt;h2 id=&quot;研究选题&quot;&gt;研究选题&lt;/h2&gt;
 
-&lt;p&gt;解决该问题的两个角度
-	*
-以我为主：针对关键资产
-	*
-不清楚–&amp;gt;清楚：抓关键特征/行为&lt;/p&gt;</content><author><name></name></author><summary type="html">哪些算法，比较有效？ 误报的对冲策略有没有？如果没有，落地很难</summary></entry></feed>
+&lt;h2 id=&quot;1内网用户行为分析与画像&quot;&gt;1、内网用户行为分析与画像&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;./project/幻灯片15.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;./project/幻灯片16.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;./project/幻灯片17.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2面向攻击意图推断的贝叶斯网络学习方法&quot;&gt;2、面向攻击意图推断的贝叶斯网络学习方法&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;./project/幻灯片18.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;./project/幻灯片19.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;./project/幻灯片20.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;3异常检测及推断模型鲁棒性研究&quot;&gt;3、异常检测及推断模型鲁棒性研究&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;./project/幻灯片21.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;./project/幻灯片22.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;./project/幻灯片23.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;4研究资源&quot;&gt;4、研究资源&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;在实际应用中，单纯依赖机器学习模型进行检测而忽视威胁情报会为攻击者的攻击埋下隐患。网络威胁情报（Cyber threat intelligence，CTI）是对传统网络安全的重要补充，对于研究人员来说，其可利用的威胁情报主要从开源网站上进行获取，这类威胁情报可以粗略划分为四种：IP地址信息、域名信息、漏洞数据库和开源情报信息库（例如有关安全的博客和论坛等）。在攻击检测过程中，可以直接自动化利用的是恶意IP地址库和恶意域名库，分属于粗分类的前两种。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;恶意IP地址库是研究人员最容易获得的威胁情报之一，这些威胁情报被用于浏览器的访问黑名单中，当客户端发出的请求中包含这些地址时，浏览器便会进行阻拦。有很多公开网站发布恶意IP列表，其中，FireHOL 维护的恶意IP库是一个非常好的选择。FireHOL本身是Costa Tsaousis开发的用来对Linux内核防火墙的netfilter中IP表进行定制的一种shell脚本，其开发者提供了一个良好的恶意IP地址库，主要由四个来源的IP地址构成：fullbogons，出现在这些IP地址列表中的IP通常是DDOS攻击的来源，因此在一个路由器的路由表中这些地址不应该被添加进去；spamhaus drop and edrop，这个列表中包含了被专业的网络犯罪行动和钓鱼邮件使用后遗留下的IP；dshield，该IP地址包含了近三天排名前20的C类IP地址的攻击源IP；malware lists，顾名思义，是那些恶意软件或木马的常用网址。该综合IP地址库上的IP源地址会实时更新，并可以进行下载来对内部的应用IP地址库进行补充。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;恶意域名库主要用于对僵尸网络、钓鱼页面和恶意软件进行防范。当一个用户访问的页面地址被包含在恶意域名列表中时，为用户安全考虑会对用户告警。很多网站都维护有向大众公开的相应的恶意域名库，在研究中可以从这些公开网站上获取相应数据。例如，PhishTank 是一个包含了众多钓鱼网址的网站，其由企业家David Ulevitch于2006年10月创办，是其主公司OpenDNS的一个分支，其主公司会利用自己开发的一套系统对用户请求检测的网站进行检测，并根据用户的投票来判断此网站是否为钓鱼网站，PhishTank上的大量记录由此而来。除此之外，还有DNS-BH project 、Malware Domain List等网站也提供了大量恶意域名信息。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;常用的网络节点重要性排序指标有：度值、介数、接近中心性、k-壳值和特征向量等。其中，度值排序是一种局部排序方法，即网络中一个节点的度值越大则该节点越重要；介数是以经过某个节点的最短路径数量来评估节点重要性的方法，即经过某节点的最短路径数越多，该节点重要性越大；节点的接近中心性为节点与网络中其他节点距离平均值的倒数，即节点接近中心性越大则该节点越重要；k-壳分解是一种对网络中节点重要性粗粒化划分的方法；特征向量的基本思想为：网络中节点的重要性既与节点的度值大小有关，同时也与邻居节点的重要性有关。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Credal_network&quot;&gt;https://en.wikipedia.org/wiki/Credal_network&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Cozman F G. Credal networks[J]. Artificial Intelligence, 2000, 120(2):199-233.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Vergari A, Mauro N D, Esposito F. Simplifying, Regularizing and Strengthening Sum-Product Network Structure Learning[C]// Joint European Conference on Machine Learning &amp;amp; Knowledge Discovery in Databases. 2015.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;由于目前已有大量的贝叶斯网络学习研究，以及相关数据和构建好的实际应用模型，我们将利用这些公开的数据进行学习，并与实际模型相比较，从而对本项目的算法以及公开发表算法进行评价。比较有名的公开数据集包括：牛津大学的BN Learn（&lt;a href=&quot;http://www.bnlearn.com/&quot;&gt;http://www.bnlearn.com/&lt;/a&gt;），澳大利亚人工智能协会的ABNMS数据集（&lt;a href=&quot;http://abnms.org/bnrepo/&quot;&gt;http://abnms.org/bnrepo/&lt;/a&gt;），以色列希伯来大学的BN Repository（&lt;a href=&quot;http://www.cs.huji.ac.il/Repository/&quot;&gt;http://www.cs.huji.ac.il/Repository/&lt;/a&gt;），NORSYS软件公司的Net library数据集（&lt;a href=&quot;http://- www.norsys.com/netlibrary/&quot;&gt;http://www.norsys.com/netlibrary/&lt;/a&gt;），以及HUGIN公司的BN Forum数据集（&lt;a href=&quot;http://forum.hugin.com/&quot;&gt;http://forum.hugin.com/&lt;/a&gt;）等。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;可以基于这些通用数据集中的贝叶斯网络模型，进行编程实验，并将软件工具包BNT（Bayes Net Toolbox for Matlab）集成到开发环境中，通过从真实模型中采样得到训练用目标数据集，通过引入一定的噪声采样产生源数据集，以便于进行多任务和迁移学习，实试验算法均在不同样本数据集上独立运行 100次进行测试。 在得到学习结果后，对不同学习算法进行评价，包括计算实验得到的网络与真实网络的结构编辑距离（将算法确定的最优图结构转化为标准的网络结构所需要的平均运算总数目），以及参数的K-L散度（Kullback–Leibler Divergence，用于计算概率分布之间的距离）等。&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">态势认知——理解</summary></entry></feed>

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: ""
+title: "Bulletin Board"
 ---
 ## 分类评价
 <table>
