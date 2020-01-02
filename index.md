@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "国防科技大学系统工程学院重点实验室"
+title: "C2 Group"
 url: /
 ---
 # What is C2
