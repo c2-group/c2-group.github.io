@@ -17,12 +17,12 @@ title: "C2 Group"
 description: > # this means to ignore newlines until "baseurl:"
   C2 Group in Science and Technology on Information Systems Engineering Laboratory, National Unversity of Defense Technology
 baseurl: "/jeykll-test"
-url: "https://wchino.github.io"
+url: "https://c2-group.github.io"
 permalink: /:year/:month/:day/:title
 paginate: 8
 
 # MatJek specific configurations
-github_profile: "https://github.com/Wchino/jeykll-test"
+github_profile: "https://github.com/c2-group/c2-group.github.io"
 user: "c2-group"
 user_email: "academic pages for c2 group"
 contact_url: "https://goo.gl/tVljbV"
