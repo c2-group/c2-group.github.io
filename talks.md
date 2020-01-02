@@ -5,7 +5,7 @@ title: ""
 
 # Talks and Presentations (Under Construction)
  - [网络化数据分析技术](https://pan.baidu.com/s/1i1upJofc-NCoyxIvzrc9oQ),2019.12 提取码：slk0
- - [意图推断与行为分析](../../../_data/意图推断与行为分析.pdf)
+ - [意图推断与行为分析](../../../assets/意图推断与行为分析.pdf)
  - [网络空间知识抽取](https://pan.baidu.com/s/19hTgfBA__mzrZbHEB0K6jw),2019.12 提取码：22qh
  - [从游戏AI到网络GF对抗](https://pan.baidu.com/s/1YrVcjZ6E1XBAx4wl4g9GRQ),2019.11 提取码：wp3e
  - [区块链技术及其应用研究](https://pan.baidu.com/s/1_h2YhHjulbmdDAhXuKmDmg),2019.11 提取码：i72q
