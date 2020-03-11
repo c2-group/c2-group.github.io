@@ -227,4 +227,4 @@ C2是机械化战争指挥系统精确、快速、高效运作的需要，也是
 “指挥”与“控制”的关系，可以这么理解：指挥解决的是作战当中诸如谋划、决策等重大问题，是一种创造性很强的活动，因此具有更多的灵活性、策略性、艺术性。控制是把决心变为现实、逐步实现作战目标的具体措施和过程，具有创造性，但更富事务性、规范性、程序性和可操作性。如果将兵力比作马，指挥比作骑手，控制比作挽具。
 
 # 关于我们
-  C2 Group in Science and Technology on Information Systems Engineering Laboratory, National Unversity of Defense Technology.
+  C2 Group in Science and Technology on Information Systems Engineering Laboratory
