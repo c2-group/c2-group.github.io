@@ -3,6 +3,7 @@ layout: default
 css: ["post.css"]
 js: ["post.js"]
 ---
+
 <div id="post-info">
   <h3>{{page.title}}</h3>
   <ul class="collapsible hoverable" data-collapsible="accordion">
@@ -36,6 +37,9 @@ js: ["post.js"]
   </ul>
 </div>
 <div class="divider"></div>
+{% if page.pdf %}
+<object style="padding-bottom: 50px;" data="../../../assets/res/{{page.title}}.pdf" width="100%" height="800" type='application/pdf'/>
+{% else %}
 <div style="display: flex;">
   <div class="row" id="md-container-pancakes">
     <div class="col s12">
@@ -48,6 +52,7 @@ js: ["post.js"]
     </div>
   </div>
 </div>
+{% endif %}
 {% if site.disqus_shortname and page.comments %}
 <div id="disqus_thread"></div>
 <script>

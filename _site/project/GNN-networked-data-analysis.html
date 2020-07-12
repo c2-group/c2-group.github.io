@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      
+      
+      
+    </title>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/res/favicon.ico">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    
+    
+    <link rel="stylesheet" href="/assets/css/post.css">
+    
+    
+    
+    <link rel="stylesheet" href="/assets/css/syntax.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="C2 Group" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="基于图神经网络的网络化数据分析技术研究" />
+<meta property="og:description" content="基于图神经网络的网络化数据分析技术研究" />
+<link rel="canonical" href="http://localhost:4000/project/GNN-networked-data-analysis" />
+<meta property="og:url" content="http://localhost:4000/project/GNN-networked-data-analysis" />
+<meta property="og:site_name" content="C2 Group" />
+<meta name="google-site-verification" content="UA-96359860-1" />
+<script type="application/ld+json">
+{"headline":"C2 Group","description":"基于图神经网络的网络化数据分析技术研究","@type":"WebPage","url":"http://localhost:4000/project/GNN-networked-data-analysis","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+  <body>
+    <header>
+      <nav class="top-nav teal">
+        <div class="nav-wrapper">
+          <div class="container">
+            <a class="page-title" href="/">C2 Group</a>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <a href="#" data-activates="slide-out" class="button-collapse top-nav full hide-on-large-only">
+          <i class="material-icons">menu</i>
+        </a>
+      </div>
+      <ul id="slide-out" class="side-nav fixed">
+        <li>
+          <div class="userView">
+            <div class="background"></div>
+            <a href="https://github.com/c2-group/c2-group.github.io" target="_blank"><img class="circle z-depth-2" src="/assets/res/user.png"></a>
+            <span class="white-text name">c2-group</span>
+            <span class="white-text email">academic pages for c2 group</span>
+          </div>
+        </li>
+        <li><a class="waves-effect" href="/">Home</a></li>
+        <li><a class="waves-effect" href="/categories">Research</a></li>
+        <!-- <li><a class="waves-effect" href="/tags">Tags</a></li> -->
+        <li><a class="waves-effect" href="/projects">Projects</a></li>
+        <!-- <li><a class="waves-effect" href="/feed.xml" target="_blank"><i class="material-icons">rss_feed</i>RSS</a></li> -->
+        <li><div class="divider"></div></li>
+        <li><a class="waves-effect" href="/concept">Concept</a></li>
+        <li><a class="waves-effect" href="/publication">Publication</a></li>
+        <li><a class="waves-effect" href="/dataset">Dataset and Codes</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="waves-effect" href="/students">Getting Started (For Students)</a></li>
+        <li><a class="waves-effect" href="/board">Bulletin Board</a></li>
+        <li><a class="waves-effect" href="/resources">Resources</a></li>
+        <li><a class="waves-effect" href="/talks">Talks and Presentations</a></li>
+        <!-- <li><a class="waves-effect" href="/about">About</a></li> -->
+      </ul>
+    </header>
+    <main>
+
+<div class="container">
+  <div class="divider"></div>
+<div style="display: flex;">
+  <div class="row" id="md-container-pancakes">
+    <div class="col s12">
+      <h1 id="基于图神经网络的网络化数据分析技术研究">基于图神经网络的网络化数据分析技术研究</h1>
+
+<ol>
+  <li>问题描述：
+互联网、5G、物联网等网络通信技术的快速发展，万物互联时代的时代已经来到，网络化数据（Networked Data）无处不在，图作为一种数据结构，它对一组对象（节点）及其关系（边）进行建模，由于图结构的强大表现力、灵活性，基于图的描述方法应用非常广泛，图分析技术具有越来越重要的地位，比如：
+    <ul>
+      <li>深入了解图的形成过程，结构演化分析</li>
+      <li>异常检测 ——  异常行为，变化规律</li>
+      <li>预测 —— 根据过去预测未来</li>
+      <li>新结构——新的图结构的模拟</li>
+      <li>图补全——很多图都是部分可观察的</li>
+      <li>“What if” 场景，根据表征识别对象
+鉴于课题组前期研究成果和数据积累，可研究的网络形态以典型战术通信网络为研究对象，该网络以军事基础设施作为物理通信基础，以IP化的通信网络和相关业务系统为业务承载基础，以作战域军事实体代表学术研究中”社会域”实体，关注网络中节点的生灭、关系动态接替、系统相互备份等规则，建立由虚拟实体—物理实体、层内关联—层间依赖、静态结构—动态适应相结合的多层、异质、动态、相互依赖的军事基础设施网络。</li>
+    </ul>
+  </li>
+  <li>主要研究内容：
+    <ul>
+      <li>多层依赖异质网络表达
+多层依赖异质网络表达的建模与表示是整个研究的起点和基础。借鉴目前在多层网络研究过程中出现的多样化网络、相互作用网络、相互连接网络、相互依赖网络、多维度网络、多层次网络和超网络等不同的学术名称所相关的描述方法，比如张量模型、超网模型等理论方法，结合所要研究的军事目标网络，首先厘清多层依存网络的概念，并对其内涵外延进行界定，其次对多层依存网络的结构模型、运行机制、级联失效机制和恢复机制进行形式化描述，提出新颖、有效的建模方法对网络拓扑进行数学表达。</li>
+      <li>博弈对抗条件下的关键点/链路识别方法
+复杂网络关键点识别（CNI）已经研究多年，有大量关于优化问题求解的方法比如动态规划、启发式搜索等方法可以借鉴。课题主要从对敌有效性的角度，研究敌目标网络在受攻击后结构动态适应的表达规则，在优化目标上，区别传统从网络整体角度比如最大连通子图、平均连通性等网络性能指标，考虑级联失效、恢复策略情况下缺失节点（集）前后的对作战域的影响（可从连通性和业务支撑性两个角度），及攻击方攻击代价约束等方面构建关键点识别模型和求解算法。</li>
+    </ul>
+  </li>
+  <li>
+    <p>参考技术路线：
+GCN+GAT+HIN</p>
+  </li>
+  <li>研究资源：
+    <ul>
+      <li>常用的网络节点重要性排序指标有：度值、介数、接近中心性、k-壳值和特征向量等。其中，度值排序是一种局部排序方法，即网络中一个节点的度值越大则该节点越重要；介数是以经过某个节点的最短路径数量来评估节点重要性的方法，即经过某节点的最短路径数越多，该节点重要性越大；节点的接近中心性为节点与网络中其他节点距离平均值的倒数，即节点接近中心性越大则该节点越重要；k-壳分解是一种对网络中节点重要性粗粒化划分的方法；特征向量的基本思想为：网络中节点的重要性既与节点的度值大小有关，同时也与邻居节点的重要性有关。</li>
+      <li><a href="https://en.wikipedia.org/wiki/Credal_network">https://en.wikipedia.org/wiki/Credal_network</a></li>
+      <li>Cozman F G. Credal networks[J]. Artificial Intelligence, 2000, 120(2):199-233.</li>
+      <li>Vergari A, Mauro N D, Esposito F. Simplifying, Regularizing and Strengthening Sum-Product Network Structure Learning[C]// Joint European Conference on Machine Learning &amp; Knowledge Discovery in Databases. 2015.</li>
+    </ul>
+  </li>
+</ol>
+
+
+    </div>
+  </div>
+  <div style="width: 20%;margin-left: 20px;" class="table-detail-list-wrap">
+    <div class="table-detail-list" style="position: sticky;top: 10px;">
+      <ul id="nav-toc" class="md-nav__list" data-md-scrollfix="">
+    </div>
+  </div>
+</div>
+
+</div>
+
+    </main>
+    <footer class="page-footer teal">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <!-- <img src="/assets/res/logo.png" alt="logo"/> -->
+            <p class="grey-text text-lighten-4">C2 Group in Science and Technology on Information Systems Engineering Laboratory
+</p>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="footer-copyright">
+        <div class="container">
+          &#xA9; 2020 C2 Group. All rights reserved. Powered by <a href="https://github.com/ShawnTeoh/matjek">MatJek</a>.
+        </div>
+      </div> -->
+    </footer>
+    <script src="//code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    
+    
+    <script src="/assets/js/post.js"></script>
+    
+    
+    
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})
+      (window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-96359860-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>
