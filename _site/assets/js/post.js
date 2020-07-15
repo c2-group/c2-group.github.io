@@ -1,5 +1,8 @@
 $(document).ready(function(){
   $('img').css('max-width', '100%')
+  document.querySelectorAll('p > img').forEach(ele => {
+    ele.parentElement.style.textAlign = 'center'
+  })
   $('td').css('border', '1px solid #ccc')
   $('figure.highlight').each(function(x, r){
     if ($(r).find('table').length < 1){

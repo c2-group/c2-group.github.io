@@ -142,8 +142,9 @@ C2中的**决策评估** 指在态势认知的基础上，确定意图、生成�
 为确保决策质量和效率，C2中的决策通常还有规范的流程作为依据。例如，美军联合出版物JP5-0 "Joint Planning"(2017)将联合作战计划生成的流程分为：任务分析、COA生成、COA分析与推演、COA比较、COA批准、计划与指令生成等阶段。 
 ![Planning](./assets/graphs/Planning.png)
 
-下图则描述了DARPA "[X计划](https://www.csmonitor.com/World/Passcode/2015/0216/The-Pentagon-is-building-an-app-store-for-cyberoperations)"中关于Cyber行动计划生成过程的示意图。
-![PlanX](https://images.csmonitor.com/csm/2017/03/1032904_1_032117-DARPA13-passcode_standard.jpg?alias=standard_900x600)
+下图则描述了DARPA "[X计划](https://www.csmonitor.com/World/Passcode/2015/0216/The-Pentagon-is-building-an-app-store-for-cyberoperations)"中关于Cyber行动计划生成过程的示意图。  
+
+![PlanX](./assets/img/x.png)
 
 C2领域目前一个经常使用的词是“任务规划”，我们将其视为一种解决C2中决策评估问题的技术，但相当多的研究用其泛指C2中与决策有关的活动。有关“任务规划”的概念、流程等，可参考“[浅谈对作战任务规划的认识](https://mp.weixin.qq.com/s/F8X2oXXqvxYKw7uiBeYO2A)”、“[从作战筹划到联合任务规划](https://mp.weixin.qq.com/s/zQF4bDCxgJSDP4mNL2wlsQ)”等文献。
 

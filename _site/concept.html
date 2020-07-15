@@ -9,7 +9,7 @@
       
     </title>
     <link rel="shortcut icon" type="image/x-icon" href="/assets/res/favicon.ico">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <link rel="stylesheet" href="/assets/css/materialize.min.css">
     <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="/assets/css/main.css">
     
@@ -21,7 +21,12 @@
     <link rel="stylesheet" href="/assets/css/syntax.css">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
-    <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.4.456/build/pdf.min.js"></script>
+    <style>
+      strong {
+        font-weight: 600!important;
+      }
+    </style>
+    <script src="/assets/js/pdf.min.js"></script>
     <!-- Begin Jekyll SEO tag v2.6.1 -->
 <meta name="generator" content="Jekyll v3.8.7" />
 <meta property="og:title" content="C2 Group" />
@@ -85,13 +90,16 @@
   <div class="row" id="md-container-pancakes">
     <div class="col s12">
       <h1 id="指挥command">指挥（Command）</h1>
+<hr />
 
 <h2 id="指挥的例子">“指挥”的例子</h2>
 <p>先来看看关于指挥的例子。</p>
 
 <h3 id="狼群">狼群</h3>
-<p>狼喜欢集体出动，超过五头的狼群一定不是临时拼凑起来的，而其中必然有个首脑，它是狼群的优秀代表和象征，更是狼群的核心所在；在整个群体遇到困境时，它必须挺身而出，用自己最锋利的牙刀将敌人扑倒，撕开受困纱网，率领狼群逃出生天。
-<img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1549519511403&amp;di=f650802f221df276254b080713175a82&amp;imgtype=0&amp;src=http%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F1wErSxzZXZPZKcZ2yrOtqIqicHSFsod2OQDOXEbZQWIlgKhicXU4hxgs6OMIEvPurn1rS4Uwd8MucxeXSM9Zs0jw%2F640%3Fwx_fmt%3Djpeg" alt="狼群" /></p>
+
+<p>狼喜欢集体出动，超过五头的狼群一定不是临时拼凑起来的，而其中必然有个首脑，它是狼群的优秀代表和象征，更是狼群的核心所在；在整个群体遇到困境时，它必须挺身而出，用自己最锋利的牙刀将敌人扑倒，撕开受困纱网，率领狼群逃出生天。</p>
+
+<p><img src="/assets/img/wolf.jpg" alt="狼群" /></p>
 
 <p>二战时期德国海军的“狼群战术”：首先以单舰、侦察机巡逻，发现船团时先不攻击，而是一边跟踪船团，一边向总部通知通商船团的航行路线、规模、护航舰数量等资讯，然后再以无线电通知邻近潜艇集结起来埋伏；当船团进入攻击范围内就向其包围攻击（通常是在夜间展开攻击）。</p>
 
@@ -99,17 +107,20 @@
 
 <h3 id="交警乐团指挥">交警、乐团指挥</h3>
 
-<p>虽然指挥手势谁都可以做，但只有交警有权指挥交通，任何车辆都必须复服从交警的指挥。
-<img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1549520726578&amp;di=6027be252ead9eb4cb7c809538267246&amp;imgtype=0&amp;src=http%3A%2F%2Fimg.mp.sohu.com%2Fupload%2F20170803%2Fbb222263f1fd4c45b8e7357c44dfcb87_th.png" alt="交警" /></p>
+<p>虽然指挥手势谁都可以做，但只有交警有权指挥交通，任何车辆都必须复服从交警的指挥.</p>
 
-<p>类似地，乐手必须服从乐团指挥。乐团指挥的水平不仅在于临场的把控，更在于平时训练中对各声部节凑、音准的精准识别与调控。乐团指挥需要将自己对乐曲的理解和需要表现的内容通过乐队演奏表达出来。好的指挥犹如一名医生，能够迅速指出乐队的缺点并加以改进，指挥通过对乐团的调整变化，使乐团整体达到一个非常理想的状态。关于乐团指挥，可以参考“<a href="https://www.sohu.com/a/198963077_99957119">交响乐指挥“手舞足蹈”到底在干嘛？</a>”一文。
-<img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1549520932553&amp;di=93cbd507f7381dc7ec8b0dc44dd1b7a7&amp;imgtype=0&amp;src=http%3A%2F%2Ftc.sinaimg.cn%2Fmaxwidth.800%2Ftc.service.weibo.com%2Fmmbiz_qpic_cn%2F352f6eb15a2135a1eae0161cbfe94caf.jpg" alt="乐团指挥" /></p>
+<p><img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1549520726578&amp;di=6027be252ead9eb4cb7c809538267246&amp;imgtype=0&amp;src=http%3A%2F%2Fimg.mp.sohu.com%2Fupload%2F20170803%2Fbb222263f1fd4c45b8e7357c44dfcb87_th.png" alt="交警" /></p>
+
+<p>类似地，乐手必须服从乐团指挥。乐团指挥的水平不仅在于临场的把控，更在于平时训练中对各声部节凑、音准的精准识别与调控。乐团指挥需要将自己对乐曲的理解和需要表现的内容通过乐队演奏表达出来。好的指挥犹如一名医生，能够迅速指出乐队的缺点并加以改进，指挥通过对乐团的调整变化，使乐团整体达到一个非常理想的状态。关于乐团指挥，可以参考“<a href="https://www.sohu.com/a/198963077_99957119">交响乐指挥“手舞足蹈”到底在干嘛？</a>”一文。</p>
+
+<p><img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1549520932553&amp;di=93cbd507f7381dc7ec8b0dc44dd1b7a7&amp;imgtype=0&amp;src=http%3A%2F%2Ftc.sinaimg.cn%2Fmaxwidth.800%2Ftc.service.weibo.com%2Fmmbiz_qpic_cn%2F352f6eb15a2135a1eae0161cbfe94caf.jpg" alt="乐团指挥" /></p>
 
 <p><strong>落脚点</strong>：权威性、专业性</p>
 
 <h3 id="教练">教练</h3>
-<p>NBA比赛中，经常可以看到教练在场边密切关注场上形势，随时做出判断和调整，并向球员布置战术。场上情况瞬息万变，教练需要有极强的阅读比赛和临场决断的能力。NBA比赛中最精彩部分往往是双方在每一个攻防回合后都进行暂停、调整的最后1分钟。
-<img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1549522472028&amp;di=7fa358f31547171bb7352dce030d934e&amp;imgtype=0&amp;src=http%3A%2F%2Fnews.zgzcw.com%2Fnews%2FUploadPic%2F2008-9%2F20080904054113768.jpg" alt="NBA教练" /></p>
+<p>NBA比赛中，经常可以看到教练在场边密切关注场上形势，随时做出判断和调整，并向球员布置战术。场上情况瞬息万变，教练需要有极强的阅读比赛和临场决断的能力。NBA比赛中最精彩部分往往是双方在每一个攻防回合后都进行暂停、调整的最后1分钟。</p>
+
+<p><img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1549522472028&amp;di=7fa358f31547171bb7352dce030d934e&amp;imgtype=0&amp;src=http%3A%2F%2Fnews.zgzcw.com%2Fnews%2FUploadPic%2F2008-9%2F20080904054113768.jpg" alt="NBA教练" /></p>
 
 <p>篮球场面积为 $28m \times 15m$，而美式橄榄球场面积则达 到$110m \times 50m$。此时，教练必须借助通信设备才能完成有效的指挥。一般来说，教练通过耳机联系场上的四分卫（头盔中有通信装置）下达进攻或防守的指令，后者再召集队员传达教练的指挥意图。</p>
 
@@ -138,8 +149,12 @@
 </ul>
 
 <h1 id="控制control">控制（Control）</h1>
+<hr />
+
 <h2 id="控制的例子">“控制”的例子</h2>
+
 <p>先来看看控制的例子。</p>
+
 <h3 id="自动控制">自动控制</h3>
 <p>从自动控制的角度理解，指一个有组织的系统，根据其内部和外部条件的变化而进行调整，以克服系统的不确定性，使系统稳定地保持或达到某种特定状态的一种过程。包括三个基本环节：</p>
 <ul>
@@ -152,7 +167,7 @@
 
 <p>负反馈是自动控制的核心概念，可以被推广应用到企业管理等社会科学中。例如，在企业的绩效管理中，其本质是基于“负反馈”的控制。</p>
 
-<p><img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1549537696211&amp;di=990e8a5a7e00737749d558688b49702e&amp;imgtype=0&amp;src=http%3A%2F%2Fs11.sinaimg.cn%2Fbmiddle%2F4a8887c0g66895b1b454a" alt="绩效管理" /></p>
+<p><img src="/assets/img/admin.gif" alt="绩效管理" /></p>
 
 <h3 id="控制论">控制论</h3>
 <p>控制论（Cybernetics），源于希腊文“mberuhhtz”，原意为“操舵术”。柏拉图用它来表示管理人的艺术。
@@ -165,8 +180,9 @@
 
 <p>另一方面，复杂的武器平台带来了人机交互方式的深刻变化。例如，斯佩里公司的球形炮塔，传达了一个明确的信号：人类与其使用的工具之间的关系开始转变。这些新型武器装备带来了新型人机交互的兴奋点——“机械化的人类”。</p>
 
-<p><img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1549536755675&amp;di=fe3c6ebc7828b14e3ebaba8ce90b9523&amp;imgtype=0&amp;src=http%3A%2F%2Fimg1.cache.netease.com%2Fcatchpic%2F0%2F07%2F07C75351EF6ECABA498A82A89ACB296C.jpg" alt="球型炮塔1" />
-<img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1549536849303&amp;di=1802f43e3435bafb6be6e3442a34d2a4&amp;imgtype=0&amp;src=http%3A%2F%2Fimg6.itiexue.net%2F2884%2F28849938.jpg" alt="球型炮塔2" /></p>
+<p><img src="/assets/img/timg1.jpg" alt="球型炮塔1" /></p>
+
+<p><img src="/assets/img/timg.jpg" alt="球型炮塔2" /></p>
 
 <p>第二次世界大战后，维纳于1948年出版了《控制论——关于在动物和机器中控制和通讯的科学》一书，正式提出“控制论（Cybernetics）”，用于表示研究动态系统在变化环境条件下如何保持平衡状态或稳定状态的科学。“控制论”提出的时机恰到好处。由于军事力量上的技术奇迹开始渗透到工业和私营经济中，公众需要有人来解释这些新技术以及它们出现的目的。自其发端之后，控制论始终与计算机、控制、安全以及人机交互密切相关。其思想又逐渐渗透到医学、社会科学等领域，成为一门具有跨学科特性的显学。</p>
 
@@ -176,10 +192,13 @@
 
 <p>例如，上世纪70年代，作为智利的第一位民选社会主义总统，阿连德邀请英国的控制论学者斯塔福德·比尔将控制论实验应用于国家的管理，试图搞出一个信息充分交换的国家联网系统——“赛博协同系统”，将基于国家行政和长期计划的计划经济，转为实时行动和日常决策。既不像苏联那样将计划产量从中央向下逐级指派，也不像美国那样依靠自由市场调节，而试图找到基层自主性和“全国一盘棋”之间的平衡点，实现一种去中心化、非官僚式，既保证企业和社会的自主性又能实现快速实时干预的经济政策。</p>
 
-<p><img src="http://img.mp.itc.cn/upload/20170320/846b76599a644072bf87ed3f3ed8c239_th.jpeg" alt="赛博协同系统草图" />
-<strong>赛博协同系统草图</strong>
-<img src="http://img.mp.itc.cn/upload/20170320/c7a9196f9b7d4f12837cd2fab1e550a6_th.jpeg" alt="中央控制室显示屏" />
-<strong>赛博协同系统的中央控制室显示屏</strong></p>
+<p><strong>赛博协同系统草图</strong></p>
+
+<p><img src="http://img.mp.itc.cn/upload/20170320/846b76599a644072bf87ed3f3ed8c239_th.jpeg" alt="赛博协同系统草图" /></p>
+
+<p><strong>赛博协同系统的中央控制室显示屏</strong></p>
+
+<p><img src="http://img.mp.itc.cn/upload/20170320/c7a9196f9b7d4f12837cd2fab1e550a6_th.jpeg" alt="中央控制室显示屏" /></p>
 
 <p>当系统检测到生产异常时，中央操作室将同时向计划部门和工厂管理者预警。政府会给工厂经理和工人们一个有限的时间窗口来查找和解决潜在问题。由此，企业在合理的程度上保持了自主性。如果相关企业和个人无法在这段时间内解决问题，政府再介入干预。是不是像极了当前“基于大数据的社会管理/控制”一类的研究？关于这一历史可以参考“<a href="https://www.sohu.com/a/129452163_597685">阿连德的大数据乌托邦</a>”一文。</p>
 
@@ -209,6 +228,9 @@
 <p>战争的本质是不确定性、强对抗性。相比于武器平台的控制，指挥官并不能严格控制下级的实际交战行动，尤其是现代战场，兵力分散，甚至存在孤立的作战单元，对下级真正的严格控制是不可能实施。因此，负反馈、可能性等控制中的核心概念如何运用与战争中，仍然是需要深入研究的问题。</p>
 
 <h1 id="command--control">Command &amp; Control</h1>
+
+<hr />
+
 <blockquote>
   <p>指挥控制必须允许人们指导和塑造将要完成之事，同时允许人们根据对正在完成之事的评估修正这种指导。——约翰.R.博伊德</p>
 </blockquote>
@@ -256,6 +278,8 @@
 <p>信息时代新军事变革是否改变了C2本质，或者说C2已经成为历史，取而代之的是C3，C3I，C4I，C4ISR？从C2→C3→C3I→ C4I→C4ISR是否真正体现了军事变革的历程？这些都是有待商榷的问题。正如罗伯特·威拉德2003年在《海军学会学报》撰文指出：“美国在将指挥、控制与通信、计算机的结合生成了C4这个缩略词时犯了一个错误。根据这种提法，指挥控制（Command and Control, C2）的工具（如计算机、通信设施以及相关支撑软件等）与C2方式方法相提并论，混为一谈，将会误导国防力量建设……”。国内也有学者认为，C2→C3→C4 的发展反映认知的深化，并不代表不同的发展阶段。</p>
 
 <h2 id="相关定义">相关定义</h2>
+<hr />
+
 <h3 id="美国">美国</h3>
 
 <p>美联合参谋手册（JCS Pub.1, 军事相关术语词典）将“指挥”定义为：“指挥是部队现役指挥官对部属（军衔上较之级别低的或配属人员）合法行使职权，指挥包括权力和职责，即有效使用可获取的资源，部署计划、组织、指导、协调和控制部队完成所赋予使命的职责和权力，同时，还包括确保所属人员的健康和福利、维持部队士气与纪律的职责”。C2定义为：“经授权的指挥官在执行使命过程中对配属部队行使职权，实施指导”，其内涵包括：</p>
@@ -352,19 +376,23 @@
         </div>
       </div> -->
     </footer>
-    <script src="//code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <!-- <script src="https://lib.baomitu.com/materialize/0.99.0/js/materialize.min.js"></script> -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    <script src="/assets/js/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="/assets/js/materialize.min.js"></script>
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script> -->
     
     
     <script src="/assets/js/post.js"></script>
     
     
     
+    <script src="/assets/js/download.js"></script>
+    
+    
+    
     
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})
-      (window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      (window,document,'script','/assets/js/analytics.js','ga');
       ga('create', 'UA-96359860-1', 'auto');
       ga('send', 'pageview');
     </script>
